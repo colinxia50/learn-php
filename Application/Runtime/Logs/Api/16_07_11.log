@@ -1,0 +1,129 @@
+[ 2016-07-11T14:26:50+08:00 ] 110.184.148.148 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/zzb/Application/Api/Controller/Util.class.php 第 105 行.
+
+[ 2016-07-11T14:27:14+08:00 ] 110.184.148.148 /index.php?m=Api&c=User&a=login&user=%E5%91%A8%E9%87%91%E9%A1%BA&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE `nick_name` = '周金顺' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE ( id='191' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `last_login`='1468218434',`last_ip`='1857590420' WHERE `nick_name` = '周金顺' [ RunTime:0.0263s ]
+
+[ 2016-07-11T14:27:20+08:00 ] 110.184.148.148 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/zzb/Application/Api/Controller/Util.class.php 第 105 行.
+
+[ 2016-07-11T14:27:33+08:00 ] 110.184.148.148 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/zzb/Application/Api/Controller/Util.class.php 第 105 行.
+
+[ 2016-07-11T14:27:39+08:00 ] 110.184.148.148 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/zzb/Application/Api/Controller/Util.class.php 第 105 行.
+
+[ 2016-07-11T14:28:51+08:00 ] 220.181.132.218 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/zzb/Application/Api/Controller/Util.class.php 第 105 行.
+
+[ 2016-07-11T14:29:08+08:00 ] 101.199.108.50 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/zzb/Application/Api/Controller/Util.class.php 第 105 行.
+
+[ 2016-07-11T14:29:11+08:00 ] 171.8.167.68 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/zzb/Application/Api/Controller/Util.class.php 第 105 行.
+
+[ 2016-07-11T14:29:14+08:00 ] 182.140.230.12 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/zzb/Application/Api/Controller/Util.class.php 第 105 行.
+
+[ 2016-07-11T14:30:39+08:00 ] 182.149.124.52 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/zzb/Application/Api/Controller/Util.class.php 第 105 行.
+
+[ 2016-07-11T14:30:59+08:00 ] 113.90.222.17 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/zzb/Application/Api/Controller/Util.class.php 第 105 行.
+
+[ 2016-07-11T14:31:03+08:00 ] 113.90.222.17 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/zzb/Application/Api/Controller/Util.class.php 第 105 行.
+
+[ 2016-07-11T14:46:32+08:00 ] 110.184.148.148 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/zzb/Application/Api/Controller/Util.class.php 第 105 行.
+
+[ 2016-07-11T18:38:17+08:00 ] 112.90.82.218 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/zzb/Application/Api/Controller/Util.class.php 第 105 行.
+

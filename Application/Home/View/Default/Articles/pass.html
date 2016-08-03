@@ -1,0 +1,56 @@
+<div class="row">
+ <div class="col-md-12 ">
+  <div class="infos">
+
+             <ol class="breadcrumb">
+			  <li>习惯稿件</li>
+			  <li class="active">稿件列表</li>
+
+				  <li style="float:right;"><a href="javascript:void(0)" id="add-infos">我要发言</a></li>
+				  <if condition="isAdmin()">
+			      </if>
+		     </ol>
+
+     <div class="row infos-list">
+         <div class="col-md-10 col-md-offset-1"> 
+                   <volist name="Infos" id="vo"  empty="$empty">
+				      <div class="media list-content">
+						  <div class="media-left media-middle">
+						    <a href="javascript:void(0)">
+							    <empty name="vo['img'][0]['thumb']">
+						          <img class="media-object" src="__IMG__/book.jpg" alt="">
+						        <else />
+								  <img class="media-object" src="__ROOT__/{$vo['img'][0]['thumb']}" alt="" style="width:119px;height: 89px;">
+						        </empty>
+						    </a>
+						  </div>
+						  <div class="media-body">
+						    <p>{$vo.title}</p>
+							  {$vo.pass_status}<span class="tt">审核状态：</span>
+						    <p style="font-size:11px;">学生：{$vo.student}</p>
+						    <span class="tt">发布时间:{$vo.create_time}</span>
+							  <p style="color:grey;font-size:10px;">{$vo.content}</p>
+						  </div>
+					   <!--<if condition="isAdmin()">-->
+					   <!--<span class="infos-close" ><a data-toggle="tooltip" iid="{$vo.id}" class="del" data-placement="left" title="删除新闻">&times;</a></span>-->
+					   <!--<span class="infos-edit" ><a data-toggle="tooltip" iid="{$vo.id}" class="edit" data-placement="left" title="修改新闻">√</a></span>-->
+					   <!--</if>-->
+					  </div>
+				 </volist>	
+			 <div id="page" style="text-align:center;">
+				 <nav>{$page}</nav>
+			 </div>			               
+            </div>
+         </div>
+     </div>
+  </div>
+  </div>
+  <script>
+  $(function () {
+	  $('[data-toggle="tooltip"]').tooltip()
+	}) 
+  </script>
+<script type="text/javascript" src="__UPLOADIFY__/jquery.uploadify.min.js"></script>
+<link rel="stylesheet" type="text/css" href="__UPLOADIFY__/uploadify.css"/>
+ <script type="text/javascript" src="__JS__/pass.js"></script>
+<link rel="stylesheet" type="text/css" href="__CSS__/infos.css" />

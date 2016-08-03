@@ -1,0 +1,103 @@
+<table id="user"></table>
+
+<div id="user_tool" style="padding:5px;">
+	<div style="margin-bottom:5px;">
+		<a href="javascript:void(0)" class="easyui-linkbutton" plain="true" iconCls="icon-add" onclick="user_tool.add();">新增</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" plain="true" iconCls="icon-edit" onclick="user_tool.edit();">修改</a>
+	    <a href="javascript:void(0)" class="easyui-linkbutton" plain="true" iconCls="icon-see" onclick="user_tool.see();">查看</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" plain="true" iconCls="icon-no" onclick="user_tool.remove();">删除</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" plain="true" iconCls="icon-reload" onclick="user_tool.reload();">刷新</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" plain="true" iconCls="icon-undo" onclick="user_tool.redo();">取消选定</a>		
+	</div>
+	<div style="padding:0 0 0 7px;color:#000;">	
+		查询用户:<input type="text" name="search_username" class="textbox" style="width:110px;" id="date"/>
+                        查询类别:<select name="search_group_id" id="search_group_id">
+                <option value="" selected>所有</option>
+                <option value="2">园长</option>
+                <option value="3">老师</option>
+                <option value="4">学生</option>
+              </select>
+                        学校:<select name="search_school_id" id="search_school_id">
+                <option value="" selected>所有</option>
+                 <volist name="School" id="vo">
+                    <option value="{$vo.id}">{$vo.name}</option>
+                 </volist>                
+              </select>
+                         班级:<select name="search_class_id" id="search_class_id">
+                <option value="" selected class="active">所有</option>
+              </select>
+	    <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-search" onclick="user_tool.search();" style="height:22px;position:relative;top:-1px;">查询</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-undo" onclick="user_tool.clear();" style="height:22px;position:relative;top:-1px;">清空</a>
+	    <span style="padding-left:20px;">  (ps:用户账号为手机号码,密码默认为<span style="color:red;">123456</span>)</span>
+	</div>
+</div>
+
+
+<form id="user_add" style="margin:0;padding:5px 0 0 25px;color:#000;">
+    <p>用户类型:　<select name="group_id" id="group_id">
+               <option value="">请选择用户类型</option>
+               <option value="2">园长</option>
+               <option value="3">老师</option>
+               <option value="4">学生</option>
+               </select></p>
+    <p>用户学校:　<select name="school_id" id="school_id">
+               <option value="">请选择用户所在学校</option>
+                 <volist name="School" id="vo">
+                    <option value="{$vo.id}">{$vo.name}</option>
+                 </volist>
+               </select></p>
+    <p>用户班级:　<select name="class_id" id="class_id" style="width:200px;">
+               </select></p>                             
+	<p>用户名称:　<input type="text" name="nick_name" class="textbox" style="width:200px;"></p>
+	<p>手机号码:　<input type="text" name="mobile" class="textbox" style="width:200px;"></p>
+	<p id="ru1_name" style="display:none">父亲姓名:　<input type="text" name="rule1_name"  class="textbox" style="width:200px;"></p>
+	<p id="ru2_name" style="display:none">母亲姓名:　<input type="text" name="rule2_name"  class="textbox" style="width:200px;"></p>
+
+	<p>电子邮件:　<input type="text" name="email" id="email" class="textbox" style="width:200px;"></p>
+	<p>生　　日:　<input type="date" name="birthday"  class="textbox" style="width:200px;" placeholder="YY/MM/DD"></p>
+    <p>性　　别: <label><input name="sex" type="radio" value="0" checked="checked" />女 </label><label><input name="sex" type="radio" value="1" />男</label></p>
+</form>
+
+
+<form id="user_edit" style="margin:0;padding:5px 0 0 25px;color:#000;">
+<input type="hidden" name="id">
+    <p>用户类型:　<select name="edit_group" id="edit_group">
+               <option value="">请选择用户类型</option>
+               <option value="2">园长</option>
+               <option value="3">老师</option>
+               <option value="4">学生</option>
+               </select></p>
+    <p>用户学校:　<select name="edit_school" id="edit_school">
+               <option value="">请选择用户所在学校</option>
+                 <volist name="School" id="vo">
+                    <option value="{$vo.id}">{$vo.name}</option>
+                 </volist>
+               </select></p>
+    <p>用户班级:　<select name="edit_class" id="edit_class" style="width:200px;">
+               </select></p>                             
+	<p>用户名称:　<input type="text" name="edit_name" class="textbox" style="width:200px;"></p>
+	<p>手机号码:　<input type="text" name="edit_mobile" class="textbox" style="width:200px;"></p>
+	<p id="edit_ru1" style="display:none">父亲姓名:　<input type="text" name="edit_rule1"  class="textbox" style="width:200px;"></p>
+	<p id="edit_ru2" style="display:none">母亲姓名:　<input type="text" name="edit_rule2"  class="textbox" style="width:200px;"></p>
+
+	<p>电子邮件:　<input type="text" name="edit_email" id="edit_email" class="textbox" style="width:200px;"></p>
+	<p>生　　日:　<input type="date" name="edit_birthday"  class="textbox" style="width:200px;" placeholder="YY/MM/DD"></p>
+    <p>性　　别: <label><input name="edit_sex" type="radio" value="0" />女 </label><label><input name="edit_sex" type="radio" value="1" />男</label></p>
+</form>
+
+
+<form id="user_see" style="margin:0;padding:5px 0 0 25px;color:#000;">
+    <p>类　　型:　<span class="see_group"></span></p>
+	<p>用户姓名:　<span class="see_name"></span></p>
+	<p>用户帐号:　<span class="see_user"></span></p>
+	<p>手机号码:　<span class="see_mobile"></span></p>
+	<p>电子邮件:　<span class="see_email"></span></p>
+	<p class="f" style="display:none">父亲姓名:　<span class="see_f"></span></p>
+	<p class="m" style="display:none;">母亲姓名:　<span class="see_m"></span></p>
+	<p><span style="vertical-align:37px;">默认头像:　</span><img id="cover" src="__IMG__/small_face.jpg" alt="默认头像"　style="cursor:pointer;"></p>
+    <p>性　　别:  <span class="see_sex"></span></p>
+    <p>生　　日:  <span class="see_birthday"></span></p>
+</form>
+
+
+<script type="text/javascript" src="__JS__/user.js"></script>

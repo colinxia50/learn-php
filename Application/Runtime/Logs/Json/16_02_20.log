@@ -1,0 +1,24 @@
+[ 2016-02-20T18:55:19+08:00 ] 127.0.0.1 /json/fee/lists?user=13266816551
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `fee` [ RunTime:0.0374s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0309s ]
+SQL: SELECT `id` FROM `user` WHERE `user` = '13266816551' LIMIT 1   [ RunTime:0.0279s ]
+SQL: SELECT * FROM `fee` WHERE `user_id` = 144  [ RunTime:0.0312s ]
+
+[ 2016-02-20T18:55:43+08:00 ] 127.0.0.1 /json/fee/lists?user=15215132654
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `fee` [ RunTime:0.8548s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0341s ]
+SQL: SELECT `id` FROM `user` WHERE `user` = '15215132654' LIMIT 1   [ RunTime:0.0249s ]
+SQL: SELECT * FROM `fee` WHERE `user_id` = 138  [ RunTime:0.2177s ]
+

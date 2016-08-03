@@ -1,0 +1,1711 @@
+[ 2016-05-16T09:08:22+08:00 ] 121.42.0.33 /index.php/Admin/set/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [2] sha1() expects at least 1 parameter, 0 given /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1154 行.
+SQL: UPDATE `manage` SET `address`='',`name`='',`mobile`='',`real_name`='',`mail`='',`password`=NULL,`create`='1463360902' WHERE `id` = 0 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `manage` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-05-16T09:08:42+08:00 ] 121.42.0.33 /index.php/Admin/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000113s ]
+
+[ 2016-05-16T09:09:02+08:00 ] 121.42.0.33 /index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2016-05-16T09:09:22+08:00 ] 121.42.0.33 /index.php/Admin/Set/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `manage` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000123s ]
+
+[ 2016-05-16T13:17:44+08:00 ] 113.248.151.180 /index.php/Admin/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-05-16T21:34:57+08:00 ] 222.129.101.106 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+
+[ 2016-05-16T21:34:57+08:00 ] 222.129.101.106 /index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2016-05-16T21:35:07+08:00 ] 222.129.101.106 /index.php/Admin/Login/checkManager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `id`,`manager` FROM `manage` WHERE `manager` = 'admin' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `manage` SET `last_login`='1463405707',`last_ip`='3733022058' WHERE `id` = 1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-05-16T21:35:07+08:00 ] 222.129.101.106 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0011s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0009s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('1','2','5','6')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN ('系统管理','会员管理','学校管理','代理商')  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 11  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 4  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 14  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000115s ]
+
+[ 2016-05-16T21:35:14+08:00 ] 222.129.101.106 /index.php/Admin/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `manage` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `manage` ORDER BY id desc LIMIT 0,1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='25' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `auth_group`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-05-16T21:35:28+08:00 ] 222.129.101.106 /index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-16T21:35:33+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-05-16T21:35:35+08:00 ] 222.129.101.106 /index.php/Admin/School/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `school` LIMIT 0,1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2016-05-16T21:36:12+08:00 ] 222.129.101.106 /index.php/Admin/School/addSchool
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `school` WHERE `name` = '小衣学校' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `mobile` = '18500635788' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-05-16T21:36:17+08:00 ] 222.129.101.106 /index.php/Admin/School/addSchool
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `school` WHERE `name` = '小衣学校' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `mobile` = '18500635780' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `school` (`name`,`address`,`mobile`,`is_up`,`dateline`) VALUES ('小衣学校','小衣学校地址','18500635780','1','1463405777') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `school` LIMIT 0,1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2016-05-16T21:36:19+08:00 ] 222.129.101.106 /index.php/Admin/School/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Admin/Common/function.php 第 18 行.
+SQL: SELECT * FROM `school` LIMIT 4,1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2016-05-16T21:36:26+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2016-05-16T21:36:33+08:00 ] 222.129.101.106 /index.php/Admin/User/getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 20  [ RunTime:0.0005s ]
+
+[ 2016-05-16T21:36:53+08:00 ] 222.129.101.106 /index.php/Admin/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given /data/wwwroot/zzb/Application/Admin/Model/UserModel.class.php 第 124 行.
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `email` = '846828918@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '13718720370' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2016-05-16T21:37:33+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2016-05-16T21:37:38+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Admin/Common/function.php 第 18 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 8,2   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `class` WHERE `id` = 73 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2016-05-16T21:37:40+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Admin/Common/function.php 第 18 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 16,2   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2016-05-16T21:37:41+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Admin/Common/function.php 第 18 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 24,2   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2016-05-16T21:37:42+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Admin/Common/function.php 第 18 行.
+SQL: SELECT * FROM `user` LIMIT 32,2   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-05-16T21:37:44+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Admin/Common/function.php 第 18 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 24,2   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-05-16T21:37:45+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Admin/Common/function.php 第 18 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 20,2   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-05-16T21:37:45+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Admin/Common/function.php 第 18 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 12,2   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `class` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `class` WHERE `id` = 73 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2016-05-16T21:37:46+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Admin/Common/function.php 第 18 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 4,2   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-05-16T21:37:47+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 0,2   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2016-05-16T21:39:32+08:00 ] 222.129.101.106 /index.php/Admin/User/getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 20  [ RunTime:0.0005s ]
+
+[ 2016-05-16T21:40:45+08:00 ] 222.129.101.106 /index.php/Admin/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0141s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given /data/wwwroot/zzb/Application/Admin/Model/UserModel.class.php 第 124 行.
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `email` = 'adsasa@qq.com' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '13718720370' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+
+[ 2016-05-16T21:41:33+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-05-16T21:41:36+08:00 ] 222.129.101.106 /index.php/Admin/User/getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 20  [ RunTime:0.0005s ]
+
+[ 2016-05-16T21:41:55+08:00 ] 222.129.101.106 /index.php/Admin/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given /data/wwwroot/zzb/Application/Admin/Model/UserModel.class.php 第 124 行.
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `email` = 'dadsaa@qq.com' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '13718720370' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`nick_name`,`group_id`,`password`,`user`,`rule1_name`,`rule2_name`,`mobile`,`email`,`birthday`,`class_id`,`school_id`,`sex`,`reg_time`) VALUES ('小衣','','7c4a8d09ca3762af61e59520943dc26494f8941b','13718720370','','','13718720370','dadsaa@qq.com','','','20','1','1463406115') [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-05-16T21:42:40+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Admin/Common/function.php 第 18 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 8,2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 73 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-05-16T21:42:42+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Admin/Common/function.php 第 18 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 16,2   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `class` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-05-16T21:42:42+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Admin/Common/function.php 第 18 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 24,2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2016-05-16T21:42:43+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Admin/Common/function.php 第 18 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 32,2   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2016-05-16T21:42:44+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Admin/Common/function.php 第 18 行.
+SQL: SELECT * FROM `user` LIMIT 34,2   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/zzb/Application/Admin/Controller/UserController.class.php 第 25 行.
+SQL: SELECT * FROM `class` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2016-05-16T22:07:46+08:00 ] 222.129.101.106 /index.php?m=admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+
+[ 2016-05-16T22:07:46+08:00 ] 222.129.101.106 /index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2016-05-16T22:08:31+08:00 ] 222.129.101.106 /index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2016-05-16T22:08:39+08:00 ] 222.129.101.106 /index.php/Admin/Login/checkManager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `id`,`manager` FROM `manage` WHERE `manager` = 'admin' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `manage` SET `last_login`='1463407719',`last_ip`='3733022058' WHERE `id` = 1 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2016-05-16T22:08:39+08:00 ] 222.129.101.106 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0009s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('1','2','5','6')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN ('系统管理','会员管理','学校管理','代理商')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 11  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 14  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2016-05-16T22:08:44+08:00 ] 222.129.101.106 /index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-16T22:08:50+08:00 ] 222.129.101.106 /index.php/Admin/Login/checkManager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT `id`,`manager` FROM `manage` WHERE `manager` = 'admin' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `manage` SET `last_login`='1463407730',`last_ip`='3733022058' WHERE `id` = 1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2016-05-16T22:08:50+08:00 ] 222.129.101.106 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0047s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('1','2','5','6')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN ('系统管理','会员管理','学校管理','代理商')  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 11  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 4  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 14  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2016-05-16T22:08:58+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 0,2   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2016-05-16T22:09:06+08:00 ] 222.129.101.106 /index.php/Admin/User/getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 20  [ RunTime:0.0005s ]
+
+[ 2016-05-16T22:09:43+08:00 ] 222.129.101.106 /index.php/Admin/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given /data/wwwroot/zzb/Application/Admin/Model/UserModel.class.php 第 124 行.
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `email` = 'adaa@qq.com' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '13718720444' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`nick_name`,`group_id`,`password`,`user`,`rule1_name`,`rule2_name`,`mobile`,`email`,`birthday`,`class_id`,`school_id`,`sex`,`reg_time`) VALUES ('1213121','','7c4a8d09ca3762af61e59520943dc26494f8941b','13718720444','','','13718720444','adaa@qq.com','','','20','1','1463407783') [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-05-16T22:11:26+08:00 ] 222.129.101.106 /index.php/Admin/User/getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 5  [ RunTime:0.0005s ]
+
+[ 2016-05-16T22:11:32+08:00 ] 222.129.101.106 /index.php/Admin/User/getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0037s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 20  [ RunTime:0.0005s ]
+
+[ 2016-05-16T22:11:59+08:00 ] 222.129.101.106 /index.php/Admin/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given /data/wwwroot/zzb/Application/Admin/Model/UserModel.class.php 第 124 行.
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `email` = '32423@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '13817182333' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`nick_name`,`group_id`,`password`,`user`,`rule1_name`,`rule2_name`,`mobile`,`email`,`birthday`,`class_id`,`school_id`,`sex`,`reg_time`) VALUES ('34324234','4','7c4a8d09ca3762af61e59520943dc26494f8941b','13817182333','','','13817182333','32423@qq.com','','','20','1','1463407919') [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `child` (`uid`,`school_id`,`class_id`,`name`,`sex`,`birthday`) VALUES ('172','20','0','34324234','1','0') [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2016-05-16T22:13:49+08:00 ] 222.129.101.106 /index.php/Admin/User/getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 20  [ RunTime:0.0005s ]
+
+[ 2016-05-16T22:16:16+08:00 ] 222.129.101.106 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('1','2','5','6')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN ('系统管理','会员管理','学校管理','代理商')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 11  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 4  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 14  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2016-05-16T22:16:22+08:00 ] 222.129.101.106 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2016-05-16T22:16:24+08:00 ] 222.129.101.106 /index.php/Admin/User/getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 20  [ RunTime:0.0005s ]
+
+[ 2016-05-16T22:16:51+08:00 ] 222.129.101.106 /index.php/Admin/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given /data/wwwroot/zzb/Application/Admin/Model/UserModel.class.php 第 124 行.
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `email` = 'aasas@q.q' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '13718722032' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`nick_name`,`group_id`,`password`,`user`,`rule1_name`,`rule2_name`,`mobile`,`email`,`birthday`,`class_id`,`school_id`,`sex`,`reg_time`) VALUES ('小衣老师','3','7c4a8d09ca3762af61e59520943dc26494f8941b','13718722032','','','13718722032','aasas@q.q','','76','20','1','1463408211') [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 0,2   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000117s ]
+
+[ 2016-05-16T22:17:01+08:00 ] 222.129.101.106 /index.php/Admin/User/getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 20  [ RunTime:0.0006s ]
+
+[ 2016-05-16T22:17:32+08:00 ] 222.129.101.106 /index.php/Admin/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given /data/wwwroot/zzb/Application/Admin/Model/UserModel.class.php 第 124 行.
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `email` = 'dfsfa@qq.com' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '13311332323' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`nick_name`,`group_id`,`password`,`user`,`rule1_name`,`rule2_name`,`mobile`,`email`,`birthday`,`class_id`,`school_id`,`sex`,`reg_time`) VALUES ('小二老师','3','7c4a8d09ca3762af61e59520943dc26494f8941b','13311332323','','','13311332323','dfsfa@qq.com','','77','20','0','1463408252') [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-05-16T22:17:45+08:00 ] 222.129.101.106 /index.php/Admin/User/getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 20  [ RunTime:0.0005s ]
+
+[ 2016-05-16T22:18:10+08:00 ] 222.129.101.106 /index.php/Admin/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given /data/wwwroot/zzb/Application/Admin/Model/UserModel.class.php 第 124 行.
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `email` = 'ddaa@qq.com' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '13233224523' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`nick_name`,`group_id`,`password`,`user`,`rule1_name`,`rule2_name`,`mobile`,`email`,`birthday`,`class_id`,`school_id`,`sex`,`reg_time`) VALUES ('小衣学生1','4','7c4a8d09ca3762af61e59520943dc26494f8941b','13233224523','','','13233224523','ddaa@qq.com','','76','20','1','1463408290') [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `child` (`uid`,`school_id`,`class_id`,`name`,`sex`,`birthday`) VALUES ('175','20','76','小衣学生1','1','0') [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-05-16T22:18:16+08:00 ] 222.129.101.106 /index.php/Admin/User/getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 20  [ RunTime:0.0005s ]
+
+[ 2016-05-16T22:18:44+08:00 ] 222.129.101.106 /index.php/Admin/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given /data/wwwroot/zzb/Application/Admin/Model/UserModel.class.php 第 124 行.
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `email` = 'dasaa@qq.com' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '13134323223' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`nick_name`,`group_id`,`password`,`user`,`rule1_name`,`rule2_name`,`mobile`,`email`,`birthday`,`class_id`,`school_id`,`sex`,`reg_time`) VALUES ('小衣学生2','4','7c4a8d09ca3762af61e59520943dc26494f8941b','13134323223','','','13134323223','dasaa@qq.com','','76','20','1','1463408324') [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `child` (`uid`,`school_id`,`class_id`,`name`,`sex`,`birthday`) VALUES ('176','20','76','小衣学生2','1','0') [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2016-05-16T22:18:54+08:00 ] 222.129.101.106 /index.php/Admin/User/getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 20  [ RunTime:0.0005s ]
+
+[ 2016-05-16T22:19:20+08:00 ] 222.129.101.106 /index.php/Admin/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given /data/wwwroot/zzb/Application/Admin/Model/UserModel.class.php 第 124 行.
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `email` = 'feew@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '13322332998' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`nick_name`,`group_id`,`password`,`user`,`rule1_name`,`rule2_name`,`mobile`,`email`,`birthday`,`class_id`,`school_id`,`sex`,`reg_time`) VALUES ('小二学生1','4','7c4a8d09ca3762af61e59520943dc26494f8941b','13322332998','','','13322332998','feew@qq.com','','77','20','0','1463408360') [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `child` (`uid`,`school_id`,`class_id`,`name`,`sex`,`birthday`) VALUES ('177','20','77','小二学生1','0','0') [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2016-05-16T22:19:23+08:00 ] 222.129.101.106 /index.php/Admin/User/getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 20  [ RunTime:0.0005s ]
+
+[ 2016-05-16T22:19:47+08:00 ] 222.129.101.106 /index.php/Admin/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given /data/wwwroot/zzb/Application/Admin/Model/UserModel.class.php 第 124 行.
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `user` WHERE `email` = 'fdsjhkdjsh@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '13722234398' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`nick_name`,`group_id`,`password`,`user`,`rule1_name`,`rule2_name`,`mobile`,`email`,`birthday`,`class_id`,`school_id`,`sex`,`reg_time`) VALUES ('小二学生2','4','7c4a8d09ca3762af61e59520943dc26494f8941b','13722234398','','','13722234398','fdsjhkdjsh@qq.com','','77','20','1','1463408387') [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/wwwroot/zzb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `child` (`uid`,`school_id`,`class_id`,`name`,`sex`,`birthday`) VALUES ('178','20','77','小二学生2','1','0') [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Admin/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Admin/Common/function.php 第 33 行.
+SQL: SELECT * FROM `user` LIMIT 0,2   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+

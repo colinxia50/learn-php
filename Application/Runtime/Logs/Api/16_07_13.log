@@ -1,0 +1,299 @@
+[ 2016-07-13T12:15:24+08:00 ] 101.226.33.239 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/zzb/Application/Api/Controller/Util.class.php 第 105 行.
+
+[ 2016-07-13T12:15:24+08:00 ] 180.153.163.206 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/zzb/Application/Api/Controller/Util.class.php 第 105 行.
+
+[ 2016-07-13T23:19:17+08:00 ] 119.147.207.158 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/zzb/Application/Api/Controller/Util.class.php 第 105 行.
+
+[ 2016-07-13T23:32:57+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE `user` = 'tester' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='192' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `last_login`='1468423976',`last_ip`='1902981348' WHERE `nick_name` = 'tester' [ RunTime:0.0439s ]
+
+[ 2016-07-13T23:35:17+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE `user` = 'tester' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='192' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `last_login`='1468424117',`last_ip`='1902981348' WHERE `nick_name` = 'tester' [ RunTime:0.0158s ]
+
+[ 2016-07-13T23:50:52+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `user` = 'tester' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='192' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0093s ]
+SQL: UPDATE `user` SET `last_login`='1468425052',`last_ip`='1902981348' WHERE `nick_name` = 'tester' [ RunTime:0.0366s ]
+
+[ 2016-07-13T23:50:55+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE `user` = 'tester' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='192' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `last_login`='1468425055',`last_ip`='1902981348' WHERE `nick_name` = 'tester' [ RunTime:0.0143s ]
+
+[ 2016-07-13T23:50:55+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE `user` = 'tester' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='192' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `last_login`='1468425055',`last_ip`='1902981348' WHERE `nick_name` = 'tester' [ RunTime:0.0141s ]
+
+[ 2016-07-13T23:50:55+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE `user` = 'tester' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='192' ) LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `last_login`='1468425055',`last_ip`='1902981348' WHERE `nick_name` = 'tester' [ RunTime:0.0240s ]
+
+[ 2016-07-13T23:51:46+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE `user` = 'tester' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='192' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `last_login`='1468425106',`last_ip`='1902981348' WHERE `nick_name` = 'tester' [ RunTime:0.0140s ]
+
+[ 2016-07-13T23:53:09+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `user` = 'tester' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='192' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `last_login`='1468425189',`last_ip`='1902981348' WHERE `nick_name` = 'tester' [ RunTime:0.0230s ]
+
+[ 2016-07-13T23:55:02+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE `user` = '123' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='114' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `last_login`='1468425302',`last_ip`='1902981348' WHERE `nick_name` = '123' [ RunTime:0.0007s ]
+
+[ 2016-07-13T23:57:34+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `user` = '123' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='114' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `last_login`='1468425454',`last_ip`='1902981348' WHERE `nick_name` = '123' [ RunTime:0.0007s ]
+
+[ 2016-07-13T23:58:48+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE `user` = '123' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='114' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `last_login`='1468425528',`last_ip`='1902981348' WHERE `nick_name` = '123' [ RunTime:0.0006s ]
+
+[ 2016-07-13T23:59:10+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `user` WHERE `user` = '123' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='114' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `last_login`='1468425550',`last_ip`='1902981348' WHERE `nick_name` = '123' [ RunTime:0.0007s ]
+
+[ 2016-07-13T23:59:11+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `user` = '123' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='114' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `last_login`='1468425551',`last_ip`='1902981348' WHERE `nick_name` = '123' [ RunTime:0.0006s ]
+
+[ 2016-07-13T23:59:11+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE `user` = '123' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='114' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `last_login`='1468425551',`last_ip`='1902981348' WHERE `nick_name` = '123' [ RunTime:0.0007s ]
+
+[ 2016-07-13T23:59:11+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE `user` = '123' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='114' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `last_login`='1468425551',`last_ip`='1902981348' WHERE `nick_name` = '123' [ RunTime:0.0007s ]
+
+[ 2016-07-13T23:59:11+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE `user` = '123' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='114' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `last_login`='1468425551',`last_ip`='1902981348' WHERE `nick_name` = '123' [ RunTime:0.0008s ]
+
+[ 2016-07-13T23:59:11+08:00 ] 113.109.48.228 /index.php?m=Api&c=User&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE `user` = '123' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`nick_name`,`user`,`password`,`mobile`,`email`,`cover`,`class_id`,`school_id`,`group_id`,`sex`,`one`,`birthday`,`score` FROM `user` WHERE ( id='114' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `class` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `last_login`='1468425551',`last_ip`='1902981348' WHERE `nick_name` = '123' [ RunTime:0.0006s ]
+

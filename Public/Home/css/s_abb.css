@@ -1,0 +1,350 @@
+/*
+ * @name s_abb.css
+ * @author Fyz
+ * @time 2013.12.24
+ * @version 3
+*/
+
+
+/* reset */
+body,div,p,h1,h2,h3,h4,h5,h6,dl,dd,form{ margin:0;}
+ul,ol,input,button,textarea,fieldset, legend{ margin:0; padding:0;}
+td,th{ padding:0;}
+img{ border:0; vertical-align:bottom; display:inline-block;}
+a{ text-decoration:none; cursor:pointer; color:#888;}
+li{ list-style:none;}
+em,strong,cite,dfn{ font-style:normal;}
+table,td{ border-spacing:0; border-collapse:collapse;}
+html,body{/* -webkit-text-size-adjust:none;*/}/* chrome min-font-size */
+/* moz,webkit default */
+input,button,select,textarea{outline:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#888;}
+textarea{resize:none; overflow-y:auto;}
+input{ vertical-align:middle;}
+
+/* common */
+.l{ text-align:left;}
+.r{ text-align:right;}
+.c{ text-align:center;}
+
+.fl{ float:left;}
+.fr{ float:right;}
+.clear:after {visibility: hidden; display: block; font-size: 0; content: '.'; clear: both; height: 0;}
+* html .clear {zoom: 1;}
+*:first-child+html .clear {zoom: 1;}
+.divclear {clear:both; float:none; font-size:0; overflow:hidden; visibility:hidden; width:0; height:0;}
+
+.dHide{ display:none;}
+.vHide{ visibility:hidden;}
+.relative{ position:relative; zoom:1;}
+
+
+
+/* layout */
+body{ font-family: Arial, Helvetica, sans-serif, \5B8B\4F53; font-size:12px; color:#888;}
+.innerWrap{ width:990px; margin:0 auto;}
+/* backTop */
+*html{ background-image:url(about:blank); background-attachment:fixed;}
+#backTop a{width:53px; height:53px; position:fixed; right:0; bottom:50px; _position:absolute;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0))); background:#c4c4c4 url("../../../images/common/backTop.png")/*tpa=http://102.89cv.top/images/common/backTop.png*/ no-repeat center center;}
+
+/** 
+ * alertBox
+ */
+.alertBox{}
+.alertMask{ width:100%; height:100%; background-color:#000; filter:alpha(opacity=50); opacity:.5; position:fixed; left:0; top:0; _position:absolute; z-index:12; zoom:1;}
+.alertWrap{ position:fixed; left:50%; top:50%; _position:absolute; background-color:#fff; border:1px solid #c8c8c8; border-top-color:#fff; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; -webkit-box-shadow:0 2px 8px rgba(0,0,0,0.6); -moz-box-shadow:0 2px 8px rgba(0,0,0,0.6); box-shadow:0 2px 8px rgba(0,0,0,0.6); z-index:12;}
+.alertTitle{ background-color:#f0f0f0; height:34px; border-bottom:1px solid #ddd; -webkit-border-radius:5px 5px 0 0; -moz-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0;}
+.alertTitle a.close, .alertTitle em{ -webkit-border-radius:0 5px 0 0; -moz-border-radius:0 5px 0 0; border-radius:0 5px 0 0;}
+.alertTitle a.close{ background:url("../../../images/common/sp_b_icon.png")/*tpa=http://102.89cv.top/images/common/sp_b_icon.png*/ no-repeat 10px -170px; width:34px; height:34px; position:absolute; right:0; top:0; border-left:1px solid #dcdcdc;}
+.alertTitle a.close:hover{ background-position:10px -297px;}
+.alertTitle em{ display: block; width:33px; height:34px; border-left:1px solid #f7f7f7;}
+.alertTitle h3{ font-size:16px; color:#5b5b5b; line-height:34px; text-align:center; -webkit-border-radius:5px 5px 0 0; -moz-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0;}
+
+
+.hd{ background: url("../image/h_line.png")/*tpa=http://102.89cv.top/Public/Index/image/h_line.png*/ repeat-x 0 bottom; height: 60px; border-bottom:1px solid #d1d1d1; box-shadow: 0 2px 3px rgba(0,0,0,0.2);}
+.hdFixed{ width: 100%; position: fixed; top: 0; left: 0; z-index: 1; _position: absolute;}
+.bd{ padding-top:110px;}
+.ft{ background-color: #f6f8f8; padding: 20px 0 25px; border-top:1px solid #dadfe1;}
+.ft p.s{ margin-top: 8px;}
+.ft a{ color: #888; padding: 0 2px;}
+.ft a:hover{ text-decoration:underline}
+
+
+
+
+
+/* s_nav
+ * passport
+ * about
+ * forget
+*/
+.s_nav{ font-size: 14px; color: #5b5b5b;}
+.s_nav a{display: inline-block; padding: 0 14px; line-height: 60px;}
+.s_nav a.btn_login{ background-color: #ef632c; padding:0 16px; line-height: 26px; vertical-align:middle; font-size: 15px; color: #fff; -moz-border-radius: 11px; -webkit-border-radius: 11px; border-radius: 11px;}
+.s_nav a.sel{ color: #ef632c;}
+
+/**
+ * passport
+*/
+.passportPage .bd{ background: url("../../../images/passport/new/p_bg.jpg")/*tpa=http://102.89cv.top/images/passport/new/p_bg.jpg*/ no-repeat center 0;}
+.forAbb{ height: 516px;}
+.forAbbCon{ padding-top: 80px; font-family:  \5FAE\8F6F\96C5\9ED1,arial,\5B8B\4F53;}
+.forAbbCon h2{ font-size:40px; font-weight: normal; color: #2f2f2f; line-height: 1.3;}
+.forAbbCon p{ font-size: 24px; color: #da682b; line-height: 1.4; margin: 27px 0 12px;}
+.forAbbCon a{ display: inline-block; font-size: 30px; color: #fff; width: 220px; line-height: 65px; padding-left: 30px; background:url("../../../images/passport/new/sp_passport.png")/*tpa=http://102.89cv.top/images/passport/new/sp_passport.png*/ no-repeat; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+.forAbbCon a.apply{ background-color: #ef632c; background-position: 185px -793px; margin-bottom: 10px;}
+.forAbbCon a.app{ background-color: #61bb35; background-position: 185px -872px;}
+.forAbbCon a:hover{ opacity: 0.85; filter:alpha(opacity=85);}
+
+.loginPage .bd{ 
+	width:100%;
+	background:url("../image/login_bg.jpg")/*tpa=http://102.89cv.top/Public/Index/image/login_bg.jpg*/ no-repeat center;
+    background-size:100%;
+  }
+.passport{ min-height: auto !important; height: 800px; min-height: 800px; font-family:  \5FAE\8F6F\96C5\9ED1,arial,\5B8B\4F53;}
+.p_form{ width: 290px; background: url("../../../images/passport/new/pBg.png")/*tpa=http://102.89cv.top/images/passport/new/pBg.png*/ no-repeat 150px 0; padding:60px 0 120px 390px;}
+.p_form li{ margin-bottom: 14px; color: #8f8f8f; position:relative; zoom:1;}
+.p_form input.txt{ border: 0; border:1px solid #bebebe; width:270px; padding:0 9px; height: 46px; line-height: 46px; font-size:12px; color: #8f8f8f; -moz-border-radius: 9px; -webkit-border-radius: 9px; border-radius: 9px; -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.1) inset; -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.1) inset; box-shadow: 0 2px 4px rgba(0,0,0,0.1) inset;}
+.p_form input.check{ margin:-1px 3px 0 0; vertical-align: middle;}
+.p_form a{ color: #8f8f8f;}
+.p_form input.submit{ width: 290px; height: 48px; border: 0; background-color: #ff6a1a; font: 24px \5FAE\8F6F\96C5\9ED1,arial,\5B8B\4F53; color: #fff; cursor: pointer; letter-spacing: 20px; text-indent: 20px; *text-indent: 0;  _line-height: 50px; overflow: hidden; -moz-border-radius: 9px; -webkit-border-radius: 9px; border-radius: 9px;}
+.passport p{ font-size: 22px; color: #959595; padding-left: 385px; -moz-text-shadow: 1px 2px 1px #fff; -webkit-text-shadow: 1px 2px 1px #fff; text-shadow: 1px 2px 1px #fff;}
+
+.p_form .tips{ width:270px; height: 48px; line-height:48px;  _line-height: 54px; overflow: hidden; padding:0 9px; position:absolute; left:0px; top:0; zoom:1; font-size:12px; color:#ccc;}
+.login_error{ position:absolute; left:0; top:0; zoom:1; color:#f00;}
+
+
+.aboutCon{}
+.aboutCon h2.t{ height: 38px; border-bottom: 1px solid #d0d0d0; margin:24px 0 54px; position: relative; zoom:1;}
+.aboutCon h2.t span{ font: 32px \5FAE\8F6F\96C5\9ED1,arial,\5B8B\4F53; color: #555; background-color: #fff; padding: 0 15px; position: absolute; top:18px; left: 400px;}
+.a_summary h4{ font:normal 35px \5FAE\8F6F\96C5\9ED1,arial,\5B8B\4F53; color: #000; margin-bottom:20px;}
+.a_summary p{ font-size: 16px;  line-height: 2.0;}
+.videoPlay{ padding-top:50px; }
+.videoPlay span{ display:inline-block; font-size:18px; color:#000;}
+.videoPlay span.s{padding-left:14px;}
+.videoPlay embed{ margin-top:5px;}
+
+.a_con h2.t span{ left: 320px;}
+.a_con div{ border-bottom: 1px solid #ededed;}
+.a_con h3{ font:45px/1.2 \5FAE\8F6F\96C5\9ED1,arial,\5B8B\4F53; padding: 8px 5px 40px 0;}
+.a_con p{ font-size: 16px; line-height: 1.7; padding-left:5px; margin-bottom: 18px;}
+.a_con h3{ background: url("../../../images/passport/new/sp_passport.png")/*tpa=http://102.89cv.top/images/passport/new/sp_passport.png*/ no-repeat;}
+.a_cOne{ background:url("../../../images/passport/new/img1.jpg")/*tpa=http://102.89cv.top/images/passport/new/img1.jpg*/ no-repeat; padding:73px 0 0 647px; height: 560px;}
+.a_cTwo{ background:url("../../../images/passport/new/img2.jpg")/*tpa=http://102.89cv.top/images/passport/new/img2.jpg*/ no-repeat right 0; padding-top:75px; height: 534px;}
+.a_cThree{ background:url("../../../images/passport/new/img3.jpg")/*tpa=http://102.89cv.top/images/passport/new/img3.jpg*/ no-repeat 0 bottom; padding:75px 0 0 655px; height: 550px;}
+.a_con .a_cFour{ background:url("../../../images/passport/new/img4.jpg")/*tpa=http://102.89cv.top/images/passport/new/img4.jpg*/ no-repeat right 100px; padding-top:72px; height: 426px; border-bottom: 0;}
+.a_cOne h3{ background-position: 0 -627px; }
+.a_cOne p{ padding-left:32px;}
+.a_cTwo h3{ background-position: 208px -131px;}
+.a_cThree h3{ background-position: 0 -297px;}
+.a_cFour h3{ background-position: 265px -460px;}
+
+.a_cOne em.tip{ color: #ff9f02;}
+.a_cOne em.audio{ color: #36c29d;}
+.a_cOne em.img{ color: #3ca2e6;}
+.a_cOne em.video{ color: #050505;}
+.a_cFour p.s{ margin-right: 55px;}
+
+.usersArea h2.t span{ left: 416px;}
+.users{ padding-top:10px;}
+.users img{ margin: 0 27px;}
+.userList{ padding-top: 40px;}
+.userList li{ float: left; width: 330px; height: 250px;}
+.userList div.one{ padding:0 35px 0 5px;}
+.userList div.two{ border-left:1px solid #dedede; border-right:1px solid #dedede; padding:0 30px 30px;}
+.userList div.three{ padding:0 15px 0 30px;}
+.userList p{ line-height: 1.9;}
+.userList p.s{ height: 175px;}
+
+.mediaReport h2.t span{ left: 384px;}
+.reportList{ padding:20px 0 30px;}
+.reportList a{ display: inline-block; background: url("../../../images/passport/new/report.png")/*tpa=http://102.89cv.top/images/passport/new/report.png*/ no-repeat; height: 38px; margin: 0 30px; line-height: 120px; font-size: 0; overflow: hidden;}
+.reportList a.one{ background-position: 0 0; width: 120px;}
+.reportList a.two{ background-position: -178px 0; width: 111px;}
+.reportList a.three{ background-position: -350px 0; width: 113px;}
+.reportList a.four{ background-position: -518px 0; width: 124px;}
+.reportList a.five{ background-position: -692px 0; width: 123px;}
+
+.videoPlay{height:368px;}
+.videoview img{ width:600px; height:338px}
+.videoinf{margin-top:10px}
+.videoinf div{font-size:16px; line-height:30px; color:#000}
+.videoinf span{width:10px; height:10px; background-color:#a4a4a4; border-radius:5px; margin-left:5px}
+.videoinf span.selIn{background-color:#ef632c}
+
+/* apply */
+.applyArea{ padding-left:60px; font-family: \5FAE\8F6F\96C5\9ED1,arial,\5B8B\4F53; font-size: 14px; color: #000; min-height: auto !important; height: 800px; min-height: 800px;}
+.applyArea h2{ font-size: 24px; font-weight: normal; color: #606060;}
+.applyArea p.s{ padding:24px 0 8px 25px; line-height: 1.7;}
+.applyArea p a{ color: #00f; text-decoration:underline;}
+.test_form{ background: url("../../../images/passport/new/p_line.png")/*tpa=http://102.89cv.top/images/passport/new/p_line.png*/ no-repeat 105px 0; padding:30px 0 0 25px;}
+.test_form li{ margin-bottom: 25px; overflow: hidden; zoom:1;}
+.test_form span{ float: left; line-height: 25px;}
+.test_form p{ margin-left: 92px;}
+.test_form .test_input{ border: 1px solid #ededed; width: 316px; height: 25px; line-height: 25px; padding: 0 5px; font-size: 14px; color: #abadb3;}
+.test_form .address{ margin-top: 12px;}
+.test_form .focus{ color: #333; border-color: #ff6a1a;}
+.test_form select{ color: #000; border: 1px solid #abadb3; width:95px;}
+.test_form select.s{ width: 130px;}
+.test_con span{ color: #f00; padding:0 5px;}
+.test_form label{ padding-right: 65px;}
+.test_form label input{ margin: -1px 3px 0 0;}
+.applysubmit{ border: 0; background-color: #ff6a1a; width: 103px; height: 40px; line-height: 40px; color: #fff; font-size: 24px; font-weight: bold; cursor: pointer; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px;}
+#applyErr{ color:#f00; padding-left:10px; display:inline-block; line-height:40px; vertical-align:top;}
+
+
+
+/* forget */
+.forgetArea{ padding:0 60px 30px; height:auto !important; height:800px; min-height:800px;}
+.forgetArea .back{ color:#00a8ff; font-size:14px; line-height:20px;}
+.f_conWrap{ border:1px solid #d0cfcf; padding:35px; margin-top:5px;}
+.f_conWrap h2{ font-size:18px; font-weight:normal; color:#010101; padding-bottom:8px;}
+
+.f_con{ border-top:1px solid #d0cfcf; border-bottom:1px solid #d0cfcf; padding:20px 0 40px;}
+.f_step span{ display:inline-block; margin-right:6px;}
+.f_step em{ display:inline-block; width:114px; background:url("../../../images/passport/new/step.png")/*tpa=http://102.89cv.top/images/passport/new/step.png*/ no-repeat; font:14px/31px \5FAE\8F6F\96C5\9ED1,arial,\5B8B\4F53; color:#fff; padding-left:40px;}
+.f_step .e1{ background-position:0 0;}
+.f_step .e2{ background-position:-161px 0;}
+.f_step .e3{ background-position:-321px 0;}
+.f_step .e4{ background-position:-482px 0;}
+.f_step .sel .e1{ background-position:0 -33px;}
+.f_step .sel .e2{ background-position:-161px -33px;}
+.f_step .sel .e3{ background-position:-321px -33px;}
+.f_step .sel .e4{ background-position:-482px -33px;}
+.f_desc{ color:#666; line-height:1.8; margin-top:20px;}
+
+.forgetInfo{ padding:65px 0 20px 65px;}
+.forgetList li{ overflow:hidden; zoom:1; padding-bottom:20px; color:#666;}
+.forgetList em.s{ float:left; width:100px; text-align:right; line-height:24px; font-size:14px;}
+.forgetList div.s{ margin-left:105px;}
+.forgetList .msg{ font-size:14px; color:#f00; padding-left:10px;}
+.forgetList input.text{ border:1px solid #ddd; width:180px; height:24px; line-height:24px; color:#999; padding-left:8px;}
+.forgetList input.num{ width:120px;}
+.forgetList .btn{ width:85px; height:28px; line-height:28px; border:0px; background-color:#ff6a1a; font-size:14px; color:#fff;  border-radius:3px; cursor:pointer; overflow:visible;}
+	
+.f_tip{ width:450px; background-color:#fff7e5; border:1px solid #ffe2a3; border-radius:4px; padding:15px 30px;}
+.f_tip p{ background:url("../../../images/passport/new/tip.png")/*tpa=http://102.89cv.top/images/passport/new/tip.png*/ no-repeat 0 4px; font-size:14px; color:#010101; padding-left:30px; line-height:2.0;}
+.f_result .f_tip{ font-size:14px; color:#010101; text-align:center;}
+.f_tip .success, .f_tip .fail{ background:url("../../../images/passport/new/tip.png")/*tpa=http://102.89cv.top/images/passport/new/tip.png*/ no-repeat 120px -94px; font-size:24px; color:#f00; margin-bottom:12px;}
+.f_tip a{ color:#00a8ff;}
+.forgetList .f_tip{ margin-bottom:20px;}
+.f_tip .fail{ background-position:55px 6px;}
+	
+.selfun dd,.selfun dt{ margin-bottom:15px}
+.selfun input{ width:110px; height:26px; border:0px; background-color:#ff6a1a; color:#fff; border-radius:3px;cursor:pointer;}
+.selfun dt{ color:#888}
+.tbx{ height:18px}
+	
+
+
+
+
+
+/**
+ * help / about
+*/
+.aboutArea{ padding-bottom: 30px; height:auto !important; height:800px; min-height:800px;}
+.a_demo{ margin-bottom: 38px;}
+.a_demo h3.t{ font:24px \5FAE\8F6F\96C5\9ED1,arial,\5B8B\4F53; color: #ef632c; border-bottom: 1px solid #ededed; padding-bottom: 3px; margin-bottom: 15px;}
+.a_demo h3.t a{ float: right; color: #ef632c; font-size: 12px; padding: 14px 5px 0 0;}
+.a_detail{ line-height: 1.8; font-size: 14px; color: #676767;}
+.a_detail p{ margin-bottom: 27px;}
+.a_detail h3{ color: #515151;}
+.company a{ color: #1f52a1; text-decoration: underline;}
+
+/* join */
+.a_join{ background: url("../../../images/about/img4.jpg")/*tpa=http://102.89cv.top/images/about/img4.jpg*/ no-repeat; height: 328px;}
+.a_join p{ font-size: 14px; color: #000; line-height: 1.7; text-align: center; padding-top: 265px;}
+.a_join a{ color: #00c0ff;}
+
+/* service */
+.serviceArea p{ margin-bottom: 10px;}
+
+/* contact */
+.contactArea p{ margin-bottom: 0;}
+.contactArea a{ color: #03b5ff;}
+
+/* trade */
+.openInfo{ background: url("../../../images/about/img3.png")/*tpa=http://102.89cv.top/images/about/img3.png*/ no-repeat; height: 326px;}
+.openInfo p{ font:24px \5FAE\8F6F\96C5\9ED1,arial,\5B8B\4F53; color: #fff; line-height: 80px; padding: 245px 0 0 95px;}
+.openInfo em{ padding:0 30px;}
+.join{ padding-top: 15px;}
+.joinCon{ width: 580px; background: url("../../../images/about/bg.jpg")/*tpa=http://102.89cv.top/images/about/bg.jpg*/ no-repeat 335px 45px; padding-top: 10px;}
+.joinCon dt{ font-size:16px; font-weight: bold; color: #ef632c; margin: 20px 0 5px;}
+.toApply{ width: 410px;}
+.toApply h3{ font-size:14px; color: #ef632c;}
+.getId{ border-top:1px solid #e4e4e4; border-left:1px solid #e4e4e4; font-size: 12px; font-size: 14px; color: #9b9b9b; margin:5px 0 8px 0;}
+.getId td{ border-bottom:1px solid #e4e4e4; border-right:1px solid #e4e4e4; padding: 6px 8px;}
+.getId td.r{ padding-right: 30px;}
+.getId textarea{ width: 254px; height: 95px; border:1px solid #e4e4e4; vertical-align: bottom;}
+.getId em{ color: #f00; padding-right: 5px;}
+.getId input{ width: 244px; height: 25px; line-height: 25px; border: 1px solid #e4e4e4; padding:0 5px;}
+.getId select{ width:89px; font-size: 14px;}
+.toApply dfn{ display: inline-block; width: 255px; background-color: #ef632c; font: 24px/40px \5FAE\8F6F\96C5\9ED1,arial,\5B8B\4F53; color: #fff; cursor: pointer; text-align: center; letter-spacing: 10px; text-indent: 10px; *text-indent: 0; border-radius: 2px;}
+.toApply span{ padding-right: 10px; font-size: 12px; color: #f00;}
+
+
+
+
+/*
+ * web guide
+*/
+.guideMark{ width: 100%; height: 100%; position: fixed; _position:absolute; left: 0; top: 0; z-index: 1; background-color: #000; filter:alpha(opacity=65); opacity: 0.65;}
+.guideCon{ position: fixed; _position:absolute;  z-index: 2;}
+/* passport guide */
+.g_passport{ width:100%; left: 0; top: 0;  top: 0;}
+.g_passportClose{ width: 64px; height: 53px; position: absolute; background: url("../../../images/guide/pClose.png")/*tpa=http://102.89cv.top/images/guide/pClose.png*/ no-repeat right 0; _background-image: url("../../../images/guide/pClose_8.png")/*tpa=http://102.89cv.top/images/guide/pClose_8.png*/; right: 0; top: 0; cursor: pointer;}
+.g_passportCon{ width: 555px; height: 380px; position: absolute; background: url("../../../images/guide/passport1.png")/*tpa=http://102.89cv.top/images/guide/passport1.png*/ no-repeat right 0; _background-image: url("../../../images/guide/passport1_8.png")/*tpa=http://102.89cv.top/images/guide/passport1_8.png*/;  top: 0;}
+.g_passportCon .iKnow{ display: block; width:140px; height: 75px; margin:304px 0 0 414px; cursor: pointer; }
+.g_passportBtn{ position: relative; z-index: 2; }
+.guideLoad p{width:100px; height: 100px; margin: -50px 0 0 -50px; background: url("../../../images/guide/load.gif")/*tpa=http://102.89cv.top/images/guide/load.gif*/ no-repeat; position: fixed; _position:absolute; left: 50%; top: 50%; z-index:2;}
+
+
+/*
+* app download
+*/
+.appDownload{ background-color:#dfdfdf}
+.appDownload .bd{ background:#fde374 url("../../../images/app/bg.png")/*tpa=http://102.89cv.top/images/app/bg.png*/ no-repeat center bottom; height: auto !important; height: 780px; min-height: 780px; padding-top:140px;}
+.aboutApp{ font-family: \5FAE\8F6F\96C5\9ED1,arial,\5B8B\4F53;}
+.installation{ width:720px;}
+.installation li{ float: left; width:240px; height: 240px; text-align: center;}
+.installation li.title{ font-size: 44px; color: #000; line-height: 1.3;}
+.installation span, .installation a{ display: inline-block;}
+.installation li.one{ background:#46b3e1 url("../../../images/app/icon1.png")/*tpa=http://102.89cv.top/images/app/icon1.png*/ no-repeat center 45px;}
+.installation li.two{ background:#ef632c url("../../../images/app/icon2.png")/*tpa=http://102.89cv.top/images/app/icon2.png*/ no-repeat center 45px;}
+.installation li.three{ width:480px; background:#fff url("../../../images/app/icon3.png")/*tpa=http://102.89cv.top/images/app/icon3.png*/ no-repeat 180px 26px; filter:alpha(opacity=80); opacity: 0.8; text-align: left; font-size: 14px; color: #575c65;}
+.installation li.four{ background:#79df73 url("../../../images/app/code.png")/*tpa=http://102.89cv.top/images/app/code.png*/ no-repeat center 30px;}
+.installation li.title span{ padding-top: 60px;}
+.installation li.one a, .installation li.two a, .installation li.four span{ padding-top: 180px; font-size: 18px; color: #fff;}
+.installation li.three div{ padding: 55px 0 0 68px;}
+.installation li.three p.t{ font-size: 18px; color: #3d434d; margin-bottom: 55px;}
+.installation input{ border: 1px solid #a1a1a1; width: 215px; height: 30px; line-height: 30px; padding: 0 5px; color: #a1a1a1; margin-right: 15px;}
+.installation input.focus{ color: #575c65;}
+.installation button{ border: 0; background-color: #e84505; border-radius: 1px; width: 96px; height: 32px; font-size: 14px; color: #fff; vertical-align: middle; cursor:pointer;}
+.installation button.dark{background-color:#888;}
+.installation li.three em{ font-size: 12px; color: #f00; padding-left: 74px;}
+.installation li.three p.s{ margin: 5px 0;}
+
+.sentSms{ width:240px; height: 480px; background:#fff5d6 url("../../../images/app/icon4.png")/*tpa=http://102.89cv.top/images/app/icon4.png*/ no-repeat center 165px; filter:alpha(opacity=80); opacity: 0.8; font-size: 14px; color: #707070;}
+.sentSms p{ font-size: 18px; color: #3d434d; padding: 100px 0 175px;}
+.sentSms em{ color: #ef632c;}
+
+.downloadTip{ color: #4c4c4c; margin-top: 30px;}
+.downloadTip a{ color: #0039B9; text-decoration: underline;}
+.appFt{ color: #4c4c4c; line-height: 1.5; background-color:#dfdfdf; padding: 20px 0;}
+.appFt a{ color: #4c4c4c; padding: 0 7px;}
+
+.appStep .bd{ padding:0 0 100px;}
+.appStepTit{text-align: center; padding-top: 35px; font: 30px/1.0 \5FAE\8F6F\96C5\9ED1,arial,\5B8B\4F53; color:#666;}
+.appNav{ border-bottom:1px solid #ededed; margin: 35px 0 20px; padding-bottom: 5px;}
+.appNav a{ display:inline-block; width:76px; height: 20px; text-align:center; font-size:14px; font-family: \5FAE\8F6F\96C5\9ED1,arial,\5B8B\4F53; color:#515151; cursor:pointer; margin-right:24px;}
+.appNav a:hover, .appNav a.sel{ color:#ef632c;}
+.appNav cite{ width:76px; height:7px; background:url("../../../images/app/arrow.png")/*tpa=http://102.89cv.top/images/app/arrow.png*/ no-repeat; position:absolute; top:20px; left:0;}
+
+.appStepCon li{ float: left; width: 495px; text-align: center; font-size: 14px; color: #515151; line-height: 1.9; padding-bottom: 32px;}
+.appStepCon p{ margin-top: 17px; height: 55px;}
+.appStepCon em{ color: #ef632c;}
+.appStepTip{ color: #8e8e8e;}
+.appStepTip em{ padding-top: 8px;}
+.appStepCon img, .appStepTip img{ vertical-align: middle;}
+.appStepTip p{ margin-left: 62px; line-height: 2.0;}
+.appStepTip p.s{ margin-top: 20px;} 

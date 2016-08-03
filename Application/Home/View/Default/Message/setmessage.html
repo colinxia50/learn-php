@@ -1,0 +1,22 @@
+    <h2 class="message-count">共发送的消息:({$count})</h2>
+    <div class="message-list">
+     <volist name="Message" id="vo">
+	     <div class="media message-content ">
+		  <div class="media-left">
+		    <a href="#">
+				    <empty name="vo['face']['small']">
+				       <img src="__IMG__/face_growing2.jpg" alt="" class="img-rounded small-face">
+				    <else />
+				       <img class="media-object img-rounded" src="__ROOT__/{$vo['face']['small']}" alt="" >
+				    </empty>
+		      
+		    </a>
+		  </div>
+		  <div class="media-body">
+		    <h5 class="media-heading"><span class="name">我发给------>{$vo.nick_name}</span> <span class="lou">第{$vo.count}楼</span></h5>
+		    <p>{$vo.content}</p>
+		    <p class="t">{$vo.time}</p>
+		  </div>
+		</div>
+		</volist>	  
+    </div>

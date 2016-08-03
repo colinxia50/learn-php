@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+#login p{
+	height:22px;
+	line-height:22px;
+	padding:4px 0 0 20px;
+}
+.textbox{
+	height:22px;
+	padding:0 2px;
+	margin:0 0 0 5px;
+	text-indext:5px;
+	background:#ccc;
+}
+
+.easyui-linkbutton {
+	padding:0 10px;
+}
+#btn {
+	text-align:center;
+}
+body {
+	width:100%;
+	background:
+			url("../img/bg.jpg") no-repeat;
+			filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+			-moz-background-size:100% 100%;
+			background-size:100% 100%;
+}

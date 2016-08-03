@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+.story{
+	background:#fff;
+	border-radius:4px;
+	min-height:600px;
+	margin-top:20px;	
+}
+.story h3{
+	text-align:center;
+	font-weight: bold;
+	height: 50px;
+	line-height: 50px;
+	color: #A8A8A8;
+}

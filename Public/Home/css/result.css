@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+.result{
+	background:#fff;
+	border-radius:4px;
+	min-height:600px;
+	margin-top:20px;	
+}

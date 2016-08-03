@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+.login-top{
+	height:50px;
+	background:#fff;
+	box-shadow:0px 0px 8px #000;
+}
+#login-main{
+	min-height:900px;
+}
+#login-main .zt{
+	margin-top:50px;
+	height:150px;
+}
+#login-main .zt h3{
+	text-align:center;	
+	margin-top:75px;
+}
+
+#login-main .a{
+	margin-top:20px;
+}
+#login-main .text{
+	height:50px;
+	
+}
+#login-main .btn{
+	background:#f60;
+	border:1px solid #f60;
+	color:20px;
+}
+#login-main .btn:hover{
+	background:#ff8a3c;
+}
+#footer{
+    position: fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	text-align:center;
+}
+#footer ul li{
+	display:inline-block;
+}
+#footer ul li a{
+	display:block;
+	color:#919191;
+}
+
+
+
+.loginPage .bd{
+	margin-left:1%;
+	width:98%;
+	background:
+			url("../image/fd039245d688d43f24f188767d1ed21b0ff43bdd.jpg");
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+	-moz-background-size:100% 100%;
+	background-size:100% 100%;
+	/*url("../image/Nipic_3860090_20130606122614258378_02.png") no-repeat center;*/
+}
+

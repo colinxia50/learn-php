@@ -1,0 +1,544 @@
+[ 2016-07-27T01:15:26+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `manage` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `manage` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='35' and g.status='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='34' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='26' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='24' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='23' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [2] file_get_contents(http://localhost/zzb/address.json): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ E:\phptools\Apache24\htdocs\zzb\Application\Admin\Controller\ManageController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `auth_group`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-07-27T01:38:15+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-07-27T02:18:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023200s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0014s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('1','2','5','6','7','8')  [ RunTime:0.0173s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN ('系统管理','会员管理','习惯库管理','学校管理','代理商','图书借阅管理')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 14  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 22  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000422s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001647s ]
+
+[ 2016-07-27T02:21:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0014s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0141s ]
+NOTIC: [8] Array to string conversion E:\phptools\Apache24\htdocs\zzb\Application\Admin\Controller\IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0012s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('1','2','5','6','7','8')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN ('系统管理','会员管理','习惯库管理','学校管理','代理商','图书借阅管理')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 14  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 22  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2016-07-27T02:21:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0012s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0006s ]
+NOTIC: [8] Array to string conversion E:\phptools\Apache24\htdocs\zzb\Application\Admin\Controller\IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0009s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('1','2','5','6','7','8')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN ('系统管理','会员管理','习惯库管理','学校管理','代理商','图书借阅管理')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 14  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 22  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2016-07-27T02:22:25+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+
+[ 2016-07-27T02:22:25+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000979s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-07-27T02:22:36+08:00 ] 127.0.0.1 /index.php/Admin/Login/checkManager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`manager`,`name` FROM `manage` WHERE `manager` = 'admin' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `manage` SET `last_login`='1469557355',`last_ip`='2130706433' WHERE `id` = 1 [ RunTime:0.1151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-07-27T02:22:36+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+NOTIC: [8] Array to string conversion E:\phptools\Apache24\htdocs\zzb\Application\Admin\Controller\IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('1','2','5','6','7','8')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN ('系统管理','会员管理','习惯库管理','学校管理','代理商','图书借阅管理')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 4  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 14  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 20  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 22  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2016-07-27T02:24:06+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+NOTIC: [8] Array to string conversion E:\phptools\Apache24\htdocs\zzb\Application\Admin\Controller\IndexController.class.php 第 10 行.
+
+[ 2016-07-27T02:24:47+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002488s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+
+[ 2016-07-27T02:33:49+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 11  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 14  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 20  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 22  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2016-07-27T02:34:43+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 14  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 22  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2016-07-27T02:34:47+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-07-27T02:34:47+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-07-27T02:35:18+08:00 ] 127.0.0.1 /index.php/Admin/Login/checkManager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`manager`,`name` FROM `manage` WHERE `manager` = 'admin' AND `password` = '0e03c6205ea671d7d41a0e3aabfc9d15d97e5ed3' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2016-07-27T02:35:29+08:00 ] 127.0.0.1 /index.php/Admin/Login/checkManager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`manager`,`name` FROM `manage` WHERE `manager` = 'bbbbbb' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `manage` SET `last_login`='1469558129',`last_ip`='2130706433' WHERE `id` = 27 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-07-27T02:35:29+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 14  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 22  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2016-07-27T02:37:19+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN ('5','6','8')  [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\phptools\Apache24\htdocs\zzb\Application\Admin\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2016-07-27T02:37:21+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN ('5','6','8')  [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\phptools\Apache24\htdocs\zzb\Application\Admin\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2016-07-27T02:38:03+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN ('5','6','8')  [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\phptools\Apache24\htdocs\zzb\Application\Admin\Controller\IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2016-07-27T02:38:19+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0004s ]
+
+[ 2016-07-27T02:41:58+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('5','6','8')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN ('学校管理','代理商','图书借阅管理')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 11  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 14  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `nid` = 22  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+

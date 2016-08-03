@@ -1,0 +1,27 @@
+<table id="authgroup"></table>
+
+<div id="authgroup_tool" style="padding:5px;">
+	<div style="margin-bottom:5px;">
+		<a href="javascript:void(0)" class="easyui-linkbutton" plain="true" iconCls="icon-add" onclick="authgroup_tool.add();">新增</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" plain="true" iconCls="icon-edit" onclick="authgroup_tool.edit();">修改</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" plain="true" iconCls="icon-no" onclick="authgroup_tool.remove();">删除</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" plain="true" iconCls="icon-reload" onclick="authgroup_tool.reload();">刷新</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" plain="true" iconCls="icon-undo" onclick="authgroup_tool.redo();">取消选定</a>
+	</div>
+</div>
+
+
+<form id="authgroup_add" style="margin:0;padding:5px 0 0 25px;color:#333;">
+	<p>角色名称：<input type="text" name="title" class="textbox" style="width:200px;"></p>
+	<p>权限分配：<input type="text" id="auth_nav" name="rules" class="textbox" style="width:205px;"></p>
+</form>
+
+
+<form id="authgroup_edit" style="margin:0;padding:5px 0 0 25px;color:#333;">
+	<input type="hidden" name="id">
+	<p>角色名称：<input type="text" name="edit_title" disabled="true" class="textbox" style="width:200px;"></p>
+	<p>权限分配：<input type="text" id="edit_auth_nav" name="edit_rules" class="textbox" style="width:205px;"></p>
+</form>
+
+
+<script type="text/javascript" src="__JS__/authgroup.js"></script>

@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+.login-top{
+	height:50px;
+	background:url(../img/navline.png);
+}
+.get-message{
+	display:none;
+}
+#main{
+	margin-top:50px;
+}
+#main .left{
+  border-right:1px solid #ccc;
+  position:fixed;
+  top:50px;
+  left:50px;
+}
+
+#main .left .nav{
+	margin-top:50px;
+}
+#main .left .nav a{
+	color:#000;
+}
+#main .left .nav a:hover{
+	background:#ccc;
+}
+#main .left .nav a.cover{
+	background:#ccc;
+}
+#main .left .user{
+  height:50px;
+  border-bottom:1px solid #ccc;
+}
+#main .left .user .small-face{
+	width:30px;
+	height:30px;
+}
+#main .left .user a{
+	margin-top:10px;
+	display:inline-block;
+	text-decoration:none;
+	margin-left:13px;
+	color:#000;
+	height:30px;
+	line-height:30px;
+}
+#main .left .user a.logout{
+	float:right;
+	margin-right:10px;
+}
+.xzac{
+	background:#cecece;
+}
+#loadin{
+	display:none;
+	position:relative;
+}
+#loadin span{
+	font-size:20px;
+	position:absolute;
+	top:210px;
+	left:400px;
+}
+#loadin img{
+	width:600px;
+	height:450px;
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+}

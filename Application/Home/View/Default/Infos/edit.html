@@ -1,0 +1,56 @@
+<div class="row">
+ <div class="col-md-12 ">
+  <div class="add-infos">
+              <ol class="breadcrumb">
+			  <li>校园新闻</li>
+			  <li class="active">修改新闻</li>
+		     </ol> 
+  <h3>修改新闻</h3>
+  <form class="form-horizontal editinfos">
+  <div class="form-group">
+    <label for="title" class="col-sm-2 control-label">标题:</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" name="title" value="{$Infos.title}" >
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="content" class="col-sm-2 control-label">内容:</label>
+    <div class="col-sm-5">
+      <textarea class="form-control" rows="3" name="content">{$Infos.content}</textarea>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="pic" class="col-sm-2 control-label">图片:</label>
+    <div class="col-sm-5">
+      <input type="file" name="file" id="file">
+    </div>
+  </div>
+
+  <div class="content-thumb" style="margin:10px 0">
+     <volist name="Infos.infos_img" id="vo">
+          <div class='content-thumb-pic'>
+          <input type='hidden' name='images' class='imagess' value='{$vo.data}'/>
+          <img src="__ROOT__/{$vo.thumb}" alt='图片' class='img-thumbnail growing-img'>
+          <span class='color'></span>
+          <span class='zt'>删除</span>
+          </div>
+      </volist>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-6 col-sm-4 ">
+      <input type="hidden" name="count" value="{$Infos.count}">
+      <input type="hidden" name="id" value="{$Infos.id}">
+      <input type="submit" class="btn btn-default" id="edit-infos" value="发布">
+    </div>
+  </div>
+</form>
+  
+  
+  
+  </div>
+  </div>
+</div>
+<script type="text/javascript" src="__UPLOADIFY__/jquery.uploadify.min.js"></script>
+<script type="text/javascript" src="__JS__/editinfos.js"></script>
+<link rel="stylesheet" type="text/css" href="__UPLOADIFY__/uploadify.css" />
+<link rel="stylesheet" type="text/css" href="__CSS__/addinfos.css" />

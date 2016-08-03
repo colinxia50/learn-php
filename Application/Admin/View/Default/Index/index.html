@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>后台管理</title>
+<link rel="stylesheet" type="text/css" href="__EASYUI__/themes/bootstrap/easyui.css" />
+<link rel="stylesheet" type="text/css" href="__EASYUI__/themes/icon.css" />
+<link rel="stylesheet" type="text/css" href="__CSS__/index.css" />
+<script type="text/javascript">
+var ThinkPHP = {
+	'ROOT' : '__ROOT__',
+	'MODULE' : '__MODULE__',
+	'INDEX' : '{:U("Index/index")}',
+	'IMG' : '__IMG__',
+};
+</script>
+</head>
+    <body class="easyui-layout">
+      <div region="north" title="后台页面" split="true" style="height:100px;">
+      	<div class="logo">后台管理</div>
+		<div class="logout">您好，{:session('admin.manager')}  <a href="{:U('Login/out')}" id="logout">退出</a></div>      
+      </div>    
+      <div region="west" split="true" title="导航" style="width:180px;" iconCls="icon-earth">
+        <ul id="nav"></ul>
+      </div>    
+      <div region="center"  style="overflow:hidden;">
+         <div id="tabs">
+      			<div class="welcome" title="起始页"  iconCls="icon-house" style="padding:0 10px;color:#fff;">
+      				<p style="color:red;">欢迎来到后台管理系统！</p>
+      			</div>
+		  </div>
+      </div>
+    </body>
+<script type="text/javascript" src="__EASYUI__/jquery.min.js"></script>
+<script type="text/javascript" src="__EASYUI__/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="__EASYUI__/locale/easyui-lang-zh_CN.js" ></script>
+<script type="text/javascript" src="__JS__/index.js"></script>
+</html>

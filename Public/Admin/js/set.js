@@ -1,0 +1,13 @@
+$(function(){
+    $('#up_person').click(function(){
+        $.ajax({
+            url:ThinkPHP['MODULE']+'/set/update',
+            type:'POST',
+            data:$('#update').serialize(),
+            success:function(data,response,status){
+                alert('修改成功');
+                $('#page-wrapper').html(data);
+            }
+        });
+    })
+});

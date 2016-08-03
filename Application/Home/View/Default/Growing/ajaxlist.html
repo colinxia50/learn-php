@@ -1,0 +1,57 @@
+     <volist name="ajaxList" id="vo">
+       <div class="comment">
+	     <div class="media" style="padding:5px;">
+			  <div class="media-left">
+			    <a href="javascript:void(0)">			    
+			    	<empty name="vo.face">    
+			          <img class="media-object" src="__IMG__/face_growing2.jpg" alt="">
+			        <else />
+			          <img class="media-object" src="__ROOT__/{$vo.face}" alt="">
+			         </empty>
+			    </a>
+			  </div>
+			  <div class="media-body">
+			    <h4 class="media-heading"><a href="javascript:void(0)">{$vo.nick_name}</a></h4>
+			    <p>{$vo.info}</p>
+			    <div class="row">
+			    <switch name="vo.count">
+			      <case value="0"></case>
+			      <case value="1">
+					  <div class="img-th" style="display:block">
+						 <div class="col-xs-6 col-md-3">
+						    <a href="javascript:void(0)" class="thumbnail">
+						      <img src="__ROOT__/{$vo['img'][0]['thumb']}" >
+						    </a>
+						 </div>
+					  </div>
+						 <div class="col-xs-6 col-md-10  col-md-offset-1 img-zoom" style="display:none;">
+						     <ol class="nav">
+						        <li class="in"><a href="javascript:void(0)"><span class="glyphicon glyphicon-home"></span> 缩小</a></li>
+						        <li class="yuantu"><a href="__ROOT__/{$vo['img'][0]['source']}" target="_blank"><span class="glyphicon glyphicon-new-window"></span> 查看原图</a></li>
+						     </ol>
+						    <a href="javascript:void(0)" class="thumbnail">
+						      <img data="__ROOT__/{$vo['img'][0]['unfold']}" src="__IMG__/loading_100.gif" >
+						    </a>
+					    </div>			      			      
+			      </case>
+			      <default />
+			         <for statr="0" end="$vo.count">
+					  <div class="col-xs-6 col-md-3 imgs">
+					    <a href="javascript:void(0)" class="thumbnail">
+					      <img src="__ROOT__/{$vo['img'][$i]['thumb']}" unfold-src="__ROOT__/{$vo['img'][$i]['unfold']}" source-src="__ROOT__/{$vo['img'][$i]['source']}">
+					    </a>
+					  </div>
+					  </for>
+				 </switch>
+				 </div>
+				<div class="footer">
+				   <span class="time">{$vo.time}</span>
+				   <span class="handler">
+				   <a class="btn btn-default"><i class="glyphicon glyphicon-heart" style="color:red;"></i> <span>2</span></a>
+				   <a class="btn btn-default">评论</a>
+				   </span>
+				</div>
+			  </div>
+	     </div>	     
+       </div>
+       </volist>

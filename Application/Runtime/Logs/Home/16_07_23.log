@@ -1,0 +1,131 @@
+[ 2016-07-23T00:20:30+08:00 ] 127.0.0.1 /index.php/AdminAuthGroup/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载控制器:AdminAuthGroup
+
+[ 2016-07-23T00:20:36+08:00 ] 127.0.0.1 /index.php/AdminAuthGroup/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+ERR: 无法加载控制器:AdminAuthGroup
+
+[ 2016-07-23T00:20:38+08:00 ] 127.0.0.1 /index.php/AdminAuthGroup/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+ERR: 无法加载控制器:AdminAuthGroup
+
+[ 2016-07-23T00:20:38+08:00 ] 127.0.0.1 /index.php/AdminAuthGroup/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+ERR: 无法加载控制器:AdminAuthGroup
+
+[ 2016-07-23T00:20:38+08:00 ] 127.0.0.1 /index.php/AdminAuthGroup/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+ERR: 无法加载控制器:AdminAuthGroup
+
+[ 2016-07-23T00:20:44+08:00 ] 127.0.0.1 /index.php/AdminAuthGroup/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+ERR: 无法加载控制器:AdminAuthGroup
+
+[ 2016-07-23T11:14:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010181s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`user`,`cover`,`nick_name`,`group_id`,`class_id`,`school_id`,`one` FROM `user` WHERE `user` = '15123036810' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `last_login`='1469243676' WHERE `id` = '149' [ RunTime:0.0283s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `child` WHERE `uid` = 149 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 94 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 96 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 98 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 103 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 104 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 111 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 136 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 138 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 139 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 140 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 141 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 142 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: memus_html E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 164 行.
+NOTIC: [8] Trying to get property of non-object E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 169 行.
+NOTIC: [8] Trying to get property of non-object E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0016s ]
+SQL: SELECT `name` FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006981s ]
+
+[ 2016-07-23T11:14:37+08:00 ] 127.0.0.1 /index.php/Home/articles/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+ERR: 1146:Table 'zzb.articles' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `articles`
+ERR: 1146:Table 'zzb.articles' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `articles`
+
+[ 2016-07-23T11:14:37+08:00 ] 127.0.0.1 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+

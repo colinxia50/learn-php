@@ -1,0 +1,2681 @@
+[ 2016-05-09T23:25:57+08:00 ] 114.254.67.158 /index.php/Home/articles/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.1005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.1492s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+SQL: SELECT * FROM `articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,9   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0454s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2016-05-09T23:25:57+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2016-05-09T23:26:00+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2016-05-09T23:26:06+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2016-05-09T23:26:07+08:00 ] 114.254.67.158 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 84 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 90 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 92 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 93 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 94 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 96 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 98 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 101 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 103 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 104 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 111 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 112 行.
+NOTIC: [8] Undefined variable: memus_html /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT `name` FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:26:07+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2016-05-09T23:26:08+08:00 ] 114.254.67.158 /index.php/Home/articles/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.1496s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0490s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+SQL: SELECT * FROM `articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2016-05-09T23:26:09+08:00 ] 114.254.67.158 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 84 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 90 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 92 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 93 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 94 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 96 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 98 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 101 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 103 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 104 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 111 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 112 行.
+NOTIC: [8] Undefined variable: memus_html /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT `name` FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:26:10+08:00 ] 114.254.67.158 /index.php/Home/articles/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.1008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+SQL: SELECT * FROM `articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `child` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2016-05-09T23:26:10+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2016-05-09T23:26:11+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2016-05-09T23:28:33+08:00 ] 114.254.67.158 /index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 84 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 90 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 92 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 93 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 94 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 96 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 98 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 101 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 103 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 104 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 111 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 112 行.
+NOTIC: [8] Undefined variable: memus_html /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT `name` FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-05-09T23:28:34+08:00 ] 114.254.67.158 /index.php/Home/articles/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.1018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0991s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+SQL: SELECT * FROM `articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `child` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0452s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2016-05-09T23:28:34+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-05-09T23:28:43+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2016-05-09T23:28:53+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:29:03+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:29:13+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2016-05-09T23:29:23+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2016-05-09T23:29:33+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-05-09T23:29:43+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2016-05-09T23:29:53+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-05-09T23:30:03+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:30:13+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:30:23+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2016-05-09T23:30:33+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:30:43+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:30:53+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-05-09T23:30:55+08:00 ] 114.254.67.158 /index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 84 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 90 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 92 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 93 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 94 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 96 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 98 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 101 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 102 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 104 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 111 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 112 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 113 行.
+NOTIC: [8] Undefined variable: memus_html /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT `name` FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2016-05-09T23:30:57+08:00 ] 114.254.67.158 /index.php/Home/articles/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+SQL: SELECT * FROM `articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2016-05-09T23:30:57+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2016-05-09T23:30:58+08:00 ] 114.254.67.158 /index.php/Home/habit/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_article_list` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_article_list` WHERE `article_id` = 15 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_article_list` WHERE `article_id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 35 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 36 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-05-09T23:31:07+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:31:17+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:31:27+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:31:37+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2016-05-09T23:31:47+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-05-09T23:31:57+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2016-05-09T23:32:02+08:00 ] 107.151.226.242 www.baidu.com:443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+
+[ 2016-05-09T23:32:07+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:32:17+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-05-09T23:32:27+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-05-09T23:32:37+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:32:47+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-05-09T23:32:57+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2016-05-09T23:33:07+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2016-05-09T23:33:11+08:00 ] 114.254.67.158 /index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 84 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 90 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 92 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 93 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 94 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 96 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 98 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 101 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 102 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 104 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 111 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 112 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 113 行.
+NOTIC: [8] Undefined variable: memus_html /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT `name` FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:33:13+08:00 ] 114.254.67.158 /index.php/Home/articles/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.1506s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.1490s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+SQL: SELECT * FROM `articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,9   [ RunTime:0.0496s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `child` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2016-05-09T23:33:13+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2016-05-09T23:33:14+08:00 ] 114.254.67.158 /index.php/Home/coin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/d8adf988456740eaec1a3e9c730eb358.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/d8adf988456740eaec1a3e9c730eb358.php 第 36 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/d8adf988456740eaec1a3e9c730eb358.php 第 37 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/d8adf988456740eaec1a3e9c730eb358.php 第 58 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/d8adf988456740eaec1a3e9c730eb358.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2016-05-09T23:33:16+08:00 ] 114.254.67.158 /index.php/Home/Pay/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Home/Common/function.php 第 18 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 1,1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/b0e7195a5805c6e67ade143f1c7f6f45.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/b0e7195a5805c6e67ade143f1c7f6f45.php 第 36 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/b0e7195a5805c6e67ade143f1c7f6f45.php 第 37 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/b0e7195a5805c6e67ade143f1c7f6f45.php 第 58 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/b0e7195a5805c6e67ade143f1c7f6f45.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-05-09T23:33:17+08:00 ] 114.254.67.158 /index.php/Home/Pay/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/b0e7195a5805c6e67ade143f1c7f6f45.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/b0e7195a5805c6e67ade143f1c7f6f45.php 第 36 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/b0e7195a5805c6e67ade143f1c7f6f45.php 第 37 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/b0e7195a5805c6e67ade143f1c7f6f45.php 第 58 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/b0e7195a5805c6e67ade143f1c7f6f45.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000158s ]
+
+[ 2016-05-09T23:33:22+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:33:33+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-05-09T23:33:44+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:33:55+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2016-05-09T23:34:06+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:34:17+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-05-09T23:34:28+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2016-05-09T23:34:39+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2016-05-09T23:34:50+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-05-09T23:35:01+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2016-05-09T23:35:12+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:35:23+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2016-05-09T23:35:25+08:00 ] 114.254.67.158 /index.php/Home/points/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `infos` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `infos` WHERE `school_id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT `id`,`title`,`content`,`dateline` FROM `infos` WHERE `school_id` = 4 ORDER BY dateline desc LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `infos_img` [ RunTime:0.0008s ]
+SQL: SELECT `data` FROM `infos_img` WHERE ( 1=1 AND iid='28' )  [ RunTime:0.0005s ]
+SQL: SELECT `data` FROM `infos_img` WHERE ( 1=1 AND iid='23' )  [ RunTime:0.0006s ]
+SQL: SELECT `data` FROM `infos_img` WHERE ( 1=1 AND iid='22' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 182 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 182 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 182 行.
+ERR: 模板不存在:./Application/Home/View/Default/Points/index.html
+
+[ 2016-05-09T23:35:30+08:00 ] 114.254.67.158 /index.php/Home/growing/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0034s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 4  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `growing` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `growing` [ RunTime:0.0007s ]
+SQL: SELECT a.id,a.info,a.dateline,b.nick_name,b.cover FROM growing a,user b WHERE ( a.uid=b.id AND a.school_id=4 ) ORDER BY a.dateline desc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `img` [ RunTime:0.0009s ]
+SQL: SELECT `data` FROM `img` WHERE ( 1=1 AND gid='39' )  [ RunTime:0.0005s ]
+SQL: SELECT `data` FROM `img` WHERE ( 1=1 AND gid='38' )  [ RunTime:0.0005s ]
+SQL: SELECT `data` FROM `img` WHERE ( 1=1 AND gid='37' )  [ RunTime:0.0004s ]
+SQL: SELECT `data` FROM `img` WHERE ( 1=1 AND gid='36' )  [ RunTime:0.0006s ]
+SQL: SELECT `data` FROM `img` WHERE ( 1=1 AND gid='35' )  [ RunTime:0.0004s ]
+SQL: SELECT `data` FROM `img` WHERE ( 1=1 AND gid='34' )  [ RunTime:0.0005s ]
+SQL: SELECT `data` FROM `img` WHERE ( 1=1 AND gid='33' )  [ RunTime:0.0005s ]
+SQL: SELECT `data` FROM `img` WHERE ( 1=1 AND gid='32' )  [ RunTime:0.0004s ]
+SQL: SELECT `data` FROM `img` WHERE ( 1=1 AND gid='31' )  [ RunTime:0.0004s ]
+SQL: SELECT `data` FROM `img` WHERE ( 1=1 AND gid='30' )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Model/GrowingModel.class.php 第 50 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Model/GrowingModel.class.php 第 50 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Model/GrowingModel.class.php 第 50 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Model/GrowingModel.class.php 第 50 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Model/GrowingModel.class.php 第 50 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Model/GrowingModel.class.php 第 50 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Model/GrowingModel.class.php 第 50 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Model/GrowingModel.class.php 第 50 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Model/GrowingModel.class.php 第 50 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Model/GrowingModel.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-05-09T23:35:31+08:00 ] 114.254.67.158 /index.php/Home/Growing/ajaxCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `growing` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `growing` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2016-05-09T23:35:31+08:00 ] 114.254.67.158 /index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 84 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 88 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 89 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 90 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 92 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 93 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 94 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 96 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 98 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 101 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 102 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 104 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 111 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 112 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 113 行.
+NOTIC: [8] Undefined variable: memus_html /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:35:32+08:00 ] 114.254.67.158 /index.php/Home/story/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `story` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `story` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT `id`,`title`,`content`,`dateline` FROM `story` ORDER BY dateline desc LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `story_img` [ RunTime:0.0007s ]
+SQL: SELECT `data` FROM `story_img` WHERE ( 1=1 AND sid='27' )  [ RunTime:0.0005s ]
+SQL: SELECT `data` FROM `story_img` WHERE ( 1=1 AND sid='26' )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 182 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2016-05-09T23:35:33+08:00 ] 114.254.67.158 /index.php/Home/points/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `infos` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `infos` WHERE `school_id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT `id`,`title`,`content`,`dateline` FROM `infos` WHERE `school_id` = 4 ORDER BY dateline desc LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `infos_img` [ RunTime:0.0010s ]
+SQL: SELECT `data` FROM `infos_img` WHERE ( 1=1 AND iid='28' )  [ RunTime:0.0004s ]
+SQL: SELECT `data` FROM `infos_img` WHERE ( 1=1 AND iid='23' )  [ RunTime:0.0004s ]
+SQL: SELECT `data` FROM `infos_img` WHERE ( 1=1 AND iid='22' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 182 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 182 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 182 行.
+ERR: 模板不存在:./Application/Home/View/Default/Points/index.html
+
+[ 2016-05-09T23:35:33+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2016-05-09T23:35:35+08:00 ] 114.254.67.158 /index.php/Home/show/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2016-05-09T23:35:35+08:00 ] 114.254.67.158 /index.php/Home/show/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+ERR: 1146:Table 'zzb.show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `show`
+ERR: 1146:Table 'zzb.show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `show`
+
+[ 2016-05-09T23:35:42+08:00 ] 114.254.67.158 /index.php/Home/coin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/d8adf988456740eaec1a3e9c730eb358.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/d8adf988456740eaec1a3e9c730eb358.php 第 36 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/d8adf988456740eaec1a3e9c730eb358.php 第 37 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/d8adf988456740eaec1a3e9c730eb358.php 第 58 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/d8adf988456740eaec1a3e9c730eb358.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2016-05-09T23:35:43+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-05-09T23:35:46+08:00 ] 114.254.67.158 /index.php/Home/opus/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 4  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `opus` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `opus` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT * FROM `opus` ORDER BY dateline desc LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `opus_img` [ RunTime:0.0007s ]
+SQL: SELECT `data` FROM `opus_img` WHERE ( 1=1 AND oid='25' )  [ RunTime:0.0005s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `data` FROM `opus_img` WHERE ( 1=1 AND oid='24' )  [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `data` FROM `opus_img` WHERE ( 1=1 AND oid='23' )  [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `data` FROM `opus_img` WHERE ( 1=1 AND oid='22' )  [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 182 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2016-05-09T23:35:47+08:00 ] 114.254.67.158 /index.php/Home/story/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `story` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `story` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT `id`,`title`,`content`,`dateline` FROM `story` ORDER BY dateline desc LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `story_img` [ RunTime:0.0008s ]
+SQL: SELECT `data` FROM `story_img` WHERE ( 1=1 AND sid='27' )  [ RunTime:0.0006s ]
+SQL: SELECT `data` FROM `story_img` WHERE ( 1=1 AND sid='26' )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 182 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 182 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2016-05-09T23:35:53+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:35:54+08:00 ] 114.254.67.158 /index.php/Home/account/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`user`,`mobile` FROM `user` WHERE `id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT `name`,`cover`,`address`,`content`,`mobile` FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`name`,`content`,`class_id`,`sex` FROM `teacher` WHERE `school_id` = 4  [ RunTime:0.0005s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='140' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='141' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='71' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='142' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='71' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='143' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='73' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='160' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='161' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='70' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-05-09T23:36:03+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-05-09T23:36:13+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2016-05-09T23:36:19+08:00 ] 114.254.67.158 /index.php/Home/points/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `infos` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `infos` WHERE `school_id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT `id`,`title`,`content`,`dateline` FROM `infos` WHERE `school_id` = 4 ORDER BY dateline desc LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `infos_img` [ RunTime:0.0007s ]
+SQL: SELECT `data` FROM `infos_img` WHERE ( 1=1 AND iid='28' )  [ RunTime:0.0004s ]
+SQL: SELECT `data` FROM `infos_img` WHERE ( 1=1 AND iid='23' )  [ RunTime:0.0004s ]
+SQL: SELECT `data` FROM `infos_img` WHERE ( 1=1 AND iid='22' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 182 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 182 行.
+NOTIC: [8] Undefined index: create /data/wwwroot/zzb/Application/Home/Controller/HomeController.class.php 第 182 行.
+ERR: 模板不存在:./Application/Home/View/Default/Points/index.html
+
+[ 2016-05-09T23:36:23+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-05-09T23:36:33+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-05-09T23:36:43+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:36:53+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:37:03+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:37:13+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:37:15+08:00 ] 114.254.67.158 /index.php/Home/account/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`user`,`mobile` FROM `user` WHERE `id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT `name`,`cover`,`address`,`content`,`mobile` FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`name`,`content`,`class_id`,`sex` FROM `teacher` WHERE `school_id` = 4  [ RunTime:0.0005s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='140' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0006s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='141' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='71' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='142' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='71' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='143' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='73' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='160' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='161' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='70' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2016-05-09T23:37:16+08:00 ] 114.254.67.158 /index.php/Home/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2016-05-09T23:37:16+08:00 ] 114.254.67.158 /index.php/Home/child/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 4  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `child` WHERE `school_id` = 4 AND `state` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT * FROM `child` WHERE `school_id` = 4 AND `state` = 1 LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT `user`,`mobile` FROM `user` WHERE ( 1=1 AND id='115' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user`,`mobile` FROM `user` WHERE ( 1=1 AND id='116' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user`,`mobile` FROM `user` WHERE ( 1=1 AND id='130' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='70' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user`,`mobile` FROM `user` WHERE ( 1=1 AND id='131' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user`,`mobile` FROM `user` WHERE ( 1=1 AND id='134' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user`,`mobile` FROM `user` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user`,`mobile` FROM `user` WHERE ( 1=1 AND id='138' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-05-09T23:37:23+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:37:33+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2016-05-09T23:37:43+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-05-09T23:37:53+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:38:01+08:00 ] 114.254.67.158 /index.php/Home/Teacher/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 4  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `school_id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT `id`,`uid`,`name`,`content`,`sex`,`class_id` FROM `teacher` WHERE `school_id` = 4 LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='140' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='141' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='71' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='142' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='71' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='143' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='73' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='160' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user`,`mobile`,`email`,`cover` FROM `user` WHERE ( 1=1 AND id='161' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='70' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2016-05-09T23:38:03+08:00 ] 114.254.67.158 /index.php/Home/child/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`class_name` FROM `class` WHERE `school_id` = 4  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `child` WHERE `school_id` = 4 AND `state` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT * FROM `child` WHERE `school_id` = 4 AND `state` = 1 LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT `user`,`mobile` FROM `user` WHERE ( 1=1 AND id='115' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user`,`mobile` FROM `user` WHERE ( 1=1 AND id='116' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user`,`mobile` FROM `user` WHERE ( 1=1 AND id='130' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='70' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user`,`mobile` FROM `user` WHERE ( 1=1 AND id='131' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `user`,`mobile` FROM `user` WHERE ( 1=1 AND id='134' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user`,`mobile` FROM `user` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user`,`mobile` FROM `user` WHERE ( 1=1 AND id='138' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `class_name` FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:38:03+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2016-05-09T23:38:12+08:00 ] 114.254.67.158 /index.php/Home/child/getone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0013s ]
+SQL: SELECT `uid`,`card` FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`nick_name`,`email`,`mobile`,`rule1_name`,`rule2_name`,`sex`,`birthday`,`class_id` FROM `user` WHERE `id` = 115 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-05-09T23:38:13+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:38:23+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2016-05-09T23:38:24+08:00 ] 114.254.67.158 /index.php/Home/child/getone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`card` FROM `child` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`nick_name`,`email`,`mobile`,`rule1_name`,`rule2_name`,`sex`,`birthday`,`class_id` FROM `user` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-05-09T23:38:33+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:38:41+08:00 ] 114.254.67.158 /index.php/Home/show/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2016-05-09T23:38:41+08:00 ] 114.254.67.158 /index.php/Home/show/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+ERR: 1146:Table 'zzb.show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `show`
+ERR: 1146:Table 'zzb.show' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `show`
+
+[ 2016-05-09T23:38:43+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:38:53+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-05-09T23:39:03+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-05-09T23:39:13+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2016-05-09T23:39:23+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2016-05-09T23:39:33+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:39:43+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:39:53+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2016-05-09T23:40:03+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2016-05-09T23:40:13+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-05-09T23:40:23+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2016-05-09T23:40:33+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:40:43+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:40:53+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2016-05-09T23:41:03+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-05-09T23:41:13+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-05-09T23:41:23+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2016-05-09T23:41:27+08:00 ] 114.254.67.158 /index.php/Home/coin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/d8adf988456740eaec1a3e9c730eb358.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/d8adf988456740eaec1a3e9c730eb358.php 第 36 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/d8adf988456740eaec1a3e9c730eb358.php 第 37 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/d8adf988456740eaec1a3e9c730eb358.php 第 58 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/d8adf988456740eaec1a3e9c730eb358.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-05-09T23:41:29+08:00 ] 114.254.67.158 /index.php/Home/habit/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_article_list` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_article_list` WHERE `article_id` = 15 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_article_list` WHERE `article_id` = 15 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 35 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 36 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2016-05-09T23:41:33+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:41:39+08:00 ] 114.254.67.158 /index.php/Home/Habit/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `pay_article_list` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Home/Common/function.php 第 18 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 1,1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_article_list` WHERE `article_id` = 27 ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 115 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_article_list` WHERE `article_id` = 27 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 35 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 36 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-05-09T23:41:40+08:00 ] 114.254.67.158 /index.php/Home/Habit/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `pay_article_list` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_article_list` WHERE `article_id` = 15 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_article_list` WHERE `article_id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 35 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 36 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-05-09T23:41:41+08:00 ] 114.254.67.158 /index.php/Home/Habit/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pay_article_list` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Home/Common/function.php 第 18 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 1,1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_article_list` WHERE `article_id` = 27 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `id` = 114 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 115 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_article_list` WHERE `article_id` = 27 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 35 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 36 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2016-05-09T23:41:42+08:00 ] 114.254.67.158 /index.php/Home/Habit/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_article_list` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_article_list` WHERE `article_id` = 15 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_article_list` WHERE `article_id` = 15 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 35 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 36 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2016-05-09T23:41:43+08:00 ] 114.254.67.158 /index.php/Home/Habit/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_article_list` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Home/Common/function.php 第 18 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 1,1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_article_list` WHERE `article_id` = 27 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 114 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 115 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_article_list` WHERE `article_id` = 27 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 35 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 36 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2016-05-09T23:41:43+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-05-09T23:41:44+08:00 ] 114.254.67.158 /index.php/Home/Habit/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_article_list` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_article_list` WHERE `article_id` = 15 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_article_list` WHERE `article_id` = 15 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 35 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 36 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2016-05-09T23:41:46+08:00 ] 114.254.67.158 /index.php/Home/Habit/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_article_list` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Home/Common/function.php 第 18 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 1,1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_article_list` WHERE `article_id` = 27 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `id` = 114 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 115 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_article_list` WHERE `article_id` = 27 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 35 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 36 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-05-09T23:41:53+08:00 ] 114.254.67.158 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-05-09T23:41:54+08:00 ] 114.254.67.158 /index.php/Home/Habit/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_article_list` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_article_list` WHERE `article_id` = 15 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_article_list` WHERE `article_id` = 15 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 35 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 36 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000117s ]
+
+[ 2016-05-09T23:41:56+08:00 ] 114.254.67.158 /index.php/Home/Habit/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_article_list` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: f /data/wwwroot/zzb/Application/Home/Common/function.php 第 18 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 1,1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_article_list` WHERE `article_id` = 27 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 114 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 115 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_article_list` WHERE `article_id` = 27 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 35 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 36 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-05-09T23:41:57+08:00 ] 114.254.67.158 /index.php/Home/Habit/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `pay_articles` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_article_list` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_articles` WHERE `teacher_id` = 114 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist /data/wwwroot/zzb/Application/Home/Common/function.php 第 16 行.
+NOTIC: [8] Undefined variable: n /data/wwwroot/zzb/Application/Home/Common/function.php 第 33 行.
+SQL: SELECT * FROM `pay_articles` WHERE `teacher_id` = 114 ORDER BY id desc LIMIT 0,1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `articles` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `child` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `class` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_article_list` WHERE `article_id` = 15 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_article_list` WHERE `article_id` = 15 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: Search /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 20 行.
+NOTIC: [8] Undefined index: name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 35 行.
+NOTIC: [8] Undefined index: info /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 36 行.
+NOTIC: [8] Use of undefined constant search_name - assumed 'search_name' /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+NOTIC: [8] Undefined variable: search_name /data/wwwroot/zzb/Application/Runtime/Cache/Home/1d8e241ce3d30fe47d93abc857d15da9.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+

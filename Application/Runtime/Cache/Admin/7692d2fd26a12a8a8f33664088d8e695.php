@@ -1,0 +1,59 @@
+<?php if (!defined('THINK_PATH')) exit();?><div class="header">
+    <!--<h1 class="page-header">-->
+    <!--&lt;!&ndash;Dashboard <small>Welcome John Doe</small>&ndash;&gt;-->
+    <!--</h1>-->
+    <ol class="breadcrumb">
+        <li><a href="#">个人设置</a></li>
+        <li class="active">资料设置</li>
+    </ol>
+</div>
+<div class="header" style="height: 1800px;">
+    <div class="modal-header">
+
+    </div>
+    <div class="modal-body">
+        <form role="form" id="update">
+            <div class="form-group">
+                <label for="name">管理员账号</label>
+                <input type="text" class="form-control" name="manager"
+                       placeholder="请输入账号" value="<?php echo ($Set["manager"]); ?>" disabled="disabled">
+            </div>
+            <div class="form-group">
+                <label for="name">管理员密码</label>
+                <input type="password" class="form-control" name="password"
+                       placeholder="请输入密码">
+            </div>
+            <div class="form-group">
+                <label for="name">代理商姓名</label>
+                <input type="input" class="form-control" name="real_name"
+                       placeholder="请输入姓名" value="<?php echo ($Set["real_name"]); ?>">
+            </div>
+            <div class="form-group">
+                <label for="name">代理名</label>
+                <input type="input" class="form-control" name="name"
+                       placeholder="请输入代理名" value="<?php echo ($Set["name"]); ?>">
+            </div>
+            <div class="form-group">
+                <label for="name">联系电话</label>
+                <input type="input" class="form-control" name="mobile"
+                       placeholder="请输入联系电话" value="<?php echo ($Set["mobile"]); ?>">
+            </div>
+            <div class="form-group">
+                <label for="name">地址</label>
+                <input type="input" class="form-control" name="address"
+                       placeholder="请输入地址" value="<?php echo ($Set["address"]); ?>">
+            </div>
+            <div class="form-group">
+                <label for="name">邮箱</label>
+                <input type="input" class="form-control" name="mail"
+                       placeholder="请输入邮箱" value="<?php echo ($Set["mail"]); ?>">
+            </div>
+            <input type="hidden" value="<?php echo ($Set["id"]); ?>" name="id">
+        </form>
+    </div>
+    <div class="modal-footer">
+        <!--<button type="button" class="btn btn-default btn_close" data-dismiss="modal">关闭</button>-->
+        <button type="button" class="btn btn-primary" id="up_person">保存修改</button>
+    </div>
+</div>
+<script type="text/javascript" src="/Public/Admin/js/set.js"></script>

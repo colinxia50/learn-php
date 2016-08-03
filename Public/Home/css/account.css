@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+.account{
+	background:#fff;
+	border-radius:4px;
+}
+.account h3{
+	text-align:center;
+	font-weight:bold;
+	height:50px;
+	line-height:50px;
+	border-bottom:1px solid #ccc;
+	color:#a8a8a8;
+}
+.account dl{
+	width:95%;
+	margin:0 auto;
+}
+.account dl dd{
+	height:70px;
+	line-height:70px;
+	border-bottom:1px solid #eee;
+}
+.account dl dd.last{
+	border-bottom:none;
+}
+.account dl  p{
+	font-weight:bold;
+}
+
+#myface .face{
+height:350px;
+}
+#myface .face img{
+	border:1px solid #eee;
+	height:100%;
+}
+.acc-u{
+	font-size:16px;
+	color:#999;
+	font-weight:normal;
+	padding-left:20px;
+}

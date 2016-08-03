@@ -1,0 +1,163 @@
+[ 2016-02-21T02:14:20+08:00 ] 127.0.0.1 /json/show/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [2048] Declaration of Json\Controller\ShowController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\Server\App\myApplication\037-zzb\Application\Json\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `show` [ RunTime:0.0246s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-02-21T02:14:27+08:00 ] 127.0.0.1 /json/show/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+NOTIC: [2048] Declaration of Json\Controller\ShowController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\Server\App\myApplication\037-zzb\Application\Json\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `show` [ RunTime:0.0292s ]
+SQL: SELECT * FROM `show`  [ RunTime:0.0279s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0291s ]
+SQL: SELECT * FROM `child` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `class` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.0284s ]
+
+[ 2016-02-21T02:14:56+08:00 ] 127.0.0.1 /json/show/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2048] Declaration of Json\Controller\ShowController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\Server\App\myApplication\037-zzb\Application\Json\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `show` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `show`  [ RunTime:0.0287s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `child` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.0288s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `class` WHERE ( 1=1 AND id='69' ) LIMIT 1   [ RunTime:0.0287s ]
+
+[ 2016-02-21T02:17:10+08:00 ] 127.0.0.1 /json/show/knowledge
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+NOTIC: [2048] Declaration of Json\Controller\ShowController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\Server\App\myApplication\037-zzb\Application\Json\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `knowledge` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `knowledge`  [ RunTime:0.0560s ]
+
+[ 2016-02-21T02:32:06+08:00 ] 127.0.0.1 /json/class/contact?class_id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0334s ]
+SQL: SELECT * FROM `child` WHERE `class_id` = 69  [ RunTime:0.0385s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0252s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='115' ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='116' ) LIMIT 1   [ RunTime:0.0291s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='131' ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='134' ) LIMIT 1   [ RunTime:0.0258s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0263s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='138' ) LIMIT 1   [ RunTime:0.0262s ]
+
+[ 2016-02-21T02:33:20+08:00 ] 127.0.0.1 /json/class/contact?class_id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0457s ]
+SQL: SELECT `name` FROM `child` WHERE `class_id` = 69  [ RunTime:0.0292s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0353s ]
+NOTIC: [8] Undefined index: uid E:\Server\App\myApplication\037-zzb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0577s ]
+NOTIC: [8] Undefined index: uid E:\Server\App\myApplication\037-zzb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0297s ]
+NOTIC: [8] Undefined index: uid E:\Server\App\myApplication\037-zzb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0427s ]
+NOTIC: [8] Undefined index: uid E:\Server\App\myApplication\037-zzb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0328s ]
+NOTIC: [8] Undefined index: uid E:\Server\App\myApplication\037-zzb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0293s ]
+NOTIC: [8] Undefined index: uid E:\Server\App\myApplication\037-zzb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0481s ]
+
+[ 2016-02-21T02:34:34+08:00 ] 127.0.0.1 /json/class/contact?class_id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0436s ]
+SQL: SELECT `name` FROM `child` WHERE `class_id` = 69  [ RunTime:0.0244s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0492s ]
+NOTIC: [8] Undefined index: uid E:\Server\App\myApplication\037-zzb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0253s ]
+NOTIC: [8] Undefined index: uid E:\Server\App\myApplication\037-zzb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0255s ]
+NOTIC: [8] Undefined index: uid E:\Server\App\myApplication\037-zzb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0261s ]
+NOTIC: [8] Undefined index: uid E:\Server\App\myApplication\037-zzb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0365s ]
+NOTIC: [8] Undefined index: uid E:\Server\App\myApplication\037-zzb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0248s ]
+NOTIC: [8] Undefined index: uid E:\Server\App\myApplication\037-zzb\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0576s ]
+
+[ 2016-02-21T02:34:54+08:00 ] 127.0.0.1 /json/class/contact?class_id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0451s ]
+SQL: SELECT `name`,`uid` FROM `child` WHERE `class_id` = 69  [ RunTime:0.0296s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0395s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='115' ) LIMIT 1   [ RunTime:0.0435s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='116' ) LIMIT 1   [ RunTime:0.0369s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='131' ) LIMIT 1   [ RunTime:0.0551s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='134' ) LIMIT 1   [ RunTime:0.0287s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0284s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='138' ) LIMIT 1   [ RunTime:0.0290s ]
+
+[ 2016-02-21T02:35:46+08:00 ] 127.0.0.1 /json/class/contact?class_id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0247s ]
+SQL: SELECT `name`,`uid` FROM `child` WHERE `class_id` = 69  [ RunTime:0.0285s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='115' ) LIMIT 1   [ RunTime:0.0259s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='116' ) LIMIT 1   [ RunTime:0.0251s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='131' ) LIMIT 1   [ RunTime:0.0252s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='134' ) LIMIT 1   [ RunTime:0.0248s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='136' ) LIMIT 1   [ RunTime:0.0242s ]
+SQL: SELECT * FROM `user` WHERE ( 1=1 AND id='138' ) LIMIT 1   [ RunTime:0.0384s ]
+
+[ 2016-02-21T02:47:18+08:00 ] 127.0.0.1 /json/child/result?user=15215162348
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0392s ]
+SQL: SELECT `id` FROM `user` WHERE `user` = '15215162348' LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0197s ]
+SQL: SELECT `id` FROM `child` WHERE `uid` = 116 LIMIT 1   [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `result` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `result` WHERE `uid` = 26  [ RunTime:0.0288s ]
+

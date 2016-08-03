@@ -1,0 +1,32 @@
+<table id="manage"></table>
+
+<div id="manage_tool" style="padding:5px;">
+	<div style="margin-bottom:5px;">
+		<a href="javascript:void(0)" class="easyui-linkbutton" plain="true" iconCls="icon-add" onclick="manage_tool.add();">新增</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" plain="true" iconCls="icon-edit" onclick="manage_tool.edit();">修改</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" plain="true" iconCls="icon-no" onclick="manage_tool.remove();">删除</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" plain="true" iconCls="icon-reload" onclick="manage_tool.reload();">刷新</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" plain="true" iconCls="icon-undo" onclick="manage_tool.redo();">取消选定</a>
+	</div>
+	<div style="padding:0 0 0 7px;color:#000;">
+		查询帐号:<input type="text" name="search_manager" class="textbox" style="width:110px;" id="date"/>
+	    <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-search" onclick="manage_tool.search();" style="height:22px;position:relative;top:-1px;">查询</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-undo" onclick="manage_tool.clear();" style="height:22px;position:relative;top:-1px;">清空</a>
+	</div>
+</div>
+
+
+<form id="manage_add" style="margin:0;padding:5px 0 0 25px;color:#000;">
+	<p>管理员帐号:　<input type="text" name="manager" class="textbox"　style="width:200px;"></p>
+	<p>管理员密码:　<input type="password" name="password" class="textbox" style="width:200px;"></p>
+	<p>管理员角色:　<input type="text" id="role" name="role" class="textbox" style="width:200px;"></p>
+</form>
+
+<form id="manage_edit" style="margin:0;padding:5px 0 0 25px;color:#000;">
+	<input type="hidden" name="edit_id">
+	<p>管理员帐号:　<input type="text" name="edit_manager" disabled="true" class="textbox"　style="width:200px;"></p>
+	<p>管理员密码:　<input type="password" name="edit_password" class="textbox" style="width:200px;"></p>
+	<p>管理员角色:　<input type="text" id="edit_role" name="edit_role" class="textbox" style="width:200px;"></p>
+</form>
+
+<script type="text/javascript" src="__JS__/manage.js"></script>

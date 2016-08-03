@@ -1,0 +1,50 @@
+<div class="row">
+ <div class="col-md-12 ">
+  <div class="infos">
+
+             <ol class="breadcrumb">
+			  <li>我的积分</li>
+			  <li class="active">积分列表</li>
+		     </ol>
+
+     <div class="row infos-list">
+         <div class="col-md-10 col-md-offset-1"> 
+                   <volist name="record" id="vo" >
+				      <div class="media list-content">
+						  <div class="media-left media-middle">
+						  
+							      <IF condition="$vo.is_do eq Y">   
+						          <img class="media-object" src="__IMG__/true.png" alt="" width="300">
+						        <else />
+								  <img class="media-object" src="__IMG__/false.png" alt="" width="300">			        
+						       </IF>
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading">
+						     <IF condition="$vo.is_do eq Y">   
+						          <img class="media-object" src="__IMG__/80.png" alt="" width="100">
+						        <else />
+								  <img class="media-object" src="__IMG__/0.png" alt="" width="100">			        
+						       </IF>
+						    
+						    </h4>
+						    <span class="tt">发布时间:{$vo.time}</span>
+					  </div>
+				 </volist>	
+			 <div id="page" style="text-align:center;">
+				 {$page}
+			 </div>			               
+            </div>
+         </div>
+     </div>
+  </div>
+  </div>
+  <script>
+  $(function () {
+	  $('[data-toggle="tooltip"]').tooltip()
+	}) 
+  </script>
+
+ 
+ <script type="text/javascript" src="__JS__/infos.js"></script>
+<link rel="stylesheet" type="text/css" href="__CSS__/infos.css" />

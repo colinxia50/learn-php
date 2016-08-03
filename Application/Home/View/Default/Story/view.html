@@ -1,0 +1,31 @@
+<div class="row">
+ <div class="col-md-12 ">
+  <div class="edit-story">
+              <ol class="breadcrumb">
+			  <li>幼儿知识</li>
+			  <li class="active">查看详情</li>
+		     </ol> 
+   <div class="view">
+         <h3>{$Story.title}</h3> 
+         <p class="time">{$Story.dateline}</p>    
+         
+  <div id="demo1" class="slideBox">
+    <ul class="items">
+    <volist name="Story.story_img" id="vo">
+       <li><a href="__ROOT__/{$vo.source}" target="_blank"><img src="__ROOT__/{$vo.unfold}"></a></li>
+    </volist>
+  </ul>
+  </div>                                                
+   <p class="content">{$Story.content}</p>
+   <p class="url"><a href="{$Story.url}" target="_blank">原文链接</a></p>    
+   </div >
+  
+  </div>
+  </div>
+</div>
+
+
+ <script type="text/javascript" src="__JS__/jquery.slideBox.min.js"></script>
+  <script type="text/javascript" src="__JS__/viewstory.js"></script>
+<link rel="stylesheet" type="text/css" href="__CSS__/viewstory.css" />
+<link rel="stylesheet" type="text/css" href="__CSS__/jquery.slideBox.css" />

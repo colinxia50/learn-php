@@ -1,0 +1,49 @@
+
+<div class="row">
+ <div class="col-md-12 ">
+  <div class="story">
+
+             <ol class="breadcrumb">
+			  <li>幼儿知识</li>
+			  <li class="active">幼儿知识列表</li>
+				  <if condition="isAdmin()">
+				  <li style="float:right;"><a href="javascript:void(0)" id="add-story">添加幼儿知识</a></li>
+			      </if>
+		     </ol>
+		   <div class="list">
+			<div class="row">
+			 <div class="col-md-10 col-md-offset-1">
+			 <div class='row'>
+		<volist name="Story" id="vo">
+			  <div class="col-sm-6 col-md-4">
+			    <div class="thumbnail">
+			      <img src="__ROOT__/{$vo['story_img'][0]['thumb']}" alt="">
+			      <div class="caption">
+			        <h4>{$vo.title}</h4>
+			        <p>{$vo.content}</p>
+			        <p>
+			        <a href="javascript:void(0)" class="btn btn-primary view" role="button" sid="{$vo.id}">查看</a>
+			        <if condition="isAdmin()">
+			        <a href="javascript:void(0)" class="btn btn-success edit" role="button" sid="{$vo.id}">修改</a>
+			        <a href="javascript:void(0)" class="btn btn-danger del" role="button" sid="{$vo.id}" >删除</a>
+			        </if>
+			        </p>
+			      </div>
+			    </div>
+			  </div>
+        </volist>
+         </div>			  
+       </div>			  		  
+			</div>
+		   </div>  
+		   
+		   	  <div id="page" style="text-align:center;">
+				 <nav>{$page}</nav>
+			 </div>	
+		   
+		   
+   </div>
+   </div>
+</div>		     
+ <script type="text/javascript" src="__JS__/story.js"></script>
+<link rel="stylesheet" type="text/css" href="__CSS__/story.css" />

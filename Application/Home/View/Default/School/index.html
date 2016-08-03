@@ -1,0 +1,42 @@
+<div id="school">
+<div class="row">
+  <div class="col-md-8 col-md-offset-1" style="margin-top:30px;">
+<form>
+  <div class="form-group">
+    <label for="name">学校名称</label>
+    <input type="text" class="form-control" name="school-name" value="{$School.name}">
+  </div>
+  <div class="form-group">
+    <label for="address">学校地址</label>
+    <input type="text" class="form-control" name="school-address" value="{$School.address}">
+  </div>
+  <div class="form-group">
+    <label for="mobile">联系电话</label>
+      <input type="text" class="form-control" name="school-mobile" value="{$School.mobile}">
+  </div>
+  <div class="form-group">
+    <label for="user">园长名称</label>
+      <input type="text" class="form-control" name="user" value="{$YZ}" disabled>
+  </div>
+  <div class="form-group">
+    <label for="user">校园介绍</label>
+      <textarea class="form-control" rows="3" name="school-content">{$School.content}</textarea>
+  </div>
+  <input type="hidden" name="cover"  value="{$School.cover}"/> 
+  <button type="button" class="btn btn-default" id="save">修改</button>
+</form>   
+  </div>
+  <div class="col-md-2">
+     <div class="face" style="margin-top:60px;">
+     <img src="__ROOT__/{$School.cover}" alt="" class="img-thumbnail" style="height:100px;width:100px;">
+     </div>
+     <div style="margin-top:20px;">
+       <input type="file" name="file" id="file">
+     </div>
+  </div>
+</div>
+<div class="row" style="hegiht:20px;">&nbsp;</div>
+<script type="text/javascript" src="__UPLOADIFY__/jquery.uploadify.min.js"></script>
+<link rel="stylesheet" type="text/css" href="__UPLOADIFY__/uploadify.css" />
+<script type="text/javascript" src="__JS__/school.js"></script>
+</div>
