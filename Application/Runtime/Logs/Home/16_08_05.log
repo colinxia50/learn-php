@@ -1,0 +1,147 @@
+[ 2016-08-05T20:07:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029617s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1034s ]
+SQL: SELECT `id`,`user`,`cover`,`nick_name`,`group_id`,`class_id`,`school_id`,`one` FROM `user` WHERE `user` = '15123036810' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `last_login`='1470398849' WHERE `id` = '149' [ RunTime:0.0745s ]
+SQL: SHOW COLUMNS FROM `child` [ RunTime:0.0898s ]
+SQL: SELECT * FROM `child` WHERE `uid` = 149 LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 94 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 96 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 97 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 98 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 100 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 101 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 104 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 108 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 110 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 111 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 112 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 114 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 139 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 140 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 141 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 142 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 143 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 144 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 145 行.
+NOTIC: [8] Use of undefined constant aclass - assumed 'aclass' E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 146 行.
+NOTIC: [8] Undefined variable: memus_html E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 167 行.
+NOTIC: [8] Trying to get property of non-object E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 172 行.
+NOTIC: [8] Trying to get property of non-object E:\phptools\Apache24\htdocs\zzb\Application\Home\Controller\HomeController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0662s ]
+SQL: SELECT `name` FROM `school` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.283546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.283715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008887s ]
+
+[ 2016-08-05T20:07:32+08:00 ] 127.0.0.1 /index.php/Home/articles/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.1308s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articles` WHERE `student_id` = null AND `is_pass` = 1 LIMIT 1   [ RunTime:0.0410s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Home\Common\function.php 第 16 行.
+NOTIC: [8] Undefined variable: n E:\phptools\Apache24\htdocs\zzb\Application\Home\Common\function.php 第 33 行.
+SQL: SELECT * FROM `articles` WHERE `student_id` = null AND `is_pass` = 1 ORDER BY id desc LIMIT 0,9   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2016-08-05T20:07:32+08:00 ] 127.0.0.1 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-08-05T20:07:42+08:00 ] 127.0.0.1 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-08-05T20:07:52+08:00 ] 127.0.0.1 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2016-08-05T20:08:02+08:00 ] 127.0.0.1 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2016-08-05T20:08:12+08:00 ] 127.0.0.1 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-08-05T20:08:22+08:00 ] 127.0.0.1 /index.php/Home/Index/getMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+

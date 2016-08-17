@@ -1,7 +1,7 @@
  $(function(){
 	$('#page li a').click(function(){
 		$.ajax({
-			url:ThinkPHP['MODULE']+'/Stock/index',
+			url:ThinkPHP['MODULE']+'/Books/index',
 			type:'POST',
 			data:{
 				page:$(this).attr('page'),
@@ -16,7 +16,7 @@
 	//搜索
 	$('#search').click(function(){
 		$.ajax({
-			url:ThinkPHP['MODULE']+'/Stock/index',
+			url:ThinkPHP['MODULE']+'/Books/index',
 			type:'POST',
 			data:{
 				searchText:$('#searchText').val(),
@@ -33,7 +33,7 @@
 
 	$('#del_School').click(function(){
 		$.ajax({
-			url:ThinkPHP['MODULE']+'/Stock/reMove',
+			url:ThinkPHP['MODULE']+'/Books/reMove',
 			type:'POST',
 			data:{
 				barcode:$('input[name=delid]').val(),
@@ -52,7 +52,7 @@
 			return true;
 		}
 		$.ajax({
-			url:ThinkPHP['MODULE']+'/Stock/addSchool',
+			url:ThinkPHP['MODULE']+'/Books/addSchool',
 			type:'POST',
 			data:$('#add').serialize(),
 			success:function(data,response,status){
@@ -80,7 +80,7 @@
 
 	$('.School_update').click(function(){
 		$.ajax({
-			url:ThinkPHP['MODULE']+'/Stock/getSchool',
+			url:ThinkPHP['MODULE']+'/Books/getSchool',
 			type:'POST',
 			data:{
 				sobook:$(this).attr('xid'),
@@ -104,7 +104,7 @@
 		var formdata = $('#edit').serialize();
 		formdata.id = $(this).attr('xid');
 		$.ajax({
-			url:ThinkPHP['MODULE']+'/Stock/update',
+			url:ThinkPHP['MODULE']+'/Books/update',
 			type:'POST',
 			data:formdata,
 			success:function(data,response,status){
@@ -127,27 +127,5 @@
 			}
 		});
 	});
-
-	//查询借阅人
-	$("input#schoolname").blur(function(){
-		
-		$.ajax({
-			url:ThinkPHP['MODULE']+'/Stock/getagent',
-			type:'POST',
-			data:{
-				schoolname:$('input[name=schoolname]').val(),
-			},
-			success:function(data,response,status){
-				if(data){
-					$('input[name=schoolid]').val(data);
-					$('button').prop('disabled', false);
-				}else{
-					alert('输入学校有误！请输入与您对应的学校，或检查该学校是否属于当前代理商');
-					$('#add_School').prop('disabled', true);
-
-				}
-			}
-		});
-	})
 	
 }); 

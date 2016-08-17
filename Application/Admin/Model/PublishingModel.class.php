@@ -88,6 +88,7 @@ class PublishingModel extends Model {
       'ISBN'=>I('post.ISBN'),
       'pubname'=>I('post.pubname'),
       'address'=>I('post.address'),
+      'address1'=>I('post.address1'),
       'phone'=>I('post.phone'),
       'qq'=>I('post.qq'),
       'email'=>I('post.email'),
@@ -105,6 +106,7 @@ class PublishingModel extends Model {
     $data=array(
       'id'=>I('post.id'),
       'address'=>I('post.address'),
+        'address1'=>I('post.eaddress1'),
         'ISBN'=>I('post.ISBN'),
         'pubname'=>I('post.pubname'),
         'phone'=>I('post.phone'),

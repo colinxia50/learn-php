@@ -137,4 +137,14 @@ class SchoolModel extends Model {
           return $this->getError();
         }
   }
+  
+  
+  public function getagent(){
+     $map['name']=I('post.schoolname');
+     $school= $this->where($map)->find();
+     if ($school and $school['agent']==session('admin.manager')){
+         return $school['id'];
+     }
+     return 0;
+  }
 }

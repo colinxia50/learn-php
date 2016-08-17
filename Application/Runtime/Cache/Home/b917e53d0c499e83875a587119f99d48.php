@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <title>幼儿园</title>
-<link rel="stylesheet" type="text/css" href="/zzb/Public/Home/css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="/zzb/Public/Home/css/basic.css" />
-<link rel="stylesheet" type="text/css" href="/zzb/Public/Home/css/login.css" />
+<link rel="stylesheet" type="text/css" href="/Public/Home/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/Public/Home/css/basic.css" />
+<link rel="stylesheet" type="text/css" href="/Public/Home/css/login.css" />
 </head>
 <script type="text/javascript">
 var ThinkPHP = {
-	'MODULE' : '/zzb/index.php/Home',
+	'MODULE' : '/index.php/Home',
 	'INDEX' : '<?php echo U("Index/index");?>',
 };
 </script>
@@ -23,7 +23,7 @@ var ThinkPHP = {
 	 <div class="container-fluid">
 	    <div class="navbar-header">
 	      <a class="navbar-brand" href="#">
-	        <img alt="图标" src="/zzb/Public/Home/image/icon2.jpg" width="45px" height="45px" style="margin-top: -10px;">
+	        <img alt="图标" src="/Public/Home/image/icon2.jpg" width="45px" height="45px" style="margin-top: -10px;">
 	     </a>
     </div>
   </div>
@@ -73,7 +73,7 @@ var ThinkPHP = {
 <!--</nav>-->
 </footer>
 </div>
-<script type="text/javascript" src="/zzb/Public/Home/js/jquery.min.js"></script>
-<script type="text/javascript" src="/zzb/Public/Home/js/login.js"></script>
+<script type="text/javascript" src="/Public/Home/js/jquery.min.js"></script>
+<script type="text/javascript" src="/Public/Home/js/login.js"></script>
 </body>
 </html>

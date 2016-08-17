@@ -34,10 +34,8 @@
 			alert('请输入书名/条形码');
 			return true;
 		}
-		var data= $('#add').serialize()
-		console.log(data)
 		$.ajax({
-			url:ThinkPHP['MODULE']+'/Bookborrow/addBorrow', //添加出库记录
+			url:ThinkPHP['MODULE']+'/Bookborrow/addSchool',
 			type:'POST',
 			data:$('#add').serialize(),
 			success:function(data,response,status){
@@ -47,19 +45,15 @@
 							alert('请输入2-30位的书名');
 							break;
 						case -2:
-							alert('此书已出库给该学校,搜索后在操作里 续借/增加出库数');
+							alert('此书已入库,搜索后编辑入库数量即可！');
 							break;
 						case -3:
 							alert("条码不能为空");
-							break;
-						case -4:
-							alert('该书库存不足,可在库存管理编辑该书库存！');
 							break;
 						default:
 							alert(data);
 					}
 				}else{
-					console.log(data)
 					$('#addSchool').modal('hide');
 					$('#page-wrapper').html(data);
 				}
@@ -110,7 +104,7 @@
 					
 					$('button').prop('disabled', false);
 				}else{
-					$("#sotable").replaceWith("<div class='form-group' id='sotable'><p style='color: red;'>没有此书相关信息！您是否入库了此书？。</p></div>");
+					$("#sotable").replaceWith("<div class='form-group' id='sotable'><p style='color: red;'>没有此书相关信息</p></div>");
 					  // $('#add_School').addClass('disabled'); // Disables visually
 					   $('#add_School').prop('disabled', true);
 

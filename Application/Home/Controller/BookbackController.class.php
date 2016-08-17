@@ -1,53 +1,35 @@
 <?php
-namespace Admin\Controller;
-use Think\Auth;
+namespace Home\Controller;
 
-class BookbackController extends AuthController {
+class BookbackController extends HomeController {
 
     public function index(){
-        $borrow = M('agentBorrow');
+        $borrow = M('borrow');
         $map = array();
-        if (session('admin.manager')!='admin'){
-            $map['agent_borrow.agentid'] = session('admin.id');
-            $maps['agent'] = session('admin.manager');
-            $School = M('School')->where($maps)->select();
-        }
+        $map['borrow.schoolid']=session('user_auth.school_id');
         $search = I('post.searchText');
         if(I('post.searchText')){
+            $map['user'] = array('like',"%{$search}%");
             $map['bookname'] = array('like',"%{$search}%");
             $map['barcode'] = array('like',"%{$search}%");
+            $map['nick_name'] = array('like',"%{$search}%");
             $map['name'] = array('like',"%{$search}%");
             $map['_logic'] = 'OR';
             $this->assign('searchText',I('post.searchText'));
         }
         
         $first = $this->page($borrow,$map,'page_stock',5);
-        $stockData = $borrow->field('*,agent_borrow.id')->join('bookinfo as B ON agent_borrow.bookid =B.id')->join('school as S ON agent_borrow.schoolid =S.id')->where($map)->limit($first,5)->select();
-        //echo $borrow->getLastSql();
-
+        $stockData = $borrow->field('*,borrow.id')->join('user as U ON borrow.userid =U.id')->join('bookinfo as B ON borrow.bookid =B.id')->where($map)->limit($first,5)->select();
+        // echo $borrow->getLastSql();
+        
         $this->assign('Borrow',$stockData);
-        $this->display('index_new');
+        $this->display();
         
     }
-    public function getList(){
-        if (IS_AJAX) {
-            $School=D('bookinfo');
-            $this->ajaxReturn($School->getList(I('post.page'),I('post.rows'),I('post.sort'),I('post.order'),I('post.name')));
-        }else{
-            $this->error('非法操作');
-        }
-    }
-    
 
-    
     public function update(){ 
         if (IS_AJAX) {
-            $School=M('agentBorrow');
-            
-            $bookinfos=$School->field('borrownum')
-            ->where(array('id'=>I('post.id')))
-            ->select();
-            $num = $bookinfos['borrownum'];
+            $School=M('borrow');
             $data=array(
                 'id'=>I('post.id'),
                 'ifback'=>0
@@ -64,7 +46,7 @@ class BookbackController extends AuthController {
             $books = M('bookinfo'); //库存加一
             $datas = array(
                 'id' =>I('post.bookid'),
-                'outdepot'=>array('exp',"outdepot-$num")
+                'outdepot'=>array('exp',"outdepot-1")
             );
             if ($books->create($datas)) {
                 $uid = $books->save();

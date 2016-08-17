@@ -1,0 +1,860 @@
+[ 2016-08-15T20:15:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.094569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.068060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.068233s ]
+
+[ 2016-08-15T20:15:06+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.308094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.308188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.076227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.076280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.035320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.035376s ]
+
+[ 2016-08-15T20:15:32+08:00 ] 127.0.0.1 /index.php/Admin/Login/checkManager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.5382s ]
+NOTIC: [8] Undefined index: validate E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`manager`,`name` FROM `manage` WHERE `manager` = 'admin' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0014s ]
+SQL: UPDATE `manage` SET `last_login`='1471263331',`last_ip`='2130706433' WHERE `id` = 1 [ RunTime:0.1997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002787s ]
+
+[ 2016-08-15T20:15:33+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.1034s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.1626s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0579s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('1','2','5','6','7','8')  [ RunTime:0.0291s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0777s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN ('系统管理','会员管理','习惯库管理','学校管理','代理商','图书借阅管理')  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 1  [ RunTime:0.0205s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 11  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 4  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 14  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 20  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 22  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000511s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000632s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.237895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.238075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2016-08-15T20:16:21+08:00 ] 127.0.0.1 /index.php/Admin/Stock/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `bookinfo` [ RunTime:0.0763s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0011s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `publishing` [ RunTime:0.0843s ]
+SQL: SELECT * FROM `publishing`  [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookinfo` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `bookinfo` INNER JOIN publishing ON bookinfo.ISBN = publishing.ISBN  LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2016-08-15T20:16:39+08:00 ] 127.0.0.1 /index.php/Admin/School/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0805s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `school` LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.182862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.183008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002086s ]
+
+[ 2016-08-15T20:17:04+08:00 ] 127.0.0.1 /index.php/Admin/Stock/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `bookinfo` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `publishing` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `publishing`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookinfo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `bookinfo` INNER JOIN publishing ON bookinfo.ISBN = publishing.ISBN  LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-08-15T20:17:13+08:00 ] 127.0.0.1 /index.php/Admin/Stock/getagent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `school` WHERE `name` = 'wrq' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-08-15T20:17:42+08:00 ] 127.0.0.1 /index.php/Admin/Stock/getagent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `school` WHERE `name` = 'wer' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-08-15T20:17:47+08:00 ] 127.0.0.1 /index.php/Admin/Publishing/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `publishing` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `publishing` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `publishing` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2016-08-15T20:17:51+08:00 ] 127.0.0.1 /index.php/Admin/School/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `school` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `school` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2016-08-15T20:18:17+08:00 ] 127.0.0.1 /index.php/Admin/Publishing/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `publishing` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `publishing` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `publishing` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-08-15T20:18:21+08:00 ] 127.0.0.1 /index.php/Admin/Stock/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `bookinfo` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `publishing` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `publishing`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookinfo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `bookinfo` INNER JOIN publishing ON bookinfo.ISBN = publishing.ISBN  LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2016-08-15T20:18:26+08:00 ] 127.0.0.1 /index.php/Admin/Stock/getagent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `school` WHERE `name` = 'wrqwrqw' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-08-15T20:18:43+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-08-15T20:18:43+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-08-15T20:18:50+08:00 ] 127.0.0.1 /index.php/Admin/Login/checkManager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0360s ]
+NOTIC: [8] Undefined index: validate E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`manager`,`name` FROM `manage` WHERE `manager` = 'bbbbbb' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `manage` SET `last_login`='1471263530',`last_ip`='2130706433' WHERE `id` = 27 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-08-15T20:18:50+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0014s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0011s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0012s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN () 
+
+[ 2016-08-15T20:21:15+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0005s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN () 
+
+[ 2016-08-15T20:21:19+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0010s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN () 
+
+[ 2016-08-15T20:22:03+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Bookborrow&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0506s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0011s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `school` WHERE `agent` = 'bbbbbb'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` WHERE borrow.schoolid IN ('28') LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT *,borrow.id FROM `borrow` INNER JOIN user as U ON borrow.userid =U.id INNER JOIN bookinfo as B ON borrow.bookid =B.id INNER JOIN school as S ON borrow.schoolid =S.id  WHERE borrow.schoolid IN ('28') LIMIT 0,2   [ RunTime:0.0735s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2016-08-15T20:22:42+08:00 ] 127.0.0.1 /index.php?m=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0009s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN () 
+
+[ 2016-08-15T20:24:06+08:00 ] 127.0.0.1 /index.php?m=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0011s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0009s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN () 
+
+[ 2016-08-15T20:24:08+08:00 ] 127.0.0.1 /index.php?m=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0008s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN () 
+
+[ 2016-08-15T20:24:48+08:00 ] 127.0.0.1 /index.php?m=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0013s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0009s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN () 
+
+[ 2016-08-15T20:26:06+08:00 ] 127.0.0.1 /index.php?m=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0012s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0009s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN () 
+
+[ 2016-08-15T20:28:00+08:00 ] 127.0.0.1 /index.php?m=Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001923s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('1','2','7','8')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN ('系统管理','会员管理','习惯库管理','图书借阅管理')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('1','2','7','8') AND `nid` = 1  [ RunTime:0.0283s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('1','2','7','8') AND `nid` = 4  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('1','2','7','8') AND `nid` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('1','2','7','8') AND `nid` = 22  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001561s ]
+
+[ 2016-08-15T20:28:53+08:00 ] 127.0.0.1 /index.php/Admin/Stock/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `bookinfo` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `school` WHERE `agent` = 'bbbbbb'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `publishing` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `publishing`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookinfo` WHERE `schoolid` IN ('28') LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `bookinfo` INNER JOIN publishing ON bookinfo.ISBN = publishing.ISBN  WHERE `schoolid` IN ('28') LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-08-15T20:29:04+08:00 ] 127.0.0.1 /index.php/Admin/Stock/getagent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `school` WHERE `name` = 'wqr' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-08-15T20:29:39+08:00 ] 127.0.0.1 /index.php/Admin/Stock/getagent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `school` WHERE `name` = '' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-08-15T20:29:43+08:00 ] 127.0.0.1 /index.php/Admin/Stock/getagent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `school` WHERE `name` = '' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-08-15T20:29:45+08:00 ] 127.0.0.1 /index.php/Admin/Stock/getagent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `school` WHERE `name` = '' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-08-15T20:30:11+08:00 ] 127.0.0.1 /index.php/Admin/Stock/getagent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `school` WHERE `name` = 'qwrqr' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-08-15T20:30:19+08:00 ] 127.0.0.1 /index.php/Admin/Stock/getagent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002024s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `school` WHERE `name` = 'qwrqr' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-08-15T20:30:30+08:00 ] 127.0.0.1 /index.php/Admin/Stock/getagent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `school` WHERE `name` = 'qwrqr' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-08-15T20:30:58+08:00 ] 127.0.0.1 /index.php/Admin/Stock/getagent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE `name` = 'qwrqr' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-08-15T20:33:51+08:00 ] 127.0.0.1 /index.php/Admin/Stock/getagent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `school` WHERE `name` = 'qwrqr' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-08-15T20:33:54+08:00 ] 127.0.0.1 /index.php/Admin/Stock/getagent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `school` WHERE `name` = 'qwrqr' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-08-15T20:35:39+08:00 ] 127.0.0.1 /index.php/Admin/Stock/getagent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `school` WHERE `name` = 'wrqwrqw' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-08-15T20:35:48+08:00 ] 127.0.0.1 /index.php/Admin/Stock/getagent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE `name` = 'wrqwrq' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-08-15T21:39:55+08:00 ] 127.0.0.1 /index.php/Admin/Stock/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `bookinfo` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0014s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0014s ]
+SQL: SELECT `id` FROM `school` WHERE `agent` = 'bbbbbb'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `publishing` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `publishing`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookinfo` WHERE `schoolid` IN ('28') LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `bookinfo` INNER JOIN publishing ON bookinfo.ISBN = publishing.ISBN  WHERE `schoolid` IN ('28') LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2016-08-15T21:39:56+08:00 ] 127.0.0.1 /index.php/Admin/Stock/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `bookinfo` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `school` WHERE `agent` = 'bbbbbb'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `publishing` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `publishing`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookinfo` WHERE `schoolid` IN ('28') LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `bookinfo` INNER JOIN publishing ON bookinfo.ISBN = publishing.ISBN  WHERE `schoolid` IN ('28') LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-08-15T21:39:58+08:00 ] 127.0.0.1 /index.php/Admin/Stock/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `bookinfo` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `school` WHERE `agent` = 'bbbbbb'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `publishing` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `publishing`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookinfo` WHERE `schoolid` IN ('28') LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `bookinfo` INNER JOIN publishing ON bookinfo.ISBN = publishing.ISBN  WHERE `schoolid` IN ('28') LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-08-15T21:40:15+08:00 ] 127.0.0.1 /index.php/Admin/Bookborrow/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `school` WHERE `agent` = 'bbbbbb'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` WHERE borrow.schoolid IN ('28') LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT *,borrow.id FROM `borrow` INNER JOIN user as U ON borrow.userid =U.id INNER JOIN bookinfo as B ON borrow.bookid =B.id INNER JOIN school as S ON borrow.schoolid =S.id  WHERE borrow.schoolid IN ('28') LIMIT 0,2   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-08-15T21:50:48+08:00 ] 127.0.0.1 /index.php/Admin/Stock/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `bookinfo` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `school` WHERE `agent` = 'bbbbbb'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `publishing` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `publishing`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookinfo` WHERE `schoolid` IN ('28') LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `bookinfo` INNER JOIN publishing ON bookinfo.ISBN = publishing.ISBN  WHERE `schoolid` IN ('28') LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2016-08-15T21:51:41+08:00 ] 127.0.0.1 /index.php/Admin/Bookborrow/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0011s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `school` WHERE `agent` = 'bbbbbb'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` WHERE borrow.schoolid IN ('28') LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT *,borrow.id FROM `borrow` INNER JOIN user as U ON borrow.userid =U.id INNER JOIN bookinfo as B ON borrow.bookid =B.id INNER JOIN school as S ON borrow.schoolid =S.id  WHERE borrow.schoolid IN ('28') LIMIT 0,2   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+

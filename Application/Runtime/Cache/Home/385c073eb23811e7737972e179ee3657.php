@@ -8,6 +8,9 @@
 	  <li role="presentation"><a href="#" sf="2">班级管理</a></li>
 	  <li role="presentation"><a href="#" sf="3">学校信息</a></li>
 	  <li role="presentation"><a href="#" sf="4">缴费</a></li>
+	  <li role="presentation"><a href="#" sf="5">图书管理</a></li>
+	  <li role="presentation"><a href="#" sf="6">借书</a></li>
+	  <li role="presentation"><a href="#" sf="7">还书</a></li>
     </ul>
      <div class="conn">
      		     <div id="member">

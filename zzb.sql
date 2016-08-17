@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50711
 File Encoding         : 65001
 
-Date: 2016-08-04 00:40:04
+Date: 2016-08-18 06:46:19
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -61,6 +61,39 @@ INSERT INTO `advert` VALUES ('29', '24', '啊啊啊啊', '三大大啊', '234342
 INSERT INTO `advert` VALUES ('30', '25', '赞助新代理', '哈哈哈哈', '432432323', '1100', '0.00', '1', '2016-07-22 12:53:45');
 INSERT INTO `advert` VALUES ('31', '26', '3633', '新督路沒ㄌ', '1258963200', '520', '0.00', '1', '2016-07-22 12:53:41');
 INSERT INTO `advert` VALUES ('34', '34', '张魁', '上海市', '11223213', '211', '100.00', '1', '2016-07-22 13:09:57');
+
+-- ----------------------------
+-- Table structure for agent_borrow
+-- ----------------------------
+DROP TABLE IF EXISTS `agent_borrow`;
+CREATE TABLE `agent_borrow` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `agentid` int(10) unsigned DEFAULT NULL,
+  `bookid` int(10) DEFAULT NULL,
+  `rental` int(10) DEFAULT NULL COMMENT '租书费用',
+  `schoolid` int(10) DEFAULT NULL,
+  `borrowTime` date DEFAULT NULL,
+  `backTime` date DEFAULT NULL,
+  `borrownum` int(11) DEFAULT NULL COMMENT '借给学校书的数量',
+  `operator` varchar(30) DEFAULT NULL,
+  `ifback` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of agent_borrow
+-- ----------------------------
+INSERT INTO `agent_borrow` VALUES ('1', '27', '6', '23', '24', '2007-01-01', '2016-07-28', '10', 'Tsoft', '1');
+INSERT INTO `agent_borrow` VALUES ('2', '26', '2', '32', '20', '2007-12-06', '2016-07-30', '20', 'Tsoft', '1');
+INSERT INTO `agent_borrow` VALUES ('3', '26', '2', '34', '27', '2007-12-07', '2008-01-06', '30', 'Tsoft', '0');
+INSERT INTO `agent_borrow` VALUES ('4', '27', '26', '27', '28', '2007-12-06', '2016-07-29', '40', 'Tsoft', '0');
+INSERT INTO `agent_borrow` VALUES ('5', '27', '5', '45', '28', '2007-12-05', '2016-07-29', '50', 'Tsoft', '1');
+INSERT INTO `agent_borrow` VALUES ('6', '26', '20', '12', '20', '2007-12-06', '2007-12-06', '60', 'Tsoft', '1');
+INSERT INTO `agent_borrow` VALUES ('7', '27', '5', '34', '24', '2007-12-06', '2007-12-06', '70', 'Tsoft', '1');
+INSERT INTO `agent_borrow` VALUES ('8', '26', '20', '22', '27', '2007-12-06', '2008-01-05', '80', 'Tsoft', '1');
+INSERT INTO `agent_borrow` VALUES ('9', '27', '6', '7', '28', '2007-12-06', '2008-01-05', '90', 'Tsoft', '1');
+INSERT INTO `agent_borrow` VALUES ('10', '26', '20', '3', '20', '2007-12-06', '2007-12-06', '100', 'Tsoft', '1');
+INSERT INTO `agent_borrow` VALUES ('11', '27', '27', '12', '28', '2016-08-18', '2016-09-03', '56', null, '1');
 
 -- ----------------------------
 -- Table structure for articles
@@ -118,14 +151,15 @@ CREATE TABLE `auth_group` (
   `title` char(100) NOT NULL DEFAULT '',
   `status` tinyint(1) NOT NULL DEFAULT '1',
   `rules` char(80) NOT NULL DEFAULT '',
+  `rules1` char(80) DEFAULT NULL COMMENT '保存无权限访问的 二级菜单id ',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of auth_group
 -- ----------------------------
-INSERT INTO `auth_group` VALUES ('13', '超级管理员', '1', '1,2,5,6,7,8');
-INSERT INTO `auth_group` VALUES ('8', '代理商', '1', '5,6,8');
+INSERT INTO `auth_group` VALUES ('13', '超级管理员', '1', '1,2,5,6,7,8', null);
+INSERT INTO `auth_group` VALUES ('8', '代理商', '1', '1,2,7,8', '17,23');
 
 -- ----------------------------
 -- Table structure for auth_group_access
@@ -223,6 +257,8 @@ INSERT INTO `balance_info` VALUES ('4', '192', '2', '30', '30', '2016-07-12 11:0
 -- ----------------------------
 DROP TABLE IF EXISTS `bookinfo`;
 CREATE TABLE `bookinfo` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `agentid` int(11) DEFAULT NULL,
   `barcode` varchar(30) DEFAULT NULL,
   `bookname` varchar(70) DEFAULT NULL,
   `typeid` int(10) unsigned DEFAULT NULL,
@@ -236,20 +272,21 @@ CREATE TABLE `bookinfo` (
   `number` int(11) DEFAULT NULL COMMENT '总数量',
   `outdepot` int(11) DEFAULT '0' COMMENT '出库数',
   `storage` int(10) unsigned DEFAULT NULL,
-  `inTime` timestamp NULL DEFAULT NULL,
+  `inTime` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
   `operator` varchar(30) DEFAULT NULL,
   `del` tinyint(1) DEFAULT '0',
-  `id` int(11) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=28 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of bookinfo
 -- ----------------------------
-INSERT INTO `bookinfo` VALUES ('123456789', 'PHP数据库系统开发完全手册', '1', '邹天思、潘凯华、刘中华', 'me', '7-121', '12.00', '65.00', '530', '46', '666', '2', '545', '2015-12-06 00:00:00', 'Tsoft', '0', '5');
-INSERT INTO `bookinfo` VALUES ('123454321', 'PHP程序开发范例宝典', '2', '邹天思、潘凯华', 'hehe', '7-111', '13.00', '89.00', '730', '46', '234', '1', '299', '2015-12-07 02:02:58', 'Tsoft', '0', '6');
-INSERT INTO `bookinfo` VALUES ('987654321', 'PHP函数参考大全', '3', '邹天思、潘凯华', 'me', '7-115', '14.00', '99.00', '950', '46', '123', '3', '799', '2015-11-06 22:58:58', 'mr', '0', '2');
-INSERT INTO `bookinfo` VALUES ('9787115154101', 'Visual Basic控件参考大全', '5', '高春艳、刘彬彬', '无', '7-115', '33.00', '86.00', '777', '50', '65', '2', '10', '2015-12-04 23:58:58', 'Tsoft', '0', '20');
+INSERT INTO `bookinfo` VALUES ('5', '27', '123456789', 'PHP数据库系统开发完全手册', '1', '邹天思、潘凯华、刘中华', 'me', '7-121', '12.00', '65.00', '530', '46', '666', '120', '545', '2016-08-18 01:43:46', 'Tsoft', '0');
+INSERT INTO `bookinfo` VALUES ('6', '27', '123454321', 'PHP程序开发范例宝典', '2', '邹天思、潘凯华', 'hehe', '7-111', '13.00', '89.00', '730', '46', '234', '96', '299', '2016-08-18 05:42:47', 'Tsoft', '0');
+INSERT INTO `bookinfo` VALUES ('2', '28', '66666666', '健康活力', '3', '邹天思、潘凯华', 'me', '7-115', '12.00', '34.00', '950', '46', '623', '50', '799', '2016-08-18 01:41:32', 'mr', '0');
+INSERT INTO `bookinfo` VALUES ('20', '28', '9787115154101', 'Visual Basic控件参考大全', '5', '高春艳、刘彬彬', '无', '7-115', '33.00', '86.00', '777', '50', '659', '180', '10', '2016-08-18 01:42:56', 'Tsoft', '0');
+INSERT INTO `bookinfo` VALUES ('26', '27', '5454545', '审判城堡', null, null, null, '7-115', '12.00', '16.50', null, null, '544', '40', null, '2016-08-18 01:46:58', null, '0');
+INSERT INTO `bookinfo` VALUES ('27', '27', '9658586466', 'bbbbbb的书', null, null, null, '7-115', '230.00', '22.00', null, null, '708', '56', null, '2016-08-18 04:09:33', null, '0');
 
 -- ----------------------------
 -- Table structure for borrow
@@ -273,8 +310,8 @@ CREATE TABLE `borrow` (
 -- ----------------------------
 INSERT INTO `borrow` VALUES ('1', '156', '6', '23', '4', '2007-01-01', '2016-07-28', 'Tsoft', '1');
 INSERT INTO `borrow` VALUES ('2', '157', '2', '32', '5', '2007-12-06', '2016-07-30', 'Tsoft', '1');
-INSERT INTO `borrow` VALUES ('3', '158', '2', '34', '20', '2007-12-07', '2008-01-06', 'Tsoft', '0');
-INSERT INTO `borrow` VALUES ('4', '157', '20', '27', '20', '2007-12-06', '2016-07-29', 'Tsoft', '0');
+INSERT INTO `borrow` VALUES ('3', '158', '2', '34', '28', '2007-12-07', '2008-01-06', 'Tsoft', '0');
+INSERT INTO `borrow` VALUES ('4', '157', '20', '27', '4', '2007-12-06', '2016-07-29', 'Tsoft', '0');
 INSERT INTO `borrow` VALUES ('5', '157', '2', '45', '4', '2007-12-05', '2016-07-29', 'Tsoft', '1');
 INSERT INTO `borrow` VALUES ('6', '158', '20', '12', '4', '2007-12-06', '2007-12-06', 'Tsoft', '1');
 INSERT INTO `borrow` VALUES ('7', '158', '20', '34', '5', '2007-12-06', '2007-12-06', 'Tsoft', '1');
@@ -700,11 +737,11 @@ CREATE TABLE `manage` (
 -- ----------------------------
 -- Records of manage
 -- ----------------------------
-INSERT INTO `manage` VALUES ('1', 'admin', '7c4a8d09ca3762af61e59520943dc26494f8941b', '', '0', '0', '0', '', '不是代理23', '0', '0', '0', '0', '180043223', '英志223', 'dsaa@qq.com23', '1463244423', '1470205081', '2130706433', 'admin');
+INSERT INTO `manage` VALUES ('1', 'admin', '7c4a8d09ca3762af61e59520943dc26494f8941b', '', '0', '0', '0', '', '不是代理23', '0', '0', '0', '0', '180043223', '英志223', 'dsaa@qq.com23', '1463244423', '1471263331', '2130706433', 'admin');
 INSERT INTO `manage` VALUES ('23', 'testAdmin', '7c4a8d09ca3762af61e59520943dc26494f8941b', '3', '0', '0', '0', '0', '', '0', '0', '0', '0', '', '', '', '1463221127', '0', '0', 'admin');
 INSERT INTO `manage` VALUES ('24', 'dailishang', '7c4a8d09ca3762af61e59520943dc26494f8941b', '南七家2', '0', '0', '0', '79', '衣英志代理商2', '948', '0', '0', '948', '18500635782', '衣英志2', '846828918@qq.com2', '1463228272', '0', '0', 'admin');
-INSERT INTO `manage` VALUES ('26', '999', '7c4a8d09ca3762af61e59520943dc26494f8941b', '成都青洋区', '0', '0', '0', '10', '123', '52', '0', '0', '52', '15836952', '1233333', '6583205552@qq.com', '1468670434', '1468950109', '1987237174', 'admin');
-INSERT INTO `manage` VALUES ('27', 'bbbbbb', '7c4a8d09ca3762af61e59520943dc26494f8941b', '--', '0', '0', '0', '100', 'bbbbbb', '0', '1', '0', '0', '13333333333', 'bbbbbb', 'aaaaa@aa.com', '1468672810', '1470193027', '2130706433', 'admin');
+INSERT INTO `manage` VALUES ('26', 'cccccc', '7c4a8d09ca3762af61e59520943dc26494f8941b', '成都青洋区', '0', '0', '0', '10', '123', '52', '0', '0', '52', '15836952', '1233333', '6583205552@qq.com', '1468670434', '1468950109', '1987237174', 'admin');
+INSERT INTO `manage` VALUES ('27', 'bbbbbb', '7c4a8d09ca3762af61e59520943dc26494f8941b', '--', '0', '0', '0', '100', 'bbbbbb', '0', '1', '0', '0', '13333333333', 'bbbbbb', 'aaaaa@aa.com', '1468672810', '1471438510', '2130706433', 'admin');
 INSERT INTO `manage` VALUES ('34', 'zhangkui', '7c4a8d09ca3762af61e59520943dc26494f8941b', '河南省-信阳市-固始县', '16', '166', '1499', '', 'zhangkui', '10', '1', '0', '0', '111', 'zhangkui', '', '1469078265', '0', '0', 'admin');
 INSERT INTO `manage` VALUES ('35', '111', '3f196cfb6c4cffe3002c0495a1bc822521b6aa36', '', '18', '193', '1719', '0', '1111', '0', '1', '0', '0', '111', '111111111', '', '1469081731', '0', '0', 'admin');
 
@@ -950,21 +987,23 @@ CREATE TABLE `publishing` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `ISBN` varchar(20) DEFAULT NULL,
   `pubname` varchar(30) DEFAULT NULL,
+  `address1` varchar(120) DEFAULT NULL,
   `address` varchar(120) DEFAULT NULL,
   `phone` varchar(30) DEFAULT NULL,
   `qq` varchar(20) DEFAULT NULL,
   `email` varchar(30) DEFAULT NULL,
   `contacts` varchar(30) DEFAULT NULL COMMENT '联系人',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of publishing
 -- ----------------------------
-INSERT INTO `publishing` VALUES ('1', '7-115', '清华出版社', '北京', '15151515151', '43243242', '876548@qq.com', '王社长');
-INSERT INTO `publishing` VALUES ('2', '7-111', '机械工业出版', '江苏', '15151515151', '432355', '43454@qq.com', '李社长');
-INSERT INTO `publishing` VALUES ('3', '7-121', '人民邮电出版社', '湖北', '15151515151', '434525', '987987@qq.com', '赵社长');
-INSERT INTO `publishing` VALUES ('4', '100', '商务印书馆 ', '北京市-北京市-西城区', '15031234341', '43543543', '43243252@qq.com', '赵馆长');
+INSERT INTO `publishing` VALUES ('1', '7-115', '清华出版社', '上地三路11号', '北京-北京市-海淀区', '15151515151', '43243242', '876548@qq.com', '王社长');
+INSERT INTO `publishing` VALUES ('2', '7-111', '机械工业出版', '上地三路11号', '江苏-无锡市-崇安区', '15151515151', '432355', '43454@qq.com', '李社长');
+INSERT INTO `publishing` VALUES ('3', '7-121', '人民邮电出版社', '上地三路11号', '湖北-武汉市-洪山区', '15151515151', '434525', '987987@qq.com', '赵社长');
+INSERT INTO `publishing` VALUES ('4', '100', '商务印书馆 ', '上地三路11号', '北京市-北京市-西城区', '15031234341', '43543543', '43243252@qq.com', '赵馆长');
+INSERT INTO `publishing` VALUES ('5', '535532', '河北出版社', '胜利二路', '河北省-唐山市-路北区', '15134563453', '54353454', '5435435@qq.com', '小花老师');
 
 -- ----------------------------
 -- Table structure for result
@@ -1026,10 +1065,10 @@ CREATE TABLE `school` (
 INSERT INTO `school` VALUES ('4', 'admin', '建湖县2222', '重庆沙坪坝区', 'Marvel公司的历史可以追溯到1939年。当时公司名\n漫威333\n为及时漫画（Timely Comics）；1951年更名为亚特拉斯漫画（Atlas Comics），而在1961年正式更名为Marvel Comics，并确定了正式的标记：在漫画封面的左上角，设置一个长方框，里面有着当期主角的形象，下面是“Marvel Comics Group”的字样。因为Marvel有“惊奇、奇迹”的意思，所以在中国一度被称为“惊奇漫画”，2010年9月Marvel将中文名称正式定为“漫威”。2011年4月29日，在第七届中国国际动漫产业博览会B馆漫威展区里，Marvel宣布其中文名“漫威”正式登陆中国。\n漫威的创立者是出版商马丁·古德曼，古德曼早先致力于创办通俗杂志，题材涵盖西部故事、侦探、冒险和科幻等许多方面。到1938年，他决定寻找新的发展方向——新奇，华丽，还要有引人入胜的激烈场面——漫画正是这样的东西。尽管当时DC漫画公司已经抢得了先机，推出了两大王牌角色超人和蝙蝠侠，不过凭借新奇的点子和精彩的创意，漫威还是独辟蹊径，创造出了令人难忘的新角色。\n1939年，一本叫做《Motion Pictures Funnies Weekly》的漫画在电影院作为赠品发行，Namor the Sub-Mariner（海王子纳摩）在其中初次登场。他是人类与鱼类的结合体，可以在水下生活。这是漫威的第一位超级英雄——比公司的成立还要早半年。之后，这个故事经过少许扩展，被重新收录在一个新出版的系列中。而这个新的漫画刊物的名字将成就一个漫画帝国的英名——《Marvel Comics》。', './Uploads/2015-12-08/56664a3dc26b3.jpg', '1', '15216232151', '1447641710', null, null);
 INSERT INTO `school` VALUES ('5', 'admin', '爱宝宝幼儿园', '北京市朝阳区天门外', null, null, '1', '15213251268', '1447641801', null, null);
 INSERT INTO `school` VALUES ('25', 'admin', '11111', '111111111111111', null, null, '1', '15123036810', '1469000338', null, null);
-INSERT INTO `school` VALUES ('20', 'admin', '小衣学校', '小衣学校地址', null, null, '1', '18500635780', '1463405777', null, null);
-INSERT INTO `school` VALUES ('24', 'admin', ' 湖屋学校', ' 湖屋学校', null, null, '1', '15123036850', '1468673224', null, null);
-INSERT INTO `school` VALUES ('27', 'admin', 'qwrqr', '山西省-太原市-迎泽区', null, null, '1', '15606093673', '1469082459', null, null);
-INSERT INTO `school` VALUES ('28', 'bbbbbb', 'wrqwrqw', '山西省-阳泉市-平定县', null, null, '1', '15606093674', '1469082729', null, null);
+INSERT INTO `school` VALUES ('20', 'cccccc', '小衣学校', '小衣学校地址', null, null, '1', '18500635780', '1463405777', null, null);
+INSERT INTO `school` VALUES ('24', 'bbbbbb', ' 湖屋学校', ' 湖屋学校', null, null, '1', '15123036850', '1468673224', null, null);
+INSERT INTO `school` VALUES ('27', 'cccccc', '实验学校', '山西省-太原市-迎泽区', null, null, '1', '15606093673', '1469082459', null, null);
+INSERT INTO `school` VALUES ('28', 'bbbbbb', '实验幼儿园', '山西省-阳泉市-平定县', null, null, '1', '15606093674', '1469082729', null, null);
 
 -- ----------------------------
 -- Table structure for score_record
@@ -1216,24 +1255,24 @@ INSERT INTO `user` VALUES ('124', '香妃', '15215163256', '7c4a8d09ca3762af61e5
 INSERT INTO `user` VALUES ('129', '云中歌', '15215162358', '7c4a8d09ca3762af61e59520943dc26494f8941b', '15215162358', '4652358@qq.com', '{\"big\":\".\\/Uploads\\/face\\/129.jpg\",\"small\":\".\\/Uploads\\/face\\/129_small.jpg\"}', '飞飞1', '71', '5', '飞飞2', null, null, '4', '0', '1', '0', '1424966400', '1447664757', '1468729412', '2147483647', null, null, null);
 INSERT INTO `user` VALUES ('130', '路飞', '15215163258', '7c4a8d09ca3762af61e59520943dc26494f8941b', '15215163258', '', '{\"big\":\".\\/Uploads\\/face\\/130.jpg\",\"small\":\".\\/Uploads\\/face\\/130_small.jpg\"}', '山治', '70', '4', '娜美', null, null, '4', '1', '1', '1', '1423929600', '1447747589', '1449127035', '2130706433', null, null, null);
 INSERT INTO `user` VALUES ('131', '战五渣', '15213263584', '7c4a8d09ca3762af61e59520943dc26494f8941b', '15213263584', '', null, '战役', '69', '4', '圣战', null, null, '4', '1', '1', '1', '1424793600', '1447826549', '1449126238', '2130706433', null, null, null);
-INSERT INTO `user` VALUES ('135', 'admin', 'admin', '7c4a8d09ca3762af61e59520943dc26494f8941b', '15123036810', '910804085@qq.com', '{\"big\":\".\\/Uploads\\/face\\/135.jpg\",\"small\":\".\\/Uploads\\/face\\/135_small.jpg\"}', '', '73', '4', '', null, null, '2', '1', '1', '1', '1423929600', '1447896743', '1468988654', '1987237174', null, null, null);
-INSERT INTO `user` VALUES ('140', '李老师', '15215132123', '7c4a8d09ca3762af61e59520943dc26494f8941b', '15215132123', '65232548@qq.com', '{\"big\":\".\\/Uploads\\/face\\/140.jpg\",\"small\":\".\\/Uploads\\/face\\/140_small.jpg\"}', '爸爸', '69', '4', '妈妈', null, null, '3', '1', '1', '1', '1423929600', '1448852666', '1449473692', '2130706433', null, null, null);
+INSERT INTO `user` VALUES ('135', 'admin', 'admin', '7c4a8d09ca3762af61e59520943dc26494f8941b', '15123036810', '910804085@qq.com', '{\"big\":\".\\/Uploads\\/face\\/135.jpg\",\"small\":\".\\/Uploads\\/face\\/135_small.jpg\"}', '', '73', '4', '', null, null, '2', '1', '1', '1', '1423929600', '1447896743', '1470760861', '2130706433', null, null, null);
+INSERT INTO `user` VALUES ('140', '李老师', '15215132123', '7c4a8d09ca3762af61e59520943dc26494f8941b', '15215132123', '65232548@qq.com', '{\"big\":\".\\/Uploads\\/face\\/140.jpg\",\"small\":\".\\/Uploads\\/face\\/140_small.jpg\"}', '爸爸', '69', '4', '妈妈', null, null, '3', '1', '1', '1', '1423929600', '1448852666', '1470760529', '2130706433', null, null, null);
 INSERT INTO `user` VALUES ('141', '刘老师', '13216235842', '7c4a8d09ca3762af61e59520943dc26494f8941b', '13216235842', 'dgfgfhj@qq.com', '{\"big\":\".\\/Uploads\\/face\\/141.jpg\",\"small\":\".\\/Uploads\\/face\\/141_small.jpg\"}', '爸爸', '70', '4', '妈妈', null, null, '3', '0', '1', '0', '1424793600', '1448852697', '1449473747', '2130706433', null, null, null);
 INSERT INTO `user` VALUES ('142', '方老师', '15232632158', '7c4a8d09ca3762af61e59520943dc26494f8941b', '15232632158', 'hhgjh@qq.com', null, '爸爸', '73', '4', '妈妈', null, null, '3', '1', '1', '1', '653846400', '1448852734', '1449126068', '2130706433', null, null, null);
 INSERT INTO `user` VALUES ('143', '华老师', '15215162321', '7c4a8d09ca3762af61e59520943dc26494f8941b', '15215162321', '5523@qq.com', '{\"big\":\".\\/Uploads\\/face\\/143.jpg\",\"small\":\".\\/Uploads\\/face\\/143_small.jpg\"}', '爸爸', '73', '4', '妈妈', null, null, '3', '1', '1', '0', '1424793600', '1449127390', '1467359846', '1971863451', null, null, null);
 INSERT INTO `user` VALUES ('146', '晓龙龙', '15624501317', '7c4a8d09ca3762af61e59520943dc26494f8941b', '15624501317', null, null, '爸爸', '71', '5', '妈妈', null, null, '4', '0', '1', '0', null, '1455105559', '1455497471', '466712729', null, null, null);
 INSERT INTO `user` VALUES ('148', '三十六', '13260446055', '7c4a8d09ca3762af61e59520943dc26494f8941b', '13260446055', null, null, '爸爸', '71', '5', '妈妈', null, null, '4', '0', '1', '0', null, '1455191781', '1455191915', '2095960775', null, null, null);
-INSERT INTO `user` VALUES ('149', 'youer', '15123036810', '7c4a8d09ca3762af61e59520943dc26494f8941b', '15123036810', null, null, '爸爸', '70', '4', '妈妈', null, null, '4', '0', '1', '1', null, '1455344638', '1469359597', '0', null, null, null);
+INSERT INTO `user` VALUES ('149', 'youer', '15123036810', '7c4a8d09ca3762af61e59520943dc26494f8941b', '15123036810', null, null, '爸爸', '70', '4', '妈妈', null, null, '4', '0', '1', '1', null, '1455344638', '1470760194', '0', null, null, null);
 INSERT INTO `user` VALUES ('150', '车厚德爸爸', '13770209899', '7c4a8d09ca3762af61e59520943dc26494f8941b', '13770209899', null, null, '爸爸', '71', '5', '妈妈', null, null, '4', '0', '1', '0', null, '1455508763', '1462161209', '2130706433', null, null, null);
 INSERT INTO `user` VALUES ('151', '小龙哥', '13181038186', '7c4a8d09ca3762af61e59520943dc26494f8941b', '13181038186', null, null, '爸爸', '71', '5', '妈妈', null, null, '4', '0', '1', '0', null, '1458033425', '1458045104', '2147483647', null, null, null);
 INSERT INTO `user` VALUES ('152', 'Marks', '13266816551', '7c4a8d09ca3762af61e59520943dc26494f8941b', '13266816551', null, null, '爸爸', '69', '4', '妈妈', null, null, '4', '0', '1', '0', null, '1459762470', '1459762473', '1856816913', null, null, null);
 INSERT INTO `user` VALUES ('153', '华仔', '15557173016', '7c4a8d09ca3762af61e59520943dc26494f8941b', '15557173016', null, null, '爸爸', '69', '4', '妈妈', null, null, '4', '0', '1', '0', null, '1461115634', '1461118733', '2147483647', null, null, null);
 INSERT INTO `user` VALUES ('154', 'ceshi1', '18259120457', '7c4a8d09ca3762af61e59520943dc26494f8941b', '18259120457', '18259120457@qq.com', null, '', '69', '4', '', null, null, '3', '0', '1', '1', '0', '1461998571', '1463784320', '1996787061', null, null, null);
-INSERT INTO `user` VALUES ('155', 'er', '18259120456', '7c4a8d09ca3762af61e59520943dc26494f8941b', '18259120456', 'fr@qq.com', null, '', '69', '4', '', null, null, '3', '0', '1', '0', '0', '1462001008', '1463748711', '1928522492', null, null, null);
-INSERT INTO `user` VALUES ('156', 'ceshi2', '18259120455', '7c4a8d09ca3762af61e59520943dc26494f8941b', '18259120455', 'e@qq.com', null, '', '69', '4', '', null, null, '3', '0', '1', '0', '0', '1462001615', null, null, null, null, null);
-INSERT INTO `user` VALUES ('157', 'ceshi3', '18259120454', '7c4a8d09ca3762af61e59520943dc26494f8941b', '18259120454', 'w@qq.com', null, '', '69', '4', '', null, null, '3', '0', '1', '0', '0', '1462001672', null, null, null, null, null);
-INSERT INTO `user` VALUES ('158', 'ceshi4', '18259120453', '7c4a8d09ca3762af61e59520943dc26494f8941b', '18259120453', '', null, '', '69', '4', '', null, null, '2', '0', '1', '0', '0', '1462002038', '1463201699', '2147483647', null, null, null);
-INSERT INTO `user` VALUES ('159', 'ceshi6', '15215263746', '7c4a8d09ca3762af61e59520943dc26494f8941b', '18259120451', '', null, '', '69', '4', '', null, null, '2', '0', '1', '0', '0', '1462002824', '1462977295', '2130706433', null, null, null);
+INSERT INTO `user` VALUES ('155', 'er', '18259120456', '7c4a8d09ca3762af61e59520943dc26494f8941b', '18259120456', 'fr@qq.com', null, '', '69', '27', '', null, null, '3', '0', '1', '0', '0', '1462001008', '1463748711', '1928522492', null, null, null);
+INSERT INTO `user` VALUES ('156', 'ceshi2', '18259120455', '7c4a8d09ca3762af61e59520943dc26494f8941b', '18259120455', 'e@qq.com', null, '', '69', '28', '', null, null, '3', '0', '1', '0', '0', '1462001615', null, null, null, null, null);
+INSERT INTO `user` VALUES ('157', 'ceshi3', '18259120454', '7c4a8d09ca3762af61e59520943dc26494f8941b', '18259120454', 'w@qq.com', null, '', '69', '27', '', null, null, '3', '0', '1', '0', '0', '1462001672', null, null, null, null, null);
+INSERT INTO `user` VALUES ('158', 'ceshi4', '18259120453', '7c4a8d09ca3762af61e59520943dc26494f8941b', '18259120453', '', null, '', '69', '28', '', null, null, '2', '0', '1', '0', '0', '1462002038', '1471473268', '2130706433', null, null, null);
+INSERT INTO `user` VALUES ('159', 'ceshi6', '15215263746', '7c4a8d09ca3762af61e59520943dc26494f8941b', '18259120451', '', null, '', '69', '27', '', null, null, '2', '0', '1', '0', '0', '1462002824', '1462977295', '2130706433', null, null, null);
 INSERT INTO `user` VALUES ('160', 'ceshi8', '18259120450', '7c4a8d09ca3762af61e59520943dc26494f8941b', '18259120450', '', null, '爸爸', '69', '4', '妈妈', null, null, '3', '1', '1', '0', '-69235200', '1462010903', null, null, null, null, null);
 INSERT INTO `user` VALUES ('161', 'ceshi9', '18259120459', '7c4a8d09ca3762af61e59520943dc26494f8941b', '18259120459', '', null, '爸爸', '70', '4', '妈妈', null, null, '3', '1', '1', '0', '589734000', '1462011218', '1462011248', '2130706433', null, null, null);
 INSERT INTO `user` VALUES ('163', '这种情况', '13718886526', '7c4a8d09ca3762af61e59520943dc26494f8941b', '13718886526', null, null, '爸爸', '69', '4', '妈妈', null, null, '4', '0', '1', '0', null, '1462764063', '1462764091', '2147483647', null, null, null);

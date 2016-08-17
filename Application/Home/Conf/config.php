@@ -8,6 +8,7 @@ return array(
         '__IMG__'=>__ROOT__.'/Public/'.MODULE_NAME.'/img',
         '__IMAGE__'=>__ROOT__.'/Public/'.MODULE_NAME.'/image',
         '__UPLOADIFY__'=>__ROOT__.'/Public/'.MODULE_NAME.'/uploadify',
+        '__DATETIMEPICKER__'=>__ROOT__.'/Public/Admin/datetimepicker',
     ),
     
         //自定义跳转页面

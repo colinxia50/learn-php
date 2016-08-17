@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><div id="school">
+<?php if (!defined('THINK_PATH')) exit();?><div id="class">
 <div class="row">
   <div class="col-md-8 col-md-offset-1" style="margin-top:30px;">
 <form>

@@ -1,11 +1,15 @@
 <?php
 namespace Admin\Controller;
+use Think\Auth;
 
 class StockController extends AuthController {
-
+    
     public function index(){
         $stockData = M('Bookinfo');
         $map = array();
+        if (session('admin.manager')!='admin'){
+            $map['agentid'] = session('admin.id');
+        }
         $search = I('post.searchText');
         if(I('post.searchText')){
             $map['barcode'] = array('like',"%{$search}%");
@@ -14,15 +18,16 @@ class StockController extends AuthController {
             $this->assign('searchText',I('post.searchText'));
         }
         $publishing = M('publishing')->select();
-        
+    
         $first = $this->page($stockData,$map,'page_stock',5);
         $stockDatas = $stockData->join('publishing ON bookinfo.ISBN = publishing.ISBN')->where($map)->limit($first,5)->select();
-       // echo $stockData->getLastSql();
-
+        // echo $stockData->getLastSql();
         $this->assign('Stock',$stockDatas);
         $this->assign('Publishing',$publishing);
         $this->display('index_new');
     }
+
+
     public function getList(){
         if (IS_AJAX) {
             $School=D('bookinfo');
@@ -54,6 +59,15 @@ class StockController extends AuthController {
         }
     }
     
+    public function getagent(){ //查询代理商对应的学校
+        if (IS_AJAX) {
+            $School=D('school');
+            $this->ajaxReturn($School->getagent());
+        }else{
+            $this->error('非法操作');
+        }
+    }
+    
     public function reMove(){
         if (IS_AJAX) {
             $School=D('bookinfo');
@@ -73,7 +87,7 @@ class StockController extends AuthController {
             $School=D('bookinfo');
             $data = $School->update();
             if($data < 0){
-                return $data;
+                $this->ajaxReturn($data);
             }else{
                 return $this->index();
             }

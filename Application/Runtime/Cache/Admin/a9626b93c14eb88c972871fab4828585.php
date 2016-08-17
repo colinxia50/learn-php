@@ -10,7 +10,7 @@
 <div class="header">
     <p style="margin-left:20px;">
         <span class="col-xs-4">
-            <input type="text" class="form-control" placeholder="用户名/用户昵称/书名/条形码/学校名" id="searchText">
+            <input type="text" class="form-control" placeholder="书名/条形码/学校名" id="searchText">
         </span>
         <button class="btn btn-large btn-primary" type="button" id="search">搜索已借出书记录</button>
     </p>

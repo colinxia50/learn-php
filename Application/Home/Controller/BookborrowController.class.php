@@ -1,48 +1,37 @@
 <?php
-namespace Admin\Controller;
-use Think\Auth;
-
-class BookborrowController extends AuthController {
+namespace Home\Controller;
+class BookborrowController extends HomeController {
 
     public function index(){
-        $borrow = M('agentBorrow');
+        $borrow = M('borrow');
         $map = array();
-        if (session('admin.manager')!='admin'){
-            $map['agent_borrow.agentid'] = session('admin.id');
-            $maps['agent'] = session('admin.manager');
-            $School = M('School')->where($maps)->select();
-        }
+        $map['borrow.schoolid']=session('user_auth.school_id');
         $search = I('post.searchText');
         if(I('post.searchText')){
+            $map['user'] = array('like',"%{$search}%");
             $map['bookname'] = array('like',"%{$search}%");
             $map['barcode'] = array('like',"%{$search}%");
+            $map['nick_name'] = array('like',"%{$search}%");
+            $map['name'] = array('like',"%{$search}%");
             $map['_logic'] = 'OR';
             $this->assign('searchText',I('post.searchText'));
         }
         
-        $first = $this->page($borrow,$map,'page_stock',5);
-        $stockData = $borrow->field('*,agent_borrow.id')->join('bookinfo as B ON agent_borrow.bookid =B.id')->join('school as S ON agent_borrow.schoolid =S.id')->where($map)->limit($first,5)->select();
+        $first = $this->page($borrow,$map,'page_stock',2);
+        $stockData = $borrow->field('*,borrow.id')->join('user as U ON borrow.userid =U.id')->join('bookinfo as B ON borrow.bookid =B.id')->where($map)->limit($first,2)->select();
         //echo $borrow->getLastSql();
         //var_dump($stockData);
         //exit;
         $this->assign('Borrow',$stockData);
-        $this->assign('School',$School);
-        $this->display('index_new');
+        $this->display();
         
     }
-    public function getList(){
-        if (IS_AJAX) {
-            $School=D('bookinfo');
-            $this->ajaxReturn($School->getList(I('post.page'),I('post.rows'),I('post.sort'),I('post.order'),I('post.name')));
-        }else{
-            $this->error('非法操作');
-        }
-    }
+
     
-    public function addBorrow(){ //添加出库记录
+    public function addSchool(){
         if (IS_AJAX){
-            $AgentBorrow=D('AgentBorrow');
-            $data = $AgentBorrow->addBorrow();
+            $School=D('bookinfo');
+            $data = $School->addSchool();
             if($data < 0){
                 $this->ajaxReturn($data);
             }else{
@@ -62,7 +51,7 @@ class BookborrowController extends AuthController {
     }
     public function getUser_name(){ //取用户信息 借书操作用
         if (IS_AJAX) {
-            $School=D('AgentBorrow');
+            $School=D('bookinfo');
             $this->ajaxReturn($School->getUser());
         }else{
             $this->error('非法操作');
@@ -70,7 +59,7 @@ class BookborrowController extends AuthController {
     }
     public function getschoolinfo(){ //取学校信息 借书操作用
         if (IS_AJAX) {
-            $School=D('AgentBorrow');
+            $School=D('bookinfo');
             $this->ajaxReturn($School->getschoolinfo());
         }else{
             $this->error('非法操作');
@@ -79,7 +68,7 @@ class BookborrowController extends AuthController {
     
     public function getborrow(){   //取借阅信息 
             if (IS_AJAX) {
-            $School=D('AgentBorrow');
+            $School=D('borrow');
             $this->ajaxReturn($School->getborrowinfo());
         }else{
             $this->error('非法操作');
@@ -88,7 +77,7 @@ class BookborrowController extends AuthController {
     
     public function update(){
         if (IS_AJAX) {
-            $School=D('AgentBorrow');
+            $School=D('borrow');
             $data = $School->update();
             if($data < 0){
                 return $data;

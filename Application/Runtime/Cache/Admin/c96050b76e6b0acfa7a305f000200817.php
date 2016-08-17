@@ -25,7 +25,7 @@
                         <td><?php echo ($key+1); ?></td>
                         <td><?php echo ($vo["ISBN"]); ?></td>
                         <td><?php echo ($vo["pubname"]); ?></td>
-                        <td><?php echo ($vo["address"]); ?></td>
+                        <td><?php echo ($vo["address"]); echo ($vo["address1"]); ?></td>
                         <td><?php echo ($vo["phone"]); ?></td>
                         <td><?php echo ($vo["contacts"]); ?></td>
                         <td>
@@ -76,9 +76,14 @@
                             <input type="hidden" id="address" name="address" value=""/>
                         </div>
                         <div class="form-group">
-                            <label for="name">联系电话</label>
+                            <label for="name">详细地址</label>
+                            <input type="text" class="form-control" name="address1"
+                                   placeholder="请输入详细地址">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">手机号码</label>
                             <input type="text" class="form-control" name="phone"
-                                   placeholder="请输入联系电话">
+                                   placeholder="请输入手机号码">
                         </div>
                         <div class="form-group">
                             <label for="name">联系qq</label>
@@ -118,7 +123,7 @@
                          <div class="form-group">
                             <label for="name">出版社编码(ISBN)</label>
                             <input type="text" class="form-control" name="ISBN"
-                                   placeholder="请输入ISBN" id="ISBN">
+                                   placeholder="请输入ISBN" readonly id="ISBN">
                         </div>
                         <div class="form-group">
                             <label for="name">名称</label>
@@ -131,9 +136,14 @@
                                    placeholder="请输入出版社地址" id="eaddress">
                         </div>
                         <div class="form-group">
-                            <label for="name">联系电话</label>
+                            <label for="name">详细地址（街道、小区）</label>
+                            <input type="text" class="form-control" name="eaddress1"
+                                   placeholder="请输入详细地址" id="eaddress1">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">手机号码</label>
                             <input type="text" class="form-control" name="phone"
-                                   placeholder="请输入联系电话" id="phone">
+                                   placeholder="请输入手机号码" id="phone">
                         </div>
                                                 <div class="form-group">
                             <label for="name">qq</label>

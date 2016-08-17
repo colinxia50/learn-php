@@ -1,27 +1,34 @@
-<?php if (!defined('THINK_PATH')) exit();?><div class="header">
-    <!--<h1 class="page-header">-->
-        <!--&lt;!&ndash;Dashboard <small>Welcome John Doe</small>&ndash;&gt;-->
-    <!--</h1>-->
-    <ol class="breadcrumb">
-        <li><a href="#">图书借阅管理</a></li>
-        <li class="active">书本库存管理</li>
-    </ol>
-</div>
-<div class="header">
-    <p style="margin-left:20px;">
-        <button class="btn btn-large btn-success" type="button" data-target="#addSchool" data-toggle="modal" style="float: right;margin-right: 100px;">入库新书</button>
-        <span class="col-xs-4">
-            <input type="text" class="form-control" placeholder="条形码/书名" id="searchText">
-        </span>
-        <button class="btn btn-large btn-primary" type="button" id="search">搜索</button>
-    </p>
+<?php if (!defined('THINK_PATH')) exit();?><div id="class">
 
+					
+			<div class="btn-group" role="group" aria-label="...">			  
+				    <p style="margin-left:20px;">
+				        <span>
+				        已入库图书列表
+				        </span>
+				    </p>
+			</div>					
+					
+			   <div class=" row edit-top">
 
-
-    <div class="table-responsive col-xs-12" style="margin-top:10px;">
-        <table class="table">
-            <tr><th></th><th>条形码</th></th><th>入库日期</th><th>书名</th><th>出版商</th><th>书价</th><th>借书费用 </th><th>总仓库数</th><th>出库数 </th><th>剩余数 </th><th>操作</th></tr>
-            <?php if(isset($Stock)): if(is_array($Stock)): $i = 0; $__LIST__ = $Stock;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+	    
+				    <p style="margin-left:20px;">
+				        <button class="btn btn-large btn-success" type="button" data-target="#addSchool" data-toggle="modal" style="float: right;margin-right: 100px;">入库新书</button>
+				        <span class="col-xs-4">
+				            <input type="text" class="form-control" placeholder="学生名/条形码/书名" id="searchText">
+				        </span>
+				        <button class="btn btn-large btn-primary" type="button" id="search">搜索</button>
+				    </p>
+		     
+		       </div> 
+		       <div>
+					 <table class="table table-striped table-hover" id="teachertb">
+			         <thead>
+			         
+			           <tr class="success"><th></th><th>条形码</th><th>入库日期</th><th>书名</th><th>出版商</th><th>书价</th><th>借书费用 </th><th>总仓库数</th><th>出库数 </th><th>剩余数 </th><th>操作</th></tr>
+			         </thead>
+			         <tbody>
+			         <?php if(is_array($Borrow)): $i = 0; $__LIST__ = $Borrow;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                         <td><?php echo ($key+1); ?></td>
                         <td><?php echo ($vo["barcode"]); ?></td>
                         <td><?php echo ($vo["inTime"]); ?></td>
@@ -36,13 +43,15 @@
                             <a data-target="#editSchool" data-toggle="modal" class="btn btn-info School_update" href="#" xid="<?php echo ($vo["barcode"]); ?>">修改</a>
                             <a data-target="#delSchool"  data-toggle="modal" class="btn btn-danger School_delete" href="#" xid="<?php echo ($vo["barcode"]); ?>">删除</a>
                         </td>
-                    </tr><?php endforeach; endif; else: echo "" ;endif; endif; ?>
-        </table>
-    </div>
-    <?php if(isset($searchText)): ?><div class="searchText" style="display:none;"><?php echo ($searchText); ?></div><?php endif; ?>
+                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+			         </tbody>	         
+			      </table> 
+			   </div>
     <div id="page" style="text-align:center;">
         <nav><?php echo ($page); ?></nav>
-    </div>
+    </div>			      
+	
+				      
 
     <div class="modal" id="addSchool">
         <div class="modal-dialog">
@@ -63,7 +72,7 @@
                             <input type="text" class="form-control" name="bookname"
                                    placeholder="请输入书名">
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="name">出版商</label>
                            	<select name="ISBN" id="ISBN" >
@@ -80,7 +89,7 @@
                             <input type="text" class="form-control" name="rent"
                                    placeholder="请输入借书费用" id="rent">
                         </div>
-                        <div class="form-group">
+                                                <div class="form-group">
                             <label for="name">总仓库数</label>
                             <input type="text" class="form-control" name="number"
                                    placeholder="请输入总仓库数">
@@ -164,8 +173,7 @@
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
-    </div>
-
+    </div>	
+			      
+<script type="text/javascript" src="/Public/Home/js/stock.js"></script>
 </div>
-
-<script type="text/javascript" src="/Public/Admin/js/stock.js"></script>

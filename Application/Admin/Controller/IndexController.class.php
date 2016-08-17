@@ -8,6 +8,7 @@ class IndexController extends AuthController {
         $auth=new Auth();
         $a=$auth->getGroups(session('admin.id'));
         $groups=$a[0]['rules'];
+        $rules1=empty($a[0]['rules1'])?'0':$a[0]['rules1']; //当前管理员无权限访问的二级菜单id
         $AuthRule=M('AuthRule');
         $map['id']=array('in',$groups);
         $obj=$AuthRule->field('title')->where($map)->select();
@@ -18,7 +19,9 @@ class IndexController extends AuthController {
         $Nav=D('Nav');
         $data = $Nav->getNav(0,substr($texts, 0,-1));
         foreach($data as $k => $v){
-            $childData = M('nav')->where(array('nid' => $v['id']))->select();
+            $map['nid']=$v['id'];
+            $map['id']  = array('not in',$rules1);
+            $childData = M('nav')->where($map)->select();
             $data[$k]['child'] = $childData;
         }
 

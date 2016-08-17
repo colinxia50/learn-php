@@ -10,16 +10,12 @@ class BookinfoModel extends Model {
     array('bookname', '/^[^@]{2,30}$/i', -1, self::EXISTS_VALIDATE),
 
     //-2,'此书已入库,搜索后编辑入库数量即可！'
-    array('bookname', '', -2, self::EXISTS_VALIDATE, 'unique'),
+    //array('bookname', '', -2, self::EXISTS_VALIDATE, 'unique'),
     //-3,'条码不能为空！'
     array('barcode', '', -5,self::EXISTS_VALIDATE, 'unique'),
 
 );
 
-  protected $_auto = array(
-      array('inTime', 'time', self::MODEL_INSERT, 'function'),
-  );
-  
    public function getList($page,$rows,$sort,$order,$name){
       $map=array();
    	  if ($name) {
@@ -70,6 +66,7 @@ class BookinfoModel extends Model {
       'rent'=>I('post.rent'),
       'price'=>I('post.price'),
       'number'=>I('post.number'),
+      'agentid' => session('admin.id'),
       'inTime'=>date('Y-m-d H:i:s',time()),
     );
 

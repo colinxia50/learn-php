@@ -13,9 +13,9 @@
                    <?php if(is_array($Infos)): $i = 0; $__LIST__ = $Infos;if( count($__LIST__)==0 ) : echo "$empty" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="media list-content">
 						  <div class="media-left media-middle">
 						    <a href="javascript:void(0)">
-							    <?php if(empty($vo['infos_img'][0]['thumb'])): ?><img class="media-object" src="/zzb/Public/Home/img/book.jpg" alt="">
+							    <?php if(empty($vo['infos_img'][0]['thumb'])): ?><img class="media-object" src="/Public/Home/img/book.jpg" alt="">
 						        <?php else: ?>
-								  <img class="media-object" src="/zzb/<?php echo ($vo['infos_img'][0]['thumb']); ?>" alt=""><?php endif; ?>
+								  <img class="media-object" src="/<?php echo ($vo['infos_img'][0]['thumb']); ?>" alt=""><?php endif; ?>
 						    </a>
 						  </div>
 						  <div class="media-body">
@@ -41,5 +41,5 @@
   </script>
 
  
- <script type="text/javascript" src="/zzb/Public/Home/js/infos.js"></script>
-<link rel="stylesheet" type="text/css" href="/zzb/Public/Home/css/infos.css" />
+ <script type="text/javascript" src="/Public/Home/js/infos.js"></script>
+<link rel="stylesheet" type="text/css" href="/Public/Home/css/infos.css" />

@@ -3,14 +3,14 @@ namespace Admin\Model;
 use Think\Model;
 
 
-class BorrowModel extends Model {
+class agentBorrowModel extends Model {
   //自动验证
   protected $_validate = array(	
      //-1,'名称长度不合法！'
     array('bookname', '/^[^@]{2,30}$/i', -1, self::EXISTS_VALIDATE),
 
-    //-2,'此书已入库,搜索后编辑入库数量即可！'
-    array('bookname', '', -2, self::EXISTS_VALIDATE, 'unique'),
+    //-2,'此书已出库给该学校,搜索后编辑入库数量即可！'
+    //array('bookname', '', -2, self::EXISTS_VALIDATE, 'unique'),
     //-3,'条码不能为空！'
     array('barcode', '', -5,self::EXISTS_VALIDATE, 'unique'),
 
@@ -50,17 +50,7 @@ class BorrowModel extends Model {
      return $school;
    }
 	
-   public function getUser(){  //取用户 借书操和搜索作用
-       $user=D("User");
-       $souser=I('post.user_name');
-       $map['user'] = array('like',"%{$souser}%");
-       $map['nick_name'] = array('like',"%{$souser}%");
-       $map['mobile'] = array('like',"%{$souser}%");
-       $map['_logic'] = 'OR';
-       $userinfo= $user->where($map)->select();
-       //echo $user->getLastSql();
-       return $userinfo;
-   }
+
    public function getschoolinfo(){  //取学校信息 借书操作和搜索用
        $school=D("School");
        $soschool=I('post.shool_name');
@@ -78,29 +68,44 @@ class BorrowModel extends Model {
        return $borrowinfo;
    }
    
-  public function addSchool(){
-      $operatorarr = session('admin');
-      $operator = $operatorarr['manager'];
+  public function addBorrow(){ //添加借出记录
+      $borrnum = I('post.borrownum');
     $data=array(
-      'userid'=>I('post.userid'),
       'bookid'=>I('post.bookid'),
-      'schoolid'=>I('post.shcoolid'),
-      'operator'=>$operator,
+      'schoolid'=>I('post.schoolid'),
+      'agentid'=>session('admin.id'),
       'backTime'=>I('post.backTime'),
-      'borrowtime'=>date('Y-m-d H:i:s',time()),
+      'rental'=>I('post.rental'),
+      'borrownum'=>$borrnum,
+      'borrowTime'=>date('Y-m-d',time()),
+      'ifback'=>1,
     );
-
+    
+    $bookinfos=M("bookinfo")->field('number,outdepot')
+      ->where(array('bookid'=>I('post.bookid')))
+      ->select();
+      if($bookinfos['number']-$bookinfos['outdepot'] > I('post.borrownum')){
+          return -4; //-4,'该书库存不足,可在库存管理编辑该书库存！'
+      }
+    $maps['agentid']=session('admin.id');
+    $maps['schoolid']=I('post.schoolid');
+    $maps['bookid']=I('post.bookid');
+    $maps['ifback']=1;
+    
+    if ($this->where($maps)->find()){
+        return -2; //-2,'此书已出库给该学校,搜索后可点击 续借/增加出库数！'
+    }
     if ($this->create($data)) {
           $uid = $this->add();
           
-          //库存减一
+          //库存减
           $books = M('bookinfo');
           $datas = array(
               'id' =>I('post.bookid'),
-              'outdepot'=>array('exp',"outdepot+1")
+              'outdepot'=>array('exp',"outdepot+$borrnum")
           );
-          if ($this->create($datas)) {
-              $uids = $this->save();
+          if ($books->create($datas)) {
+              $uids = $books->save();
           }
           
           return $uid ? $uid : 0;
@@ -111,15 +116,30 @@ class BorrowModel extends Model {
 
     public function update(){
      $rent = I('post.updaterent');
-    $data=array(
+     $num = empty(I('post.borrownum'))?0:I('post.borrownum');
+     $data=array(
       'id'=>I('post.id'),
       'rental'=>array('exp',"rental+$rent"),
+      'borrownum'=>array('exp',"borrownum+$num"),
       'backTime'=>I('post.updatetime')
     );
 
     if ($this->create($data)) {
          $uid = $this->save();
-         //echo $this->getLastSql();
+         
+             $bookids = $this->field('bookid')
+              ->where(array('id'=>$uid))
+              ->find();
+         //库存减
+         $bookss = M('bookinfo');
+         $datas = array(
+             'id' =>$bookids['bookid'],
+             'outdepot'=>array('exp',"outdepot+$num")
+         );
+         if ($bookss->create($datas)) {
+             $uids = $bookss->save();
+         }
+        // echo $bookss->getLastSql();
          return $uid ? $uid : 0;
         } else {
           return $this->getError();

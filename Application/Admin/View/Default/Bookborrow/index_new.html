@@ -12,9 +12,9 @@
 </div>
 <div class="header">
     <p style="margin-left:20px;">
-        <button class="btn btn-large btn-success" type="button" data-target="#addSchool" data-toggle="modal" style="float: right;margin-right: 100px;">图书借阅</button>
+        <button class="btn btn-large btn-success" type="button" data-target="#addSchool" data-toggle="modal" style="float: right;margin-right: 100px;">出库/借出</button>
         <span class="col-xs-4">
-            <input type="text" class="form-control" placeholder="用户名/用户昵称/书名/条形码/学校名" id="searchText">
+            <input type="text" class="form-control" placeholder="书名/条形码/学校名" id="searchText">
         </span>
         <button class="btn btn-large btn-primary" type="button" id="search">搜索借出记录</button>
     </p>
@@ -23,20 +23,21 @@
 
     <div class="table-responsive col-xs-12" style="margin-top:10px;">
         <table class="table">
-            <tr><th></th><th>幼儿园</th></th><th>用户名</th><th>书名</th><th>借书日期</th><th>还书日期</th><th>借书费用 </th><th>库存数</th><th>操作</th></tr>
+            <tr><th></th><th>幼儿园</th></th><th>书名</th><th>借书日期</th><th>还书日期</th><th>借书费用 </th><th>库存数(学校借书数)</th><th>操作</th></tr>
             <IF condition="isset($Borrow)">
                 <volist name="Borrow" id="vo">
                     <tr>
                         <td>{$key+1}</td>
                         <td>{$vo.name}</td>
-                        <td>{$vo.user}</td>
                         <td>{$vo.bookname}</td>
                         <td>{$vo.borrowTime}</td>
                         <td>{$vo.backTime}</td>
                         <td>{$vo.rental}</td>
-                        <td>{$vo['number']-$vo['outdepot']}</td>
+                        <td>{$vo.borrownum}</td>
                         <td>
-                            <a data-target="#editSchool" data-toggle="modal" class="btn btn-info School_update" href="#" xid="{$vo.id}">续借</a>
+                        <if condition="($vo.ifback eq 1)">
+                            <a data-target="#editSchool" data-toggle="modal" class="btn btn-info School_update" href="#" xid="{$vo.id}">续借/新加出库数</a>
+                            </if>
                         </td>
                     </tr>
                 </volist>
@@ -68,23 +69,24 @@
                         <div class="form-group" id="sotable">
 
                         </div>
-                       <div class="form-group">
-                            <label for="name">借阅人</label>
-                            <input type="text" class="form-control" name="user_name"
-                                   placeholder="请输入用户名/昵称/手机号" id="user_name">
-                           <input type="hidden" id="address" name="userid"/>
+                         <div class="form-group">
+                            <label for="name">所属学校</label>
+                           	<select name="schoolid" id="schoolid" >
+                             <volist name="School" id="vo">
+                            		<option value="{$vo.id}">{$vo.name}</option>
+                            	</volist>
+                            </select>
                         </div>
-                        <div class="form-group" id="usertable">
-
+                        
+                        <div class="form-group">
+                            <label for="name">出库数量</label>
+                            <input type="text" class="form-control" name="borrownum"
+                                   placeholder="请输入要借出的数量">
                         </div>
                         <div class="form-group">
-                            <label for="name">所属学校</label>
-                            <input type="text" class="form-control" name="shcool"
-                                   placeholder="请输入学校名/学校电话" id="shcool">
-                            <input type="hidden" id="address" name="shcoolid"/>
-                        </div>
-                        <div class="form-group" id="shcooltable">
-
+                            <label for="name">费用</label>
+                            <input type="text" class="form-control" name="rental"
+                                   placeholder="请输入要借出的数量">
                         </div>
                         <div class="form-group">
                             <label for="name">还书时间</label>
@@ -109,7 +111,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close"  data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                    <h4 class="modal-title">图书续借</h4>
+                    <h4 class="modal-title">续借/增加</h4>
                 </div>
 
                 <div class="modal-body">
@@ -127,6 +129,11 @@
                             <label for="name">续费金额(延期所产生的费用)</label>
                             <input type="text" class="form-control" name=updaterent
                                    placeholder="请输入续费金额" id="rent">
+                        </div>
+                         <div class="form-group">
+                            <label for="name">增加出库数量(只延期为空即可)</label>
+                            <input type="text" class="form-control" name=borrownum
+                                   placeholder="请输入续加的数量" id="borrownum">
                         </div>
                         <input type="hidden" name="id"/>
                     </form>

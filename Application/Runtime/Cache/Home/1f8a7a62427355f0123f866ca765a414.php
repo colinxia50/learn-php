@@ -117,8 +117,8 @@
   
   
 
-<script type="text/javascript" src="/zzb/Public/Home/js/bootstrap-datetimepicker.min.js"></script>
-<script type="text/javascript" src="/zzb/Public/Home/js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
-<script type="text/javascript" src="/zzb/Public/Home/js/balance.js"></script>
-<link rel="stylesheet" type="text/css" href="/zzb/Public/Home/css/result.css" />
-<link href="/zzb/Public/Home/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+<script type="text/javascript" src="/Public/Home/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="/Public/Home/js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
+<script type="text/javascript" src="/Public/Home/js/balance.js"></script>
+<link rel="stylesheet" type="text/css" href="/Public/Home/css/result.css" />
+<link href="/Public/Home/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">

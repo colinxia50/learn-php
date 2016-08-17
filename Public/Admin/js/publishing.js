@@ -125,6 +125,7 @@ $(function(){
 					$('#ISBN').val(data.ISBN);
 					$('#pubname').val(data.pubname);
 					$('#eaddress').val(data.address);
+					$('#eaddress1').val(data.address1);
 					$('#phone').val(data.phone);
 					$('#qq').val(data.qq);
 					$('#email').val(data.email);

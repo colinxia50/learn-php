@@ -1,0 +1,1336 @@
+[ 2016-08-06T03:34:15+08:00 ] 127.0.0.1 /index.php/Admin/Bookborrow/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009734s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0422s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+NOTIC: [8] Undefined variable: n E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 33 行.
+SQL: SELECT *,borrow.id FROM `borrow` INNER JOIN user as U ON borrow.userid =U.id INNER JOIN bookinfo as B ON borrow.bookid =B.id INNER JOIN school as S ON borrow.schoolid =S.id  LIMIT 0,5   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008277s ]
+
+[ 2016-08-06T03:34:36+08:00 ] 127.0.0.1 /index.php/Admin/Bookback/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+NOTIC: [8] Undefined variable: n E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 33 行.
+SQL: SELECT *,borrow.id FROM `borrow` INNER JOIN user as U ON borrow.userid =U.id INNER JOIN bookinfo as B ON borrow.bookid =B.id INNER JOIN school as S ON borrow.schoolid =S.id  LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-08-06T03:34:57+08:00 ] 127.0.0.1 /index.php/Admin/Bookborrow/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+NOTIC: [8] Undefined variable: n E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 33 行.
+SQL: SELECT *,borrow.id FROM `borrow` INNER JOIN user as U ON borrow.userid =U.id INNER JOIN bookinfo as B ON borrow.bookid =B.id INNER JOIN school as S ON borrow.schoolid =S.id  LIMIT 0,5   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-08-06T04:11:57+08:00 ] 127.0.0.1 /index.php/Admin/Bookback/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+NOTIC: [8] Undefined variable: n E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 33 行.
+SQL: SELECT *,borrow.id FROM `borrow` INNER JOIN user as U ON borrow.userid =U.id INNER JOIN bookinfo as B ON borrow.bookid =B.id INNER JOIN school as S ON borrow.schoolid =S.id  LIMIT 0,5   [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-08-06T04:15:25+08:00 ] 127.0.0.1 /index.php/Admin/Bookborrow/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+NOTIC: [8] Undefined variable: n E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 33 行.
+SQL: SELECT *,borrow.id FROM `borrow` INNER JOIN user as U ON borrow.userid =U.id INNER JOIN bookinfo as B ON borrow.bookid =B.id INNER JOIN school as S ON borrow.schoolid =S.id  LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2016-08-06T05:02:24+08:00 ] 127.0.0.1 /index.php/Admin/Publishing/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `publishing` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `publishing` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `publishing` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2016-08-06T05:02:25+08:00 ] 127.0.0.1 /index.php/Admin/Stock/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `bookinfo` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0013s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `publishing` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `publishing`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookinfo` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `bookinfo` INNER JOIN publishing ON bookinfo.ISBN = publishing.ISBN  LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2016-08-06T05:02:26+08:00 ] 127.0.0.1 /index.php/Admin/Bookborrow/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+NOTIC: [8] Undefined variable: n E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 33 行.
+SQL: SELECT *,borrow.id FROM `borrow` INNER JOIN user as U ON borrow.userid =U.id INNER JOIN bookinfo as B ON borrow.bookid =B.id INNER JOIN school as S ON borrow.schoolid =S.id  LIMIT 0,5   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-08-06T05:02:27+08:00 ] 127.0.0.1 /index.php/Admin/Bookback/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `borrow` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `borrow` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+NOTIC: [8] Undefined variable: n E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 33 行.
+SQL: SELECT *,borrow.id FROM `borrow` INNER JOIN user as U ON borrow.userid =U.id INNER JOIN bookinfo as B ON borrow.bookid =B.id INNER JOIN school as S ON borrow.schoolid =S.id  LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-08-06T14:32:38+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009968s ]
+
+[ 2016-08-06T14:32:38+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006932s ]
+
+[ 2016-08-06T14:32:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/checkManager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: validate E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`manager`,`name` FROM `manage` WHERE `manager` = 'admin' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `manage` SET `last_login`='1470465165',`last_ip`='2130706433' WHERE `id` = 1 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-08-06T14:32:46+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('1','2','5','6','7','8')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN ('系统管理','会员管理','习惯库管理','学校管理','代理商','图书借阅管理')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 14  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 22  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2016-08-06T14:32:54+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-08-06T14:33:11+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('5','6','8')  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `nav` WHERE `text` IN ('学校管理','代理商','图书借阅管理')  [ RunTime:0.0003s ]
+
+[ 2016-08-06T14:48:01+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('5','6','8')  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `nav` WHERE `text` IN ('学校管理','代理商','图书借阅管理')  [ RunTime:0.0003s ]
+
+[ 2016-08-06T14:48:09+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `auth_group` SET `rules`='7' WHERE `id` = 8 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2016-08-06T14:48:20+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('7')  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `nav` WHERE `text` IN ('习惯库管理')  [ RunTime:0.0003s ]
+
+[ 2016-08-06T14:48:51+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `auth_group` SET `rules`='5,6,8' WHERE `id` = 8 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-08-06T14:49:20+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('5','6','8')  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `nav` WHERE `text` IN ('学校管理','代理商','图书借阅管理')  [ RunTime:0.0002s ]
+
+[ 2016-08-06T14:59:42+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\phptools\Apache24\htdocs\zzb\Application\Admin\Model\AuthGroupModel.class.php 第 88 行.
+NOTIC: [8] Undefined index: validate E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `auth_group` SET `rules`='' WHERE `id` = 8 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-08-06T14:59:44+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+
+[ 2016-08-06T15:00:13+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0003s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+
+[ 2016-08-06T15:00:23+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `auth_group` SET `rules`='5,6,8' WHERE `id` = 0 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-08-06T15:00:27+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+
+[ 2016-08-06T15:00:32+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `auth_group` SET `rules`='5,6,8' WHERE `id` = 0 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2016-08-06T15:00:34+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2016-08-06T15:00:37+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-08-06T15:00:37+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `manage` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `manage` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='35' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='34' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='26' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='24' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='23' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [2] file_get_contents(http://localhost/zzb/address.json): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ E:\phptools\Apache24\htdocs\zzb\Application\Admin\Controller\ManageController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `auth_group`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-08-06T15:00:38+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-08-06T15:00:40+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0003s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+
+[ 2016-08-06T15:00:49+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `auth_group` SET `rules`='5,6,8' WHERE `id` = 0 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-08-06T15:01:11+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+
+[ 2016-08-06T15:01:14+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `auth_group` SET `rules`='8' WHERE `id` = 0 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-08-06T15:01:16+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-08-06T15:01:17+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `manage` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `manage` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='35' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='34' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='26' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='24' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='23' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [2] file_get_contents(http://localhost/zzb/address.json): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ E:\phptools\Apache24\htdocs\zzb\Application\Admin\Controller\ManageController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `auth_group`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-08-06T15:01:17+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-08-06T15:01:18+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `manage` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `manage` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='35' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='34' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='27' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='26' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='24' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='23' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [2] file_get_contents(http://localhost/zzb/address.json): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ E:\phptools\Apache24\htdocs\zzb\Application\Admin\Controller\ManageController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `auth_group`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-08-06T15:01:21+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-08-06T15:01:22+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+
+[ 2016-08-06T15:01:27+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+
+[ 2016-08-06T15:01:30+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `auth_group` SET `rules`='5,6,8' WHERE `id` = 0 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-08-06T15:01:37+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+
+[ 2016-08-06T15:01:49+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+
+[ 2016-08-06T15:01:58+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('1','2','5','6','7','8')  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `nav` WHERE `text` IN ('系统管理','会员管理','习惯库管理','学校管理','代理商','图书借阅管理')  [ RunTime:0.0002s ]
+
+[ 2016-08-06T15:02:02+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0003s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+
+[ 2016-08-06T15:02:05+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+
+[ 2016-08-06T15:02:10+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules`,`rules1` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('1','2','5','6','7','8')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `nav` WHERE `nid` = 0 AND `text` IN ('系统管理','会员管理','习惯库管理','学校管理','代理商','图书借阅管理')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 14  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `nav` WHERE `id` NOT IN ('0') AND `nid` = 22  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-08-06T15:02:17+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: _pagelist E:\phptools\Apache24\htdocs\zzb\Application\Admin\Common\function.php 第 16 行.
+SQL: SELECT * FROM `auth_group` LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-08-06T15:02:19+08:00 ] 127.0.0.1 /index.php/Admin/AuthGroup/getAuthGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `auth_group` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `auth_rule` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\phptools\Apache24\htdocs\zzb\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `nav` WHERE `text` IN () 
+

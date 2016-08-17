@@ -37,7 +37,7 @@
       <div class="media">
 		  <div class="media-left">
 		    <a href="javascript:void(0)">
-		      <img class="media-object" src="/zzb/<?php echo ($School["cover"]); ?>" alt="">
+		      <img class="media-object" src="/<?php echo ($School["cover"]); ?>" alt="">
 		    </a>
 		  </div>
 		  <div class="media-body">
@@ -65,9 +65,9 @@
              <div class="media">
 			  <div class="media-left">
 			  
-			  		<?php if(empty($v["face"])): ?><img src="/zzb/Public/Home/img/face_growing2.jpg" alt="" class="img-rounded small-face">
+			  		<?php if(empty($v["face"])): ?><img src="/Public/Home/img/face_growing2.jpg" alt="" class="img-rounded small-face">
 					    <?php else: ?>
-					       <img src="/zzb/<?php echo ($v["face"]); ?>" alt="" class="img-rounded small-face"><?php endif; ?>		  		 
+					       <img src="/<?php echo ($v["face"]); ?>" alt="" class="img-rounded small-face"><?php endif; ?>		  		 
 			  </div>
 			  <div class="media-body">
 
@@ -138,5 +138,5 @@
   </div>
 </div>
 
-<script type="text/javascript" src="/zzb/Public/Home/js/account.js"></script>
-<link rel="stylesheet" type="text/css" href="/zzb/Public/Home/css/account.css" />
+<script type="text/javascript" src="/Public/Home/js/account.js"></script>
+<link rel="stylesheet" type="text/css" href="/Public/Home/css/account.css" />
